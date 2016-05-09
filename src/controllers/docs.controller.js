@@ -25,7 +25,7 @@
      */
     function activate() {
 
-      // Authentication.getToken().then(tokenSuccessFn);
+      // authService.getToken().then(tokenSuccessFn);
 
       /**
        * @name tokenSuccessFn
