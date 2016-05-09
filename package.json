@@ -2,7 +2,7 @@
   "name": "angular-brave-docs",
   "description": "Generic docs module for SmartAdmin",
   "main": "dist/angular-brave-docs.min.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "license": "MIT",
   "author": {

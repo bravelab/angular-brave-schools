@@ -8,9 +8,14 @@
    */
   angular
     .module('ngBraveDocs', ['ui.router'])
-    .value('version', '0.0.3')
-    .constant('APP_CONFIG', {
-      apiUrl: '/api'
+    .value('version', '0.0.4')
+    .constant('defaults', {
+      apiUrl: '/api',
+      templates: {
+        index: 'templates/docs.html',
+        list: 'templates/docs-list.html',
+        detail: 'templates/docs-detail.html'
+      }
     });
 
 })();
@@ -23,23 +28,27 @@
    * @ngdoc routes
    * @name app [ngBraveDocs]
    * @description Routes configuration ngBraveDocs
+   * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
    */
   angular
     .module('ngBraveDocs')
     .config(routes);
 
-  routes.$inject = ['$stateProvider'];
+  routes.$inject = ['$stateProvider', 'braveDocsProvider'];
 
   /*
    * @name routes
    * @desc Define valid application routes.
    */
-  function routes($stateProvider) {
+  function routes($stateProvider, braveDocs) {
+
+    var templates = braveDocs.getConfig(),templates;
+    console.log(templates);
     $stateProvider.state('ngBraveDocs', {
       url: '/docs',
       views: {
         'content@app': {
-          templateUrl: 'templates/docs.html',
+          templateUrl: templates.index,
           controller: 'DocsController',
           controllerAs: 'vm'
         }
@@ -49,7 +58,7 @@
     $stateProvider.state('ngBraveDocs.list', {
       parent: 'ngBraveDocs',
       url: '/all',
-      templateUrl: 'templates/docs-list.html',
+      templateUrl: templates.list,
       controller: 'DocsListController',
       controllerAs: 'vm'
     });
@@ -57,13 +66,41 @@
     $stateProvider.state('ngBraveDocs.detail', {
       parent: 'ngBraveDocs',
       url: '/:id/:slug',
-      templateUrl: 'templates/docs-detail.html',
+      templateUrl: templates.detail,
       controller: 'DocsDetailController',
       controllerAs: 'vm'
     });
   }
 
 })();
+
+/**
+ * Doc
+ * @namespace ngBraveDocs
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('ngBraveDocs')
+    .factory('Doc', Doc);
+
+  Doc.$inject = [];
+
+  function Doc() {
+
+    var factory = function (data) {
+      this.id = data.id;
+      this.type = data.type;
+      this.name = data.name;
+      this.slug = data.slug;
+      this.content = data.content;
+    };
+
+    return factory;
+  }
+
+}());
 
 (function () {
   'use strict';
@@ -165,7 +202,7 @@
      */
     function activate() {
 
-      // Authentication.getToken().then(tokenSuccessFn);
+      // authService.getToken().then(tokenSuccessFn);
 
       /**
        * @name tokenSuccessFn
@@ -198,32 +235,34 @@
 
 })();
 
-/**
- * Doc
- * @namespace ngBraveDocs
- */
 (function () {
   'use strict';
 
+  /**
+   * @ngdoc overview
+   * @name app [ngBraveDocs]
+   * @description Config provider for ngBraveDocs
+   */
   angular
     .module('ngBraveDocs')
-    .factory('Doc', Doc);
+    .provider('braveDocs', function (defaults) {
 
-  Doc.$inject = [];
+      var _config = defaults;
 
-  function Doc() {
+      this.setConfig = function (config) {
+        _config = config;
+      };
 
-    var factory = function (data) {
-      this.id = data.id;
-      this.title = data.title;
-      this.slug = data.slug;
-      this.content = data.content;
-    };
+      this.getConfig = function () {
+        return _config;
+      };
 
-    return factory;
-  }
+      this.$get = [function () {
+        return _config;
+      }];
 
-}());
+    });
+})();
 
 (function () {
 
@@ -235,8 +274,9 @@
 
       var mock = {
         id: '89f7191e-d455-42c6-80cd-58ed48bd54b3',
-        title: 'Collections',
+        name: 'Collections',
         slug: 'collections',
+        type: 'page',
         content: '-some content-'
       };
 
@@ -265,24 +305,24 @@
     .module('ngBraveDocs')
     .factory('DocsService', DocsService);
 
-  DocsService.$inject = ['$http', '$q', 'DocTransformer', 'DocListTransformer', 'APP_CONFIG'];
+  DocsService.$inject = ['$http', '$q', 'braveDocs', 'DocTransformer', 'DocListTransformer'];
 
   /**
    *
    * @param {object} $http - Http object
    * @param {object} $q - Query object
+   * @param {object} braveDocs - app config object
    * @param {object} docTransformer - doc transformer object
    * @param {object} docListTransformer - doc list transformer object
-   * @param {object} APP_CONFIG - app config object
    * @returns {{get: ngBraveDocs.get, getAll: ngBraveDocs.getAll}} - Service Factory
    * @constructor
    */
-  function DocsService($http, $q, docTransformer, docListTransformer, APP_CONFIG) {
+  function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
 
     var cache = {};
 
     /**
-     * @name  Docs
+     * @name Docs
      * @desc The Factory to be returned
      */
     var factory = {
@@ -306,13 +346,13 @@
       } else {
         $http({
           method: 'GET',
-          url: APP_CONFIG.apiUrl + '/docs/' + id + '/',
+          url: braveDocs.apiUrl + '/docs/' + id + '/',
           transformResponse: docTransformer
         })
-          .then(function (data, status, headers, config) {
+          .then(function (data) {
             cache[id] = data.data;
             deferred.resolve(cache[id]);
-          }, function (data, status, headers, config) {
+          }, function (data) {
             deferred.reject(data);
           });
       }
@@ -328,7 +368,7 @@
     function getAll() {
       return $http({
         method: 'GET',
-        url: APP_CONFIG.apiUrl + '/docs/',
+        url: braveDocs.apiUrl + '/docs/',
         transformResponse: docListTransformer
       })
         .then(function (data) {

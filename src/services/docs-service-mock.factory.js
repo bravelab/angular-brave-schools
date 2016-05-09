@@ -8,8 +8,9 @@
 
       var mock = {
         id: '89f7191e-d455-42c6-80cd-58ed48bd54b3',
-        title: 'Collections',
+        name: 'Collections',
         slug: 'collections',
+        type: 'page',
         content: '-some content-'
       };
 

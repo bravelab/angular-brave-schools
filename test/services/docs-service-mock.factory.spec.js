@@ -23,6 +23,14 @@
       expect(docsServiceMock.detail).toBeDefined();
     });
 
+    it('should defined object keys', function () {
+      expect(docsServiceMock.detail.id).toBeDefined();
+      expect(docsServiceMock.detail.name).toBeDefined();
+      expect(docsServiceMock.detail.slug).toBeDefined();
+      expect(docsServiceMock.detail.type).toBeDefined();
+      expect(docsServiceMock.detail.content).toBeDefined();
+    });
+
     it('should have list objects', function () {
       expect(docsServiceMock.list).toBeDefined();
     });

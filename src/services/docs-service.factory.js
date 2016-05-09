@@ -5,24 +5,24 @@
     .module('ngBraveDocs')
     .factory('DocsService', DocsService);
 
-  DocsService.$inject = ['$http', '$q', 'DocTransformer', 'DocListTransformer', 'APP_CONFIG'];
+  DocsService.$inject = ['$http', '$q', 'braveDocs', 'DocTransformer', 'DocListTransformer'];
 
   /**
    *
    * @param {object} $http - Http object
    * @param {object} $q - Query object
+   * @param {object} braveDocs - app config object
    * @param {object} docTransformer - doc transformer object
    * @param {object} docListTransformer - doc list transformer object
-   * @param {object} APP_CONFIG - app config object
    * @returns {{get: ngBraveDocs.get, getAll: ngBraveDocs.getAll}} - Service Factory
    * @constructor
    */
-  function DocsService($http, $q, docTransformer, docListTransformer, APP_CONFIG) {
+  function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
 
     var cache = {};
 
     /**
-     * @name  Docs
+     * @name Docs
      * @desc The Factory to be returned
      */
     var factory = {
@@ -46,13 +46,13 @@
       } else {
         $http({
           method: 'GET',
-          url: APP_CONFIG.apiUrl + '/docs/' + id + '/',
+          url: braveDocs.apiUrl + '/docs/' + id + '/',
           transformResponse: docTransformer
         })
-          .then(function (data, status, headers, config) {
+          .then(function (data) {
             cache[id] = data.data;
             deferred.resolve(cache[id]);
-          }, function (data, status, headers, config) {
+          }, function (data) {
             deferred.reject(data);
           });
       }
@@ -68,7 +68,7 @@
     function getAll() {
       return $http({
         method: 'GET',
-        url: APP_CONFIG.apiUrl + '/docs/',
+        url: braveDocs.apiUrl + '/docs/',
         transformResponse: docListTransformer
       })
         .then(function (data) {

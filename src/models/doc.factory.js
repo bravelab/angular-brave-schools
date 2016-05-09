@@ -15,7 +15,8 @@
 
     var factory = function (data) {
       this.id = data.id;
-      this.title = data.title;
+      this.type = data.type;
+      this.name = data.name;
       this.slug = data.slug;
       this.content = data.content;
     };
