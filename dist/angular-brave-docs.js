@@ -321,7 +321,7 @@
     .module('app.docs')
     .factory('DocsService', DocsService);
 
-  DocsService.$inject = ['$http', '$q', 'BraveDocs', 'DocTransformer', 'DocListTransformer'];
+  DocsService.$inject = ['$http', '$q', 'AuthService', 'BraveDocs', 'DocTransformer', 'DocListTransformer'];
 
   /**
    *
@@ -333,13 +333,14 @@
    * @returns {{get: app.docs.get, getAll: app.docs.getAll}} - Service Factory
    * @constructor
    */
-  function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
+  function DocsService($http, $q, authService, braveDocs, docTransformer, docListTransformer) {
 
     var cache = {};
 
     var apiUrl = braveDocs.getApiUrl();
 
-    console.log(apiUrl);
+    console.log(authService);
+
 
     /**
      * @name Docs
@@ -361,21 +362,26 @@
      */
     function get(id) {
       var deferred = $q.defer();
-      if (typeof cache[id] !== 'undefined') {
-        deferred.resolve(cache[id]);
-      } else {
-        $http({
-          method: 'GET',
-          url: apiUrl + '/docs/' + id + '/',
-          transformResponse: docTransformer
-        })
-          .then(function (data) {
-            cache[id] = data.data;
-            deferred.resolve(cache[id]);
-          }, function (data) {
-            deferred.reject(data);
+
+      authService.getToken().then(function(token){
+
+        if (typeof cache[id] !== 'undefined') {
+          deferred.resolve(cache[id]);
+        } else {
+          $http({
+            method: 'GET',
+            url: apiUrl + '/docs/' + id + '/',
+            transformResponse: docTransformer
+          })
+            .then(function (data) {
+              cache[id] = data.data;
+              deferred.resolve(cache[id]);
+            }, function (data) {
+              deferred.reject(data);
+            });
+        }
           });
-      }
+
       return deferred.promise;
     }
 

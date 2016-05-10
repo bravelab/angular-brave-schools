@@ -43,6 +43,11 @@
      */
     function get(id) {
       var deferred = $q.defer();
+
+      // if (authService.isAuthenticated()) {
+      //   console.log('DocsService::get=>authService.isAuthenticated()', authService.isAuthenticated());
+      // }
+
       if (typeof cache[id] !== 'undefined') {
         deferred.resolve(cache[id]);
       } else {
@@ -58,6 +63,7 @@
             deferred.reject(data);
           });
       }
+
       return deferred.promise;
     }
 

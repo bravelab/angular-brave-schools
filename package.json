@@ -2,7 +2,7 @@
   "name": "angular-brave-docs",
   "description": "Generic docs module for SmartAdmin",
   "main": "dist/angular-brave-docs.min.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "license": "MIT",
   "author": {
@@ -41,7 +41,7 @@
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000",
     "pretest": "npm install",
-    "test-single-run": "karma start test/karma.conf.js  --single-run",
+    "test-single-run": "karma start test/karma.conf.js  --single-run --reporters=verbose",
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver",

@@ -24,6 +24,12 @@ module.exports = function(config) {
       'node_modules/angular-mocks/angular-mocks.js',
       'bower_components/angular-ui-router/release/angular-ui-router.min.js',
       'bower_components/underscore/underscore-min.js',
+      'bower_components/ngstorage/ngStorage.min.js',
+      'bower_components/angular-cookies/angular-cookies.min.js',
+      'bower_components/angular-brave-auth/dist/angular-brave-auth.min.js',
+      'bower_components/angular-bootstrap/ui-bootstrap.min.js',
+      'bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js',
+
       'src/**/*.js',
       'test/**/*.spec.js'
     ],

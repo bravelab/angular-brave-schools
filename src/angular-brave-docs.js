@@ -7,7 +7,7 @@
    * @description Docs module for SmartAdmin
    */
   angular
-    .module('app.docs', ['ui.router'])
-    .value('version', '0.0.4');
+    .module('app.docs', ['ui.router', 'app.auth'])
+    .value('version', '0.0.5');
 
 })();

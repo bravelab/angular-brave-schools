@@ -22,6 +22,7 @@
 
     beforeEach(function () {
       module('app.docs');
+      module('app.auth');
     });
 
     beforeEach(inject(function ($injector) {
