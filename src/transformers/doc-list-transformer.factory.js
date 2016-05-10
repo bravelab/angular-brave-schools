@@ -1,22 +1,22 @@
 /**
  * DocListTransformer
- * @namespace ngBraveDocs
+ * @namespace app.docs
  */
 (function () {
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocListTransformer', DocListTransformer);
 
   DocListTransformer.$inject = ['Doc'];
 
   function DocListTransformer(Doc) {
     return function (response) {
-      var data = response.data;
-      var result = (typeof data === 'string') ? JSON.parse(data) : data;
-      if (result.length) {
-        data = _.map(result, function (item) {
+      var result = (typeof response === 'string') ? angular.fromJson(response) : response;
+      var data = [];
+      if (result.data.length) {
+        data = _.map(result.data, function (item) {
           return new Doc(item);
         });
       }

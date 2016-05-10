@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .controller('DocsDetailController', DocsDetailController);
 
   DocsDetailController.$inject = ['$scope', '$stateParams', 'DocsService'];
@@ -23,7 +23,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf ngBraveDocs.DocsDetailController
+     * @memberOf app.docs.DocsDetailController
      */
     function activate() {
       docsService.get($stateParams.id).then(function (doc) {

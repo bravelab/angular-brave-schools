@@ -3,13 +3,13 @@
 
   /**
    * @ngdoc overview
-   * @name ngBraveDocs
-   * @description ngBraveDocs tests
+   * @name app.docs
+   * @description app.docs tests
    *
    */
-  describe('ngBraveDocs module', function () {
+  describe('app.docs module', function () {
 
-    beforeEach(module('ngBraveDocs'));
+    beforeEach(module('app.docs'));
 
     describe('value - version', function () {
       it('should return current version', inject(function (version) {

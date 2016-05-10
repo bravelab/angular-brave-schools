@@ -3,11 +3,11 @@
 
   /**
    * @ngdoc overview
-   * @name app [ngBraveDocs]
-   * @description Config provider for ngBraveDocs
+   * @name app [app.docs]
+   * @description Config provider for app.docs
    */
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .provider('BraveDocs', function () {
 
       this.apiUrl = '/api';

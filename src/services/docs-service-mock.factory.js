@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocsServiceMock', ['$q', 'Doc', function ($q, Doc) {
 
       var mock = {

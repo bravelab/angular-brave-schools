@@ -3,7 +3,7 @@
 
   /**
    * @ngdoc overview
-   * @name ngBraveDocs tests
+   * @name app.docs tests
    * @description docsServiceMock tests
    *
    */
@@ -12,7 +12,7 @@
     var docsServiceMock;
 
     beforeEach(function () {
-      module('ngBraveDocs');
+      module('app.docs');
     });
 
     beforeEach(inject(function (_DocsServiceMock_) {

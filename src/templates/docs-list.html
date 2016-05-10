@@ -1,1 +1,11 @@
-xxxx
+<div ng-repeat="doc in vm.docs" class="row">
+  <div class="col-sm-2 col-md-2">
+    <a ui-sref="app.docs.detail({ id: doc.id, slug: doc.slug })">
+      <div class="thumbnail">
+        <div class="caption">
+          <h2>{{ doc.name }}</h2>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

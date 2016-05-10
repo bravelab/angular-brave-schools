@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocsService', DocsService);
 
   DocsService.$inject = ['$http', '$q', 'BraveDocs', 'DocTransformer', 'DocListTransformer'];
@@ -14,7 +14,7 @@
    * @param {object} braveDocs - app config object provider
    * @param {object} docTransformer - doc transformer object
    * @param {object} docListTransformer - doc list transformer object
-   * @returns {{get: ngBraveDocs.get, getAll: ngBraveDocs.getAll}} - Service Factory
+   * @returns {{get: app.docs.get, getAll: app.docs.getAll}} - Service Factory
    * @constructor
    */
   function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
@@ -41,7 +41,7 @@
      * @desc Get single doc
      * @param {string} id The id of th doc
      * @returns {Promise} - Promise an object
-     * @memberOf ngBraveDocs
+     * @memberOf app.docs
      */
     function get(id) {
       var deferred = $q.defer();
@@ -67,7 +67,7 @@
      * @name getAll
      * @desc Gets all docs
      * @returns {Promise} - Promise an object
-     * @memberOf ngBraveDocs
+     * @memberOf app.docs
      */
     function getAll() {
       return $http({

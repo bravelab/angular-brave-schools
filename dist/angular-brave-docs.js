@@ -3,11 +3,11 @@
 
   /**
    * @ngdoc overview
-   * @name app [ngBraveDocs]
+   * @name app [app.docs]
    * @description Docs module for SmartAdmin
    */
   angular
-    .module('ngBraveDocs', ['ui.router'])
+    .module('app.docs', ['ui.router'])
     .value('version', '0.0.4');
 
 })();
@@ -18,12 +18,12 @@
 
   /**
    * @ngdoc routes
-   * @name app [ngBraveDocs]
-   * @description Routes configuration ngBraveDocs
+   * @name app [app.docs]
+   * @description Routes configuration app.docs
    * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
    */
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .config(routes);
 
   routes.$inject = ['$stateProvider', 'BraveDocsProvider'];
@@ -34,11 +34,11 @@
    */
   function routes($stateProvider, braveDocsProvider) {
 
-    $stateProvider.state('ngBraveDocs', {
+    $stateProvider.state('app.docs', {
       url: '/docs',
       views: {
         'content@app': {
-          templateUrl: function(){
+          templateUrl: function () {
             return braveDocsProvider.templates['index'];
           },
           controller: 'DocsController',
@@ -47,20 +47,20 @@
       }
     });
 
-    $stateProvider.state('ngBraveDocs.list', {
-      parent: 'ngBraveDocs',
+    $stateProvider.state('app.docs.list', {
+      parent: 'app.docs',
       url: '/all',
-      templateUrl: function(){
+      templateUrl: function () {
         return braveDocsProvider.templates['list'];
       },
       controller: 'DocsListController',
       controllerAs: 'vm'
     });
 
-    $stateProvider.state('ngBraveDocs.detail', {
-      parent: 'ngBraveDocs',
+    $stateProvider.state('app.docs.detail', {
+      parent: 'app.docs',
       url: '/:id/:slug',
-      templateUrl: function(){
+      templateUrl: function () {
         return braveDocsProvider.templates['detail'];
       },
       controller: 'DocsDetailController',
@@ -75,7 +75,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .controller('DocsDetailController', DocsDetailController);
 
   DocsDetailController.$inject = ['$scope', '$stateParams', 'DocsService'];
@@ -96,7 +96,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf ngBraveDocs.DocsDetailController
+     * @memberOf app.docs.DocsDetailController
      */
     function activate() {
       docsService.get($stateParams.id).then(function (doc) {
@@ -111,7 +111,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .controller('DocsListController', DocsListController);
 
   DocsListController.$inject = ['$scope'];
@@ -120,7 +120,7 @@
    *
    * @param {Object} $scope - Scope
    * @constructor
-   */
+     */
   function DocsListController($scope) {
     var vm = this;
 
@@ -131,7 +131,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf ngBraveDocs.DocsListController
+     * @memberOf app.docs.DocsListController
      */
     function activate() {
       $scope.$watch('docs', function (newValue, oldValue) {
@@ -148,7 +148,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .controller('DocsController', DocsController);
 
   DocsController.$inject = ['$scope', '$state', 'DocsService'];
@@ -158,8 +158,8 @@
    * @param {Object} $scope - Scope
    * @param {Object} $state - State
    * @param {Object} docsService - Docs service
-   * @constructor
-   */
+     * @constructor
+     */
   function DocsController($scope, $state, docsService) {
 
     activate();
@@ -167,7 +167,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf ngBraveDocs.DocsController
+     * @memberOf app.docs.DocsController
      */
     function activate() {
 
@@ -178,7 +178,7 @@
        * @param {string} token - Auth token
        * @desc Calls docsService.getAll()
        */
-        // function tokenSuccessFn(token) {
+      // function tokenSuccessFn(token) {
       docsService.getAll().then(docSuccessFn, docErrorFn);
       // }
 
@@ -189,7 +189,7 @@
        */
       function docSuccessFn(data) {
         $scope.docs = data.data;
-        // $state.transitionTo('ngBraveDocs.list');
+        // $state.transitionTo('app.docs.list');
       }
 
       /**
@@ -197,7 +197,7 @@
        * @desc Redirect to index and show error Snackbar
        */
       function docErrorFn() {
-        $state.transitionTo('ngBraveDocs');
+        $state.transitionTo('app.docs');
       }
     }
   }
@@ -206,13 +206,13 @@
 
 /**
  * Doc
- * @namespace ngBraveDocs
+ * @namespace app.docs
  */
 (function () {
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('Doc', Doc);
 
   Doc.$inject = [];
@@ -237,11 +237,11 @@
 
   /**
    * @ngdoc overview
-   * @name app [ngBraveDocs]
-   * @description Config provider for ngBraveDocs
+   * @name app [app.docs]
+   * @description Config provider for app.docs
    */
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .provider('BraveDocs', function () {
 
       this.apiUrl = '/api';
@@ -274,13 +274,10 @@
         this.templates = templates;
       };
 
-      this.getTemplates = function () {
-        return this.templates;
-      };
-
     });
 
 })();
+
 
 
 (function () {
@@ -288,7 +285,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocsServiceMock', ['$q', 'Doc', function ($q, Doc) {
 
       var mock = {
@@ -321,7 +318,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocsService', DocsService);
 
   DocsService.$inject = ['$http', '$q', 'BraveDocs', 'DocTransformer', 'DocListTransformer'];
@@ -333,7 +330,7 @@
    * @param {object} braveDocs - app config object provider
    * @param {object} docTransformer - doc transformer object
    * @param {object} docListTransformer - doc list transformer object
-   * @returns {{get: ngBraveDocs.get, getAll: ngBraveDocs.getAll}} - Service Factory
+   * @returns {{get: app.docs.get, getAll: app.docs.getAll}} - Service Factory
    * @constructor
    */
   function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
@@ -360,7 +357,7 @@
      * @desc Get single doc
      * @param {string} id The id of th doc
      * @returns {Promise} - Promise an object
-     * @memberOf ngBraveDocs
+     * @memberOf app.docs
      */
     function get(id) {
       var deferred = $q.defer();
@@ -386,7 +383,7 @@
      * @name getAll
      * @desc Gets all docs
      * @returns {Promise} - Promise an object
-     * @memberOf ngBraveDocs
+     * @memberOf app.docs
      */
     function getAll() {
       return $http({
@@ -403,23 +400,23 @@
 
 /**
  * DocListTransformer
- * @namespace ngBraveDocs
+ * @namespace app.docs
  */
 (function () {
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocListTransformer', DocListTransformer);
 
   DocListTransformer.$inject = ['Doc'];
 
   function DocListTransformer(Doc) {
     return function (response) {
-      var data = response.data;
-      var result = (typeof data === 'string') ? JSON.parse(data) : data;
-      if (result.length) {
-        data = _.map(result, function (item) {
+      var result = (typeof response === 'string') ? angular.fromJson(response) : response;
+      var data = [];
+      if (result.data.length) {
+        data = _.map(result.data, function (item) {
           return new Doc(item);
         });
       }
@@ -431,20 +428,20 @@
 
 /**
  * DocTransformer
- * @namespace ngBraveDocs
+ * @namespace app.docs
  */
 (function () {
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .factory('DocTransformer', DocTransformer);
 
   DocTransformer.$inject = ['Doc'];
 
   function DocTransformer(Doc) {
-    return function (data) {
-      var object = (typeof data === 'string') ? JSON.parse(data) : data;
+    return function (response) {
+      var object = (typeof response === 'string') ? angular.fromJson(response) : response;
       return new Doc(object);
     };
   }

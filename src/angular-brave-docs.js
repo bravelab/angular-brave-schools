@@ -3,11 +3,11 @@
 
   /**
    * @ngdoc overview
-   * @name app [ngBraveDocs]
+   * @name app [app.docs]
    * @description Docs module for SmartAdmin
    */
   angular
-    .module('ngBraveDocs', ['ui.router'])
-    .value('version', '0.0.4')
+    .module('app.docs', ['ui.router'])
+    .value('version', '0.0.4');
 
 })();

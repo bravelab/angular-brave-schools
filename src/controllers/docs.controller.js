@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('ngBraveDocs')
+    .module('app.docs')
     .controller('DocsController', DocsController);
 
   DocsController.$inject = ['$scope', '$state', 'DocsService'];
@@ -21,7 +21,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf ngBraveDocs.DocsController
+     * @memberOf app.docs.DocsController
      */
     function activate() {
 
@@ -43,7 +43,7 @@
        */
       function docSuccessFn(data) {
         $scope.docs = data.data;
-        // $state.transitionTo('ngBraveDocs.list');
+        // $state.transitionTo('app.docs.list');
       }
 
       /**
@@ -51,7 +51,7 @@
        * @desc Redirect to index and show error Snackbar
        */
       function docErrorFn() {
-        $state.transitionTo('ngBraveDocs');
+        $state.transitionTo('app.docs');
       }
     }
   }
