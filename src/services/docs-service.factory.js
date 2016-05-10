@@ -23,8 +23,6 @@
 
     var apiUrl = braveDocs.getApiUrl();
 
-    console.log(apiUrl);
-
     /**
      * @name Docs
      * @desc The Factory to be returned
