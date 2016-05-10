@@ -8,6 +8,6 @@
    */
   angular
     .module('app.docs', ['ui.router', 'app.auth'])
-    .value('version', '0.0.5');
+    .value('version', '0.0.7');
 
 })();
