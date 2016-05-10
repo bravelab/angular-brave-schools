@@ -9,13 +9,5 @@
   angular
     .module('ngBraveDocs', ['ui.router'])
     .value('version', '0.0.4')
-    .constant('defaults', {
-      apiUrl: '/api',
-      templates: {
-        index: 'templates/docs.html',
-        list: 'templates/docs-list.html',
-        detail: 'templates/docs-detail.html'
-      }
-    });
 
 })();

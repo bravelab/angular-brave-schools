@@ -5,13 +5,13 @@
     .module('ngBraveDocs')
     .factory('DocsService', DocsService);
 
-  DocsService.$inject = ['$http', '$q', 'braveDocs', 'DocTransformer', 'DocListTransformer'];
+  DocsService.$inject = ['$http', '$q', 'BraveDocs', 'DocTransformer', 'DocListTransformer'];
 
   /**
    *
    * @param {object} $http - Http object
    * @param {object} $q - Query object
-   * @param {object} braveDocs - app config object
+   * @param {object} braveDocs - app config object provider
    * @param {object} docTransformer - doc transformer object
    * @param {object} docListTransformer - doc list transformer object
    * @returns {{get: ngBraveDocs.get, getAll: ngBraveDocs.getAll}} - Service Factory
@@ -20,6 +20,10 @@
   function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
 
     var cache = {};
+
+    var apiUrl = braveDocs.getApiUrl();
+
+    console.log(apiUrl);
 
     /**
      * @name Docs
@@ -46,7 +50,7 @@
       } else {
         $http({
           method: 'GET',
-          url: braveDocs.apiUrl + '/docs/' + id + '/',
+          url: apiUrl + '/docs/' + id + '/',
           transformResponse: docTransformer
         })
           .then(function (data) {
@@ -68,7 +72,7 @@
     function getAll() {
       return $http({
         method: 'GET',
-        url: braveDocs.apiUrl + '/docs/',
+        url: apiUrl + '/docs/',
         transformResponse: docListTransformer
       })
         .then(function (data) {

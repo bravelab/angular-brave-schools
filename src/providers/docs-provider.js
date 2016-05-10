@@ -8,21 +8,40 @@
    */
   angular
     .module('ngBraveDocs')
-    .provider('braveDocs', function (defaults) {
+    .provider('BraveDocs', function () {
 
-      var _config = defaults;
+      this.apiUrl = '/api';
 
-      this.setConfig = function (config) {
-        _config = config;
+      this.templates = {
+        index: 'templates/docs.html',
+        list: 'templates/docs-list.html',
+        detail: 'templates/docs-detail.html'
       };
 
-      this.getConfig = function () {
-        return _config;
+      this.$get = function () {
+        var apiUrl = this.apiUrl;
+        var templates = this.templates;
+
+        return {
+          getApiUrl: function () {
+            return apiUrl;
+          },
+          getTemplates: function () {
+            return templates;
+          }
+        };
       };
 
-      this.$get = [function () {
-        return _config;
-      }];
+      this.setApiUrl = function (apiUrl) {
+        this.apiUrl = apiUrl;
+      };
+
+      this.setTemplates = function (templates) {
+        this.templates = templates;
+      };
 
     });
+
 })();
+
+

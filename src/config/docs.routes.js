@@ -1,3 +1,4 @@
+
 (function () {
   'use strict';
 
@@ -12,21 +13,21 @@
     .module('ngBraveDocs')
     .config(routes);
 
-  routes.$inject = ['$stateProvider', 'braveDocsProvider'];
+  routes.$inject = ['$stateProvider', 'BraveDocsProvider'];
 
   /*
    * @name routes
    * @desc Define valid application routes.
    */
-  function routes($stateProvider, braveDocs) {
-
-    var templates = braveDocs.getConfig(),templates;
+  function routes($stateProvider, braveDocsProvider) {
 
     $stateProvider.state('ngBraveDocs', {
       url: '/docs',
       views: {
         'content@app': {
-          templateUrl: templates.index,
+          templateUrl: function(){
+            return braveDocsProvider.templates['index'];
+          },
           controller: 'DocsController',
           controllerAs: 'vm'
         }
@@ -36,7 +37,9 @@
     $stateProvider.state('ngBraveDocs.list', {
       parent: 'ngBraveDocs',
       url: '/all',
-      templateUrl: templates.list,
+      templateUrl: function(){
+        return braveDocsProvider.templates['list'];
+      },
       controller: 'DocsListController',
       controllerAs: 'vm'
     });
@@ -44,10 +47,13 @@
     $stateProvider.state('ngBraveDocs.detail', {
       parent: 'ngBraveDocs',
       url: '/:id/:slug',
-      templateUrl: templates.detail,
+      templateUrl: function(){
+        return braveDocsProvider.templates['detail'];
+      },
       controller: 'DocsDetailController',
       controllerAs: 'vm'
     });
+
   }
 
 })();

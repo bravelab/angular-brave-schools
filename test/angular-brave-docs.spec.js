@@ -17,12 +17,6 @@
       }));
     });
 
-    describe('constant - defaults', function () {
-      it('should have default options object', inject(function (defaults) {
-        expect(defaults).toBeDefined();
-      }));
-    });
-
   });
 
 })();
