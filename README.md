@@ -24,3 +24,27 @@ To build minified version:
 3. Commit changes `git commit -m "Message"`
 3. Make tag version `git tag -a x.y.z`
 4. Push version to git `git push --tags`
+
+Configuration
+-------------
+
+You can use `BraveDocsProvider` to set some parameters like base apiUrl, templates. E.g:
+
+```
+
+    angular.module('your-module', ['app.docs']
+      .config(function (BraveDocsProvider, APP_CONFIG) {
+      
+        // Set base api url
+        BraveDocsProvider.setApiUrl(APP_CONFIG.apiUrl);
+        
+        // Set config for docs module
+        BraveDocsProvider.setTemplates({
+            index: 'bower_components/angular-brave-docs/src/templates/docs.html',
+            list: 'bower_components/angular-brave-docs/src/templates/docs-list.html',
+            detail: 'bower_components/angular-brave-docs/src/templates/docs-detail.html'
+        });
+        
+    ....
+      
+```
