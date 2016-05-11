@@ -18,7 +18,7 @@ with open('schools.txt') as f:
         logo_id = i
         name = line.strip()
         slug = slugify(name)
-        subdomain = slug.replace('university-of-', '') + '.egradgifts.com'
+        subdomain = (slug.replace('university-of-', '') + '.egradgifts.com')
         logo_url = 'https://placeholdit.imgix.net/~text?txtsize=33&txt={}&w=300&h=200'.format(slug[:10] + '...')
         i += 1
 

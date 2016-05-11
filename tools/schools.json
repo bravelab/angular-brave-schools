@@ -1,9 +1,9 @@
 [
     {
         "config": {
-            "subdomain": "-toronto.egradgifts.com"
+            "subdomain": "toronto.egradgifts.com"
         },
-        "id": "b3bdf485-870b-42fe-bff1-92145621a816",
+        "id": "6f27f548-c2d1-4437-8bfe-658b518675d4",
         "logo": {
             "id": 1,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -13,9 +13,9 @@
     },
     {
         "config": {
-            "subdomain": "the--british-columbia.egradgifts.com"
+            "subdomain": "the-british-columbia.egradgifts.com"
         },
-        "id": "423f98b7-36b5-472c-af1f-cb6c2aab5e28",
+        "id": "58c79bd5-401c-4a79-98bf-9e1d011df0b4",
         "logo": {
             "id": 2,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200"
@@ -25,9 +25,9 @@
     },
     {
         "config": {
-            "subdomain": "-waterloo.egradgifts.com"
+            "subdomain": "waterloo.egradgifts.com"
         },
-        "id": "b1dc1c0b-836a-4472-8760-23920669880c",
+        "id": "72d0cf87-a5ed-4b93-840b-4c1029da6492",
         "logo": {
             "id": 3,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -37,9 +37,9 @@
     },
     {
         "config": {
-            "subdomain": "-alberta.egradgifts.com"
+            "subdomain": "alberta.egradgifts.com"
         },
-        "id": "34a7a390-71d6-4a20-a5b8-28dbc290e3d8",
+        "id": "952bcb04-cb84-454e-9010-239dce1a94b9",
         "logo": {
             "id": 4,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -51,7 +51,7 @@
         "config": {
             "subdomain": "simon-fraser-university.egradgifts.com"
         },
-        "id": "9d4199f0-6f13-4791-86f4-c0fb3c457328",
+        "id": "5cdc1829-ce21-4eb0-bade-967a728d820e",
         "logo": {
             "id": 5,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=simon-fras...&w=300&h=200"
@@ -63,7 +63,7 @@
         "config": {
             "subdomain": "mcgill-university.egradgifts.com"
         },
-        "id": "48ac7e3d-8429-474d-b3e4-48f6111a0271",
+        "id": "3ab0ef1a-5526-4a14-8914-bbff7bcb2c57",
         "logo": {
             "id": 6,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcgill-uni...&w=300&h=200"
@@ -73,9 +73,9 @@
     },
     {
         "config": {
-            "subdomain": "-calgary.egradgifts.com"
+            "subdomain": "calgary.egradgifts.com"
         },
-        "id": "e92bedfa-ce4d-4a08-96a5-88eec38e1a40",
+        "id": "f0b574c9-6b71-41fb-8f01-cfb9fc855bf6",
         "logo": {
             "id": 7,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -87,7 +87,7 @@
         "config": {
             "subdomain": "york-university.egradgifts.com"
         },
-        "id": "d3e79e7e-67e0-4401-b240-27c3440aa2d7",
+        "id": "872216f2-0ea1-4fb7-9afa-7935b386e11b",
         "logo": {
             "id": 8,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=york-unive...&w=300&h=200"
@@ -97,9 +97,9 @@
     },
     {
         "config": {
-            "subdomain": "-victoria.egradgifts.com"
+            "subdomain": "victoria.egradgifts.com"
         },
-        "id": "527f25e9-0e93-4564-9948-ab99d1f3a567",
+        "id": "b111f53f-6a59-4a0d-8012-fb064863783f",
         "logo": {
             "id": 9,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -111,7 +111,7 @@
         "config": {
             "subdomain": "queens-university.egradgifts.com"
         },
-        "id": "19156dc4-14bb-4117-9be3-cb5e42b72b33",
+        "id": "c22b13cf-f329-4cdc-ad43-2d1457f978de",
         "logo": {
             "id": 10,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=queens-uni...&w=300&h=200"
@@ -121,9 +121,9 @@
     },
     {
         "config": {
-            "subdomain": "the--western-ontario.egradgifts.com"
+            "subdomain": "the-western-ontario.egradgifts.com"
         },
-        "id": "d9541b2e-6d50-44eb-b143-1e5fcb7f0745",
+        "id": "159d3448-407a-4694-9e15-3f80dbad3682",
         "logo": {
             "id": 11,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200"
@@ -135,7 +135,7 @@
         "config": {
             "subdomain": "universite-de-montreal.egradgifts.com"
         },
-        "id": "674d1eef-6bad-498a-9261-d10fed4f5471",
+        "id": "84d52611-f209-412f-b786-738617bea227",
         "logo": {
             "id": 12,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -147,7 +147,7 @@
         "config": {
             "subdomain": "universite-laval.egradgifts.com"
         },
-        "id": "3a9f5fa9-04da-43e0-bfff-d3a46e4ac786",
+        "id": "77de1dbc-2138-4480-ba6e-bf4120510c55",
         "logo": {
             "id": 13,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -159,7 +159,7 @@
         "config": {
             "subdomain": "mcmaster-university.egradgifts.com"
         },
-        "id": "b025e31a-3d6a-4d6a-9276-eb3d3391b033",
+        "id": "6bf32c01-11d5-4924-96ed-86a9fe01adc1",
         "logo": {
             "id": 14,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcmaster-u...&w=300&h=200"
@@ -169,9 +169,9 @@
     },
     {
         "config": {
-            "subdomain": "-ottawa.egradgifts.com"
+            "subdomain": "ottawa.egradgifts.com"
         },
-        "id": "5e49948b-6bb0-4580-9ed5-1012b5df1cc8",
+        "id": "0fd9582a-134b-4e3f-a472-99012a314ebd",
         "logo": {
             "id": 15,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -183,7 +183,7 @@
         "config": {
             "subdomain": "universite-du-quebec-a-montreal.egradgifts.com"
         },
-        "id": "a2b92358-d4cd-4dcd-9ead-b755acb94bc3",
+        "id": "0cdccc64-181c-483e-8c72-3cea65c429d5",
         "logo": {
             "id": 16,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -195,7 +195,7 @@
         "config": {
             "subdomain": "concordia-university.egradgifts.com"
         },
-        "id": "3ab21f6f-350b-415a-8466-d482b53fcf09",
+        "id": "2cae6a27-2bbd-4070-9917-0a4e31a1fc81",
         "logo": {
             "id": 17,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200"
@@ -207,7 +207,7 @@
         "config": {
             "subdomain": "carleton-university.egradgifts.com"
         },
-        "id": "d00b0d3a-c4fe-42a1-933c-6b25f1103fdb",
+        "id": "6e8f089d-a27d-4db3-87cb-4a84e19cc114",
         "logo": {
             "id": 18,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=carleton-u...&w=300&h=200"
@@ -217,9 +217,9 @@
     },
     {
         "config": {
-            "subdomain": "-guelph.egradgifts.com"
+            "subdomain": "guelph.egradgifts.com"
         },
-        "id": "b4c0cc03-d93c-45bb-92bc-0254b1118860",
+        "id": "f426e73c-f409-4825-94bf-3059201abcf0",
         "logo": {
             "id": 19,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -231,7 +231,7 @@
         "config": {
             "subdomain": "dalhousie-university.egradgifts.com"
         },
-        "id": "16f53d7a-9160-4546-87fb-558e85ce09d9",
+        "id": "ceed01d6-914c-4d95-bc60-c4e2848f8a79",
         "logo": {
             "id": 20,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=dalhousie-...&w=300&h=200"
@@ -243,7 +243,7 @@
         "config": {
             "subdomain": "ryerson-university.egradgifts.com"
         },
-        "id": "0047c60d-a03b-4a80-b917-48a3f687c3ec",
+        "id": "5d2efa8c-f73a-4038-99bd-999bdce85f41",
         "logo": {
             "id": 21,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ryerson-un...&w=300&h=200"
@@ -253,9 +253,9 @@
     },
     {
         "config": {
-            "subdomain": "-saskatchewan.egradgifts.com"
+            "subdomain": "saskatchewan.egradgifts.com"
         },
-        "id": "ad40d705-7912-4c27-99f8-bf5f9b0309b4",
+        "id": "40e7bd5d-2b6b-4d3a-9964-50b08905604c",
         "logo": {
             "id": 22,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -265,9 +265,9 @@
     },
     {
         "config": {
-            "subdomain": "-manitoba.egradgifts.com"
+            "subdomain": "manitoba.egradgifts.com"
         },
-        "id": "a37a8b2c-c006-46b9-8ecf-38edd1aeac5e",
+        "id": "c125fd0d-f1f0-4fb3-8d45-cd1092b35426",
         "logo": {
             "id": 23,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -277,9 +277,9 @@
     },
     {
         "config": {
-            "subdomain": "memorial--newfoundland.egradgifts.com"
+            "subdomain": "memorial-newfoundland.egradgifts.com"
         },
-        "id": "77faf7ee-fcb0-4cdb-8c8e-eb803df7c390",
+        "id": "1a701685-c325-45c1-8348-62b3751c082a",
         "logo": {
             "id": 24,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=memorial-u...&w=300&h=200"
@@ -291,7 +291,7 @@
         "config": {
             "subdomain": "universite-de-sherbrooke.egradgifts.com"
         },
-        "id": "80dc2787-e370-4361-adac-7413901daac2",
+        "id": "06ffe57b-cf29-43d3-8c59-19f2cd1470e8",
         "logo": {
             "id": 25,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -301,9 +301,9 @@
     },
     {
         "config": {
-            "subdomain": "-regina.egradgifts.com"
+            "subdomain": "regina.egradgifts.com"
         },
-        "id": "75f6e50e-ebc7-451a-8d15-a54afbaa0362",
+        "id": "ee367c6f-fa65-4011-b073-3ad8ae9fd27f",
         "logo": {
             "id": 26,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -313,9 +313,9 @@
     },
     {
         "config": {
-            "subdomain": "-new-brunswick.egradgifts.com"
+            "subdomain": "new-brunswick.egradgifts.com"
         },
-        "id": "cc772f39-ad35-41e3-8b16-db8e7588ee89",
+        "id": "9e46e583-bb89-48f9-b9c2-4f9b7d1c9e7f",
         "logo": {
             "id": 27,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -327,7 +327,7 @@
         "config": {
             "subdomain": "brock-university.egradgifts.com"
         },
-        "id": "48c157ab-5a9f-47a9-855e-337f3a5e7c87",
+        "id": "f83ad27c-9180-48bf-be37-42dc973d4782",
         "logo": {
             "id": 28,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brock-univ...&w=300&h=200"
@@ -337,9 +337,9 @@
     },
     {
         "config": {
-            "subdomain": "-windsor.egradgifts.com"
+            "subdomain": "windsor.egradgifts.com"
         },
-        "id": "60796f04-35b5-49e5-a8a8-dff2628afe01",
+        "id": "0bcc3561-d760-4d08-928f-0e241fd81d6d",
         "logo": {
             "id": 29,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -351,7 +351,7 @@
         "config": {
             "subdomain": "ecole-polytechnique-de-montreal.egradgifts.com"
         },
-        "id": "d4195372-2950-47d7-8b8a-f310f06762c7",
+        "id": "55299063-b695-4ead-8530-d6c0066af1d2",
         "logo": {
             "id": 30,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-poly...&w=300&h=200"
@@ -361,9 +361,9 @@
     },
     {
         "config": {
-            "subdomain": "-winnipeg.egradgifts.com"
+            "subdomain": "winnipeg.egradgifts.com"
         },
-        "id": "36cc9380-fbdd-4f70-8337-7c99e342eb9c",
+        "id": "15539b8c-5c61-4d09-85b2-c392d1013b90",
         "logo": {
             "id": 31,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -375,7 +375,7 @@
         "config": {
             "subdomain": "wilfrid-laurier-university.egradgifts.com"
         },
-        "id": "f53d6794-c5cf-4e0a-b808-795d4b5add93",
+        "id": "7016f6cb-9396-4421-a604-6c5f377306c1",
         "logo": {
             "id": 32,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=wilfrid-la...&w=300&h=200"
@@ -387,7 +387,7 @@
         "config": {
             "subdomain": "lakehead-university.egradgifts.com"
         },
-        "id": "45450c61-ca73-4574-a9e1-fbe3c2e9e5e9",
+        "id": "2757c65d-b6ab-4701-8eeb-cc6ad46e6104",
         "logo": {
             "id": 33,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=lakehead-u...&w=300&h=200"
@@ -397,9 +397,9 @@
     },
     {
         "config": {
-            "subdomain": "-lethbridge.egradgifts.com"
+            "subdomain": "lethbridge.egradgifts.com"
         },
-        "id": "31693d56-d6ca-4f01-9a57-7f5497cfcfd2",
+        "id": "aca636b0-5162-4746-8475-f8db5d9d9469",
         "logo": {
             "id": 34,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -411,7 +411,7 @@
         "config": {
             "subdomain": "universite-du-quebec.egradgifts.com"
         },
-        "id": "6f3ceff5-e127-477d-86ec-35a8bdc6dc43",
+        "id": "021e6466-f900-4a3e-9ed0-141a51be0279",
         "logo": {
             "id": 35,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -423,7 +423,7 @@
         "config": {
             "subdomain": "british-columbia-institute-of-technology.egradgifts.com"
         },
-        "id": "e32129eb-bf85-44eb-bd2c-696526d51cd0",
+        "id": "27577029-2aa1-49ea-ac76-e6b6f627b81c",
         "logo": {
             "id": 36,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=british-co...&w=300&h=200"
@@ -435,7 +435,7 @@
         "config": {
             "subdomain": "hec-montreal.egradgifts.com"
         },
-        "id": "8606f21c-2243-4d09-a95f-403beae97ef8",
+        "id": "aeaf7d2d-88bb-4e7d-9e9e-c42f7e99152d",
         "logo": {
             "id": 37,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=hec-montre...&w=300&h=200"
@@ -447,7 +447,7 @@
         "config": {
             "subdomain": "universite-du-quebec-a-chicoutimi.egradgifts.com"
         },
-        "id": "cdfd824a-95d1-4a08-a774-bfefcc224cb1",
+        "id": "e5fb90f8-b499-41fc-95b2-604cbb35af1f",
         "logo": {
             "id": 38,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -459,7 +459,7 @@
         "config": {
             "subdomain": "trent-university.egradgifts.com"
         },
-        "id": "78dc2a61-94a4-4500-9722-a3144da37d56",
+        "id": "e483a7a8-33b5-46a1-9ca9-f35894df952f",
         "logo": {
             "id": 39,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trent-univ...&w=300&h=200"
@@ -471,7 +471,7 @@
         "config": {
             "subdomain": "acadia-university.egradgifts.com"
         },
-        "id": "df80fd4f-95c8-47c6-a522-96ed22d81097",
+        "id": "118eca5a-74da-4205-a226-c6567994fc98",
         "logo": {
             "id": 40,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=acadia-uni...&w=300&h=200"
@@ -483,7 +483,7 @@
         "config": {
             "subdomain": "thompson-rivers-university.egradgifts.com"
         },
-        "id": "8abf61ef-c46b-42fd-a71f-e216bb871f06",
+        "id": "7703673a-df42-4c0b-a197-eb5d893fff8f",
         "logo": {
             "id": 41,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=thompson-r...&w=300&h=200"
@@ -495,7 +495,7 @@
         "config": {
             "subdomain": "ecole-de-technologie-superieure.egradgifts.com"
         },
-        "id": "47869b4c-ad97-4f8d-9bab-0cda642db9b5",
+        "id": "87bac516-5f4b-40f1-ad60-deff001ca8eb",
         "logo": {
             "id": 42,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-de-t...&w=300&h=200"
@@ -507,7 +507,7 @@
         "config": {
             "subdomain": "laurentian-university.egradgifts.com"
         },
-        "id": "dda18361-2583-4f18-9f6e-b1e1bdf73f7c",
+        "id": "c4356deb-9c8c-416f-bf5b-112e501f081b",
         "logo": {
             "id": 43,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=laurentian...&w=300&h=200"
@@ -517,9 +517,9 @@
     },
     {
         "config": {
-            "subdomain": "-prince-edward-island.egradgifts.com"
+            "subdomain": "prince-edward-island.egradgifts.com"
         },
-        "id": "549199e9-8f4a-470e-b413-abb789423321",
+        "id": "53868195-ef8a-45fa-855f-54e36dcb87e1",
         "logo": {
             "id": 44,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -531,7 +531,7 @@
         "config": {
             "subdomain": "universite-de-moncton.egradgifts.com"
         },
-        "id": "505ae490-8846-4a27-9912-6c42e4159f0e",
+        "id": "5cffdb80-7d5c-4164-ab8d-ed708238c58d",
         "logo": {
             "id": 45,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -543,7 +543,7 @@
         "config": {
             "subdomain": "vancouver-island-university.egradgifts.com"
         },
-        "id": "8a1e235f-2a24-4598-9cd1-9b4a37acfe66",
+        "id": "bd230a71-61ac-41e8-a3ac-bfdfacb34d13",
         "logo": {
             "id": 46,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=vancouver-...&w=300&h=200"
@@ -555,7 +555,7 @@
         "config": {
             "subdomain": "royal-roads-university.egradgifts.com"
         },
-        "id": "90554eb3-40a0-4405-b604-7a13409fbdac",
+        "id": "2619634f-6cc1-4e8c-8841-61f39b48328d",
         "logo": {
             "id": 47,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=royal-road...&w=300&h=200"
@@ -567,7 +567,7 @@
         "config": {
             "subdomain": "stfrancis-xavier-university.egradgifts.com"
         },
-        "id": "7f367b22-c172-41d4-8975-ff8eae94d4bf",
+        "id": "7c0cd745-b331-49a3-a6e0-e9371a58a9be",
         "logo": {
             "id": 48,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=stfrancis-...&w=300&h=200"
@@ -577,9 +577,9 @@
     },
     {
         "config": {
-            "subdomain": "-northern-british-columbia.egradgifts.com"
+            "subdomain": "northern-british-columbia.egradgifts.com"
         },
-        "id": "b8b16476-06f0-4288-9977-bbe39ec03090",
+        "id": "83054cfb-1c3d-43dc-994d-2f9b9907565f",
         "logo": {
             "id": 49,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -591,7 +591,7 @@
         "config": {
             "subdomain": "northern-alberta-institute-of-technology.egradgifts.com"
         },
-        "id": "b3fb52fe-dde9-458a-88cc-0155c6754552",
+        "id": "701bf5a3-ccb0-4abd-9165-25c916136c77",
         "logo": {
             "id": 50,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=northern-a...&w=300&h=200"
@@ -603,7 +603,7 @@
         "config": {
             "subdomain": "saint-marys-university.egradgifts.com"
         },
-        "id": "8766458a-fae4-4ab0-b2ff-64bcb42e614c",
+        "id": "164e8d39-9f82-4aef-9835-36790e10bb36",
         "logo": {
             "id": 51,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=saint-mary...&w=300&h=200"
@@ -615,7 +615,7 @@
         "config": {
             "subdomain": "mount-allison-university.egradgifts.com"
         },
-        "id": "365d154d-ec14-4470-86b6-f31497db428c",
+        "id": "b17510fe-d5bb-4c2c-989f-322c1bff1bee",
         "logo": {
             "id": 52,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-alli...&w=300&h=200"
@@ -627,7 +627,7 @@
         "config": {
             "subdomain": "grant-macewan-university.egradgifts.com"
         },
-        "id": "cde18646-3c4f-4d54-aea9-22c5d4a50101",
+        "id": "26d5eca7-e986-4423-a013-9bfefd10147e",
         "logo": {
             "id": 53,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=grant-mace...&w=300&h=200"
@@ -637,9 +637,9 @@
     },
     {
         "config": {
-            "subdomain": "-ontario-institute-of-technology.egradgifts.com"
+            "subdomain": "ontario-institute-of-technology.egradgifts.com"
         },
-        "id": "c4f5a186-a39e-4b1c-9cfd-e4e887f42475",
+        "id": "485fdf24-4c30-48c6-9ff1-1609d2051212",
         "logo": {
             "id": 54,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -651,7 +651,7 @@
         "config": {
             "subdomain": "bishops-university.egradgifts.com"
         },
-        "id": "2cba7056-9aef-4b8b-ad74-677484f80b3b",
+        "id": "5f13a9b4-81cf-4435-b6b5-2ce13320f159",
         "logo": {
             "id": 55,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=bishops-un...&w=300&h=200"
@@ -661,9 +661,9 @@
     },
     {
         "config": {
-            "subdomain": "-the-fraser-valley.egradgifts.com"
+            "subdomain": "the-fraser-valley.egradgifts.com"
         },
-        "id": "5d161c5b-0d2b-4011-87dd-1155b9972939",
+        "id": "29906867-59e6-414f-ac55-d7e877603623",
         "logo": {
             "id": 56,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -675,7 +675,7 @@
         "config": {
             "subdomain": "mount-royal-university.egradgifts.com"
         },
-        "id": "f676fb13-7749-481c-b89a-6cc131f9d882",
+        "id": "66aa5c93-29b0-48ef-8d23-32d9de50625d",
         "logo": {
             "id": 57,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-roya...&w=300&h=200"
@@ -687,7 +687,7 @@
         "config": {
             "subdomain": "trinity-western-university.egradgifts.com"
         },
-        "id": "a9e1cd8f-e189-46d5-96bb-ae1872ac38fd",
+        "id": "e9671b37-1519-4368-b522-bb9c0b3bf5e0",
         "logo": {
             "id": 58,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trinity-we...&w=300&h=200"
@@ -699,7 +699,7 @@
         "config": {
             "subdomain": "capilano-university.egradgifts.com"
         },
-        "id": "4f1fd693-d095-4030-ac2c-903ce8013862",
+        "id": "a0d9b30e-b7eb-44e6-bad2-ef7eb67b223f",
         "logo": {
             "id": 59,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=capilano-u...&w=300&h=200"
@@ -711,7 +711,7 @@
         "config": {
             "subdomain": "universite-du-quebec-a-trois-rivieres.egradgifts.com"
         },
-        "id": "fe40e8a9-1b81-43d4-ad17-c03ae7b0886c",
+        "id": "246e1d33-1d90-45dc-b0f6-af6789c6b9f1",
         "logo": {
             "id": 60,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -723,7 +723,7 @@
         "config": {
             "subdomain": "ocad-university.egradgifts.com"
         },
-        "id": "ffd218cd-57a4-4bfa-96ab-51b86471c0a9",
+        "id": "6d10333d-c24b-4a95-ac91-89658c919146",
         "logo": {
             "id": 61,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ocad-unive...&w=300&h=200"
@@ -735,7 +735,7 @@
         "config": {
             "subdomain": "mount-saint-vincent-university.egradgifts.com"
         },
-        "id": "8e88a83c-fe23-4c01-9411-477ac3544af1",
+        "id": "a3d7a808-b334-45f1-bc69-df1ffe5b9365",
         "logo": {
             "id": 62,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-sain...&w=300&h=200"
@@ -747,7 +747,7 @@
         "config": {
             "subdomain": "nipissing-university.egradgifts.com"
         },
-        "id": "37003f9d-f899-4812-a33f-f5494d18899e",
+        "id": "cd383ab7-8be5-495d-a142-33a8e21260d6",
         "logo": {
             "id": 63,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nipissing-...&w=300&h=200"
@@ -759,7 +759,7 @@
         "config": {
             "subdomain": "brandon-university.egradgifts.com"
         },
-        "id": "b3c389da-ae3f-464f-ad3a-def102a5cb28",
+        "id": "502a51d5-d67f-46ec-ab94-21cdc564035d",
         "logo": {
             "id": 64,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brandon-un...&w=300&h=200"
@@ -771,7 +771,7 @@
         "config": {
             "subdomain": "kwantlen-polytechnic-university.egradgifts.com"
         },
-        "id": "364f603c-03de-407f-b078-921b1aa98455",
+        "id": "4b65d690-ac7e-43e4-aa1a-3e4d0b2c3de0",
         "logo": {
             "id": 65,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kwantlen-p...&w=300&h=200"
@@ -783,7 +783,7 @@
         "config": {
             "subdomain": "universite-du-quebec-en-outaouais.egradgifts.com"
         },
-        "id": "cba4e1e2-3e5f-466c-8f77-f66ac7005f39",
+        "id": "d62ff17f-6a97-4acc-8b78-5d8a7d41dd22",
         "logo": {
             "id": 66,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -795,7 +795,7 @@
         "config": {
             "subdomain": "universite-du-quebec-a-rimouski.egradgifts.com"
         },
-        "id": "93ff2cc3-8ce6-4366-a385-1cf575b49c15",
+        "id": "0a9038c0-5c2a-47c6-b4fc-afb15d960f81",
         "logo": {
             "id": 67,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -807,7 +807,7 @@
         "config": {
             "subdomain": "college-militaire-royal-du-canada.egradgifts.com"
         },
-        "id": "0f580433-d09e-4084-9232-f35d3fce23cf",
+        "id": "2c398a16-932b-4d34-84c7-3a97062e37ae",
         "logo": {
             "id": 68,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-mi...&w=300&h=200"
@@ -819,7 +819,7 @@
         "config": {
             "subdomain": "universite-du-quebec-en-abitibi-temiscamingue.egradgifts.com"
         },
-        "id": "1547032d-2e17-43d4-b2c2-bfae1c9bea03",
+        "id": "a5c46fcc-e618-4585-b2e5-8423fd567b1d",
         "logo": {
             "id": 69,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -829,9 +829,9 @@
     },
     {
         "config": {
-            "subdomain": "emily-carr--art-and-design.egradgifts.com"
+            "subdomain": "emily-carr-art-and-design.egradgifts.com"
         },
-        "id": "960eee3b-d9f4-49f5-9b1d-78cd90ec9ee5",
+        "id": "32fd9b46-d136-49a5-b333-f0ed71f7024d",
         "logo": {
             "id": 70,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=emily-carr...&w=300&h=200"
@@ -843,7 +843,7 @@
         "config": {
             "subdomain": "cape-breton-university.egradgifts.com"
         },
-        "id": "cf4e3a8c-3c0d-4499-96c8-f1387eadb732",
+        "id": "ee07e703-900c-4791-b5b9-133e1063ea24",
         "logo": {
             "id": 71,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=cape-breto...&w=300&h=200"
@@ -855,7 +855,7 @@
         "config": {
             "subdomain": "sait-polytechnic.egradgifts.com"
         },
-        "id": "b3f78d79-4c59-47e1-ac35-2cadb99f5981",
+        "id": "6bba64a1-9955-4361-b05b-32c82bcb6d99",
         "logo": {
             "id": 72,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=sait-polyt...&w=300&h=200"
@@ -867,7 +867,7 @@
         "config": {
             "subdomain": "st-thomas-university.egradgifts.com"
         },
-        "id": "2863684c-aed6-4a38-8545-8d56ea3c4fa0",
+        "id": "ab57e4ba-183f-45d4-ae48-3a64369d0136",
         "logo": {
             "id": 73,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200"
@@ -879,7 +879,7 @@
         "config": {
             "subdomain": "ecole-nationale-dadministration-publique.egradgifts.com"
         },
-        "id": "97414562-4592-4fef-9b79-82b8862b68e6",
+        "id": "554a8807-6485-4cd8-82d4-410b2b7c7d22",
         "logo": {
             "id": 74,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-nati...&w=300&h=200"
@@ -891,7 +891,7 @@
         "config": {
             "subdomain": "algoma-university.egradgifts.com"
         },
-        "id": "2598c9b6-b32b-43fc-a929-45198c8cb3c1",
+        "id": "07115b1b-7a6f-42fb-b596-166125ff2bab",
         "logo": {
             "id": 75,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=algoma-uni...&w=300&h=200"
@@ -903,7 +903,7 @@
         "config": {
             "subdomain": "universite-de-saint-boniface.egradgifts.com"
         },
-        "id": "066b5f7e-1ad3-49af-9041-563531d4f74e",
+        "id": "8fe63953-ffb0-4589-acb2-aa982c813b61",
         "logo": {
             "id": 76,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -915,7 +915,7 @@
         "config": {
             "subdomain": "nscad-university.egradgifts.com"
         },
-        "id": "141f6e93-0ee4-46d6-9e6d-07bb959b90ff",
+        "id": "68efa7df-d177-4ada-919c-ee99dc5d32e5",
         "logo": {
             "id": 77,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nscad-univ...&w=300&h=200"
@@ -925,9 +925,9 @@
     },
     {
         "config": {
-            "subdomain": "-kings-college.egradgifts.com"
+            "subdomain": "kings-college.egradgifts.com"
         },
-        "id": "2f54f3aa-668d-43b5-a13b-983d90e5720d",
+        "id": "541d9b37-4e04-43a1-986c-20521cb25e12",
         "logo": {
             "id": 78,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
@@ -939,7 +939,7 @@
         "config": {
             "subdomain": "redeemer-university-college.egradgifts.com"
         },
-        "id": "e4a4dc2a-2ea4-49f1-b1e0-db24ab1c465d",
+        "id": "99c2c453-37ca-485b-96aa-5e6fe96f393d",
         "logo": {
             "id": 79,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=redeemer-u...&w=300&h=200"
@@ -951,7 +951,7 @@
         "config": {
             "subdomain": "canadian-mennonite-university.egradgifts.com"
         },
-        "id": "071f7e14-5f32-45ee-9515-90c9d6962dc5",
+        "id": "5b15ba92-c856-492f-b107-7cc511f84c9f",
         "logo": {
             "id": 80,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=canadian-m...&w=300&h=200"
@@ -963,7 +963,7 @@
         "config": {
             "subdomain": "universite-sainte-anne.egradgifts.com"
         },
-        "id": "ab53e983-6cf4-447f-a210-8e4d3ce1f010",
+        "id": "af26daee-6cec-4916-a2a7-9d8f2ba8910d",
         "logo": {
             "id": 81,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
@@ -975,7 +975,7 @@
         "config": {
             "subdomain": "ambrose-university.egradgifts.com"
         },
-        "id": "3f11c1f5-114e-42e5-90a9-bce18a816ac7",
+        "id": "392c1488-0a22-48ae-b268-411da97046a2",
         "logo": {
             "id": 82,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ambrose-un...&w=300&h=200"
@@ -987,7 +987,7 @@
         "config": {
             "subdomain": "luther-college.egradgifts.com"
         },
-        "id": "a372297b-a586-44b2-aa20-87ee22340435",
+        "id": "01738ba2-ae8c-497e-ae9e-93a330a0b591",
         "logo": {
             "id": 83,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=luther-col...&w=300&h=200"
@@ -999,7 +999,7 @@
         "config": {
             "subdomain": "yorkville-university.egradgifts.com"
         },
-        "id": "08d61597-bbff-46ad-846f-3498bd63f3ec",
+        "id": "86cf6f7e-affa-454d-99d3-abd466514134",
         "logo": {
             "id": 84,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=yorkville-...&w=300&h=200"
@@ -1011,7 +1011,7 @@
         "config": {
             "subdomain": "concordia-university-college-of-alberta.egradgifts.com"
         },
-        "id": "79fea074-293c-452c-b22d-f564911fb411",
+        "id": "7ebfbaee-42af-4162-9a05-b3a20a41dc4d",
         "logo": {
             "id": 85,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200"
@@ -1023,7 +1023,7 @@
         "config": {
             "subdomain": "st-thomas-more-college.egradgifts.com"
         },
-        "id": "293c151c-9e7f-498b-809a-7fc36507bcfc",
+        "id": "308ca5a9-c5d5-4f14-9991-fc136cb8fc3d",
         "logo": {
             "id": 86,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200"
@@ -1033,9 +1033,9 @@
     },
     {
         "config": {
-            "subdomain": "campion-college-at-the--regina.egradgifts.com"
+            "subdomain": "campion-college-at-the-regina.egradgifts.com"
         },
-        "id": "17d96a83-1d2f-498d-af52-977e510f3fa4",
+        "id": "d3cbec69-7f25-4988-9fcb-069ab555da40",
         "logo": {
             "id": 87,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=campion-co...&w=300&h=200"
@@ -1047,7 +1047,7 @@
         "config": {
             "subdomain": "nicola-valley-institute-of-technology.egradgifts.com"
         },
-        "id": "04e833d1-5469-4a5a-8d92-b8556e8d761e",
+        "id": "9f1aa125-9a2e-4095-919c-25852d62fd2b",
         "logo": {
             "id": 88,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nicola-val...&w=300&h=200"
@@ -1059,7 +1059,7 @@
         "config": {
             "subdomain": "kingswood-university.egradgifts.com"
         },
-        "id": "14d5d9ef-b90c-471f-8568-6bec2836a77f",
+        "id": "5a3ec0fb-db44-41b8-90ee-1652f037295f",
         "logo": {
             "id": 89,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kingswood-...&w=300&h=200"
@@ -1071,7 +1071,7 @@
         "config": {
             "subdomain": "college-of-the-north-atlantic.egradgifts.com"
         },
-        "id": "c471ceac-8a9e-4f29-b470-8d93c63068f1",
+        "id": "d9fc82f3-fdc5-4065-87a2-b0e9ab8224f7",
         "logo": {
             "id": 90,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-of...&w=300&h=200"
@@ -1081,9 +1081,9 @@
     },
     {
         "config": {
-            "subdomain": "first-nations--canada.egradgifts.com"
+            "subdomain": "first-nations-canada.egradgifts.com"
         },
-        "id": "da577031-fd42-43c4-b169-3a531faa9fd6",
+        "id": "5a425fbe-c2f1-47fe-a71d-733dde23ed5d",
         "logo": {
             "id": 91,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=first-nati...&w=300&h=200"
@@ -1095,7 +1095,7 @@
         "config": {
             "subdomain": "college-universitaire-dominicain.egradgifts.com"
         },
-        "id": "13519339-fa6c-41eb-bdd3-85a7fd95510c",
+        "id": "73e84686-0c3d-4c3c-b04f-8b57dc5c16e3",
         "logo": {
             "id": 92,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-un...&w=300&h=200"
@@ -1107,7 +1107,7 @@
         "config": {
             "subdomain": "burman-university.egradgifts.com"
         },
-        "id": "62ad81fa-bbca-40da-83e8-2f6e01a52a17",
+        "id": "3c391e48-2376-4239-a980-29a87b84ee11",
         "logo": {
             "id": 93,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=burman-uni...&w=300&h=200"
@@ -1119,7 +1119,7 @@
         "config": {
             "subdomain": "the-kings-university-college.egradgifts.com"
         },
-        "id": "6363eda6-f0e3-4244-b565-c53c07c4b7b2",
+        "id": "efcd105c-32ea-4bc8-a9bd-cabff3390917",
         "logo": {
             "id": 94,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-kings-...&w=300&h=200"
@@ -1131,7 +1131,7 @@
         "config": {
             "subdomain": "aurora-college.egradgifts.com"
         },
-        "id": "c26b509e-ea4e-4190-8b01-0e84ea45a559",
+        "id": "a2944cb1-6ce8-4c40-8087-8947087e62fb",
         "logo": {
             "id": 95,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=aurora-col...&w=300&h=200"
@@ -1143,7 +1143,7 @@
         "config": {
             "subdomain": "crandall-university.egradgifts.com"
         },
-        "id": "fd030564-2fde-4bd1-be24-ff89290adff3",
+        "id": "5972baf0-62dd-4f7a-a68e-bcc91272229a",
         "logo": {
             "id": 96,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=crandall-u...&w=300&h=200"
@@ -1155,7 +1155,7 @@
         "config": {
             "subdomain": "st-stephens-university.egradgifts.com"
         },
-        "id": "18a94de7-c57e-47db-ae3e-4d0981e84d3d",
+        "id": "70ec1517-4ada-485b-891c-01bc0a5065df",
         "logo": {
             "id": 97,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-stephen...&w=300&h=200"
@@ -1167,7 +1167,7 @@
         "config": {
             "subdomain": "st-marys-university-college.egradgifts.com"
         },
-        "id": "f6e62182-b5b3-4940-b9ba-e7bcb90dab67",
+        "id": "d19f7e13-7d68-4bcd-ad83-8fb4448c8f41",
         "logo": {
             "id": 98,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-marys-u...&w=300&h=200"
@@ -1179,7 +1179,7 @@
         "config": {
             "subdomain": "university-canada-west.egradgifts.com"
         },
-        "id": "a578493c-b8cd-47a1-965a-4101649b629c",
+        "id": "297c2746-18c6-4e70-aaf8-51d2657b0b7a",
         "logo": {
             "id": 99,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"

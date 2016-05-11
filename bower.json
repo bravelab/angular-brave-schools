@@ -24,6 +24,7 @@
     "angular-bootstrap": "~1.1.0",
     "angular-ui-router": "~0.2.15",
     "underscore": "latest",
+    "angularUtils": "https://github.com/michaelbromley/angularUtils.git",
     "angular-brave-auth": "git@bitbucket.org:sizeof/angular-brave-auth.git#0.0.8"
   }
 }

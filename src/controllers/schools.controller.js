@@ -12,9 +12,10 @@
    * @param {Object} $scope - Scope
    * @param {Object} $state - State
    * @param {Object} schoolsService - Schools service
-     * @constructor
-     */
+   * @constructor
+   */
   function SchoolsController($scope, $state, schoolsService) {
+
 
     activate();
 
@@ -25,6 +26,14 @@
      */
     function activate() {
 
+      $scope.currentPage = 1;
+      $scope.pageSize = 30;
+
+
+      $scope.pageChangeHandler = function (num) {
+        console.log('meals page changed to ' + num);
+      };
+
       // authService.getToken().then(tokenSuccessFn);
 
       /**
@@ -32,7 +41,7 @@
        * @param {string} token - Auth token
        * @desc Calls schoolsService.getAll()
        */
-      // function tokenSuccessFn(token) {
+        // function tokenSuccessFn(token) {
       schoolsService.getAll().then(schoolSuccessFn, schoolErrorFn);
       // }
 

@@ -1,11 +1,10 @@
-<div ng-repeat="school in vm.schools" class="row">
-  <div class="col-sm-2 col-md-2">
-    <a ui-sref="app.schools.detail({ id: school.id, slug: school.slug })">
-      <div class="thumbnail">
-        <div class="caption">
-          <h2>{{ school.name }}</h2>
-        </div>
-      </div>
-    </a>
-  </div>
+<div>
+    <input ng-model="q" id="search" class="form-control" placeholder="Filter text">
+    <ul>
+        <li ng-repeat="school in vm.schools | filter:q">
+            <a ui-sref="app.schools.detail({ id: school.id, slug: school.slug })">
+                {{ school.name }}
+            </a>
+        </li>
+    </ul>
 </div>
