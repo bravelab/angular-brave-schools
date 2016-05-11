@@ -3,14 +3,14 @@
 
   /**
    * @ngdoc overview
-   * @name app.docs tests
-   * @description Docs tests
+   * @name app.schools tests
+   * @description Schools tests
    *
    */
-  describe('should provide DocsDetailController', function () {
+  describe('should provide SchoolsDetailController', function () {
 
     var // AuthenticationMock,
-      docsServiceMock,
+      schoolsServiceMock,
       controller;
 
     var $httpBackend,
@@ -21,7 +21,7 @@
       $state;
 
     beforeEach(function () {
-      module('app.docs');
+      module('app.schools');
       module('app.auth');
     });
 
@@ -35,17 +35,17 @@
       $scope = $rootScope.$new();
     }));
 
-    beforeEach(inject(function (_DocsServiceMock_) {
+    beforeEach(inject(function (_SchoolsServiceMock_) {
 
       // AuthenticationMock = _AuthenticationMock_;
-      docsServiceMock = _DocsServiceMock_; // (2)
+      schoolsServiceMock = _SchoolsServiceMock_; // (2)
 
-      $stateParams.id = docsServiceMock.detail.id;
+      $stateParams.id = schoolsServiceMock.detail.id;
 
-      controller = $controller('DocsDetailController', {
+      controller = $controller('SchoolsDetailController', {
         $scope: $scope,
         $stateParams: $stateParams,
-        docsService: docsServiceMock
+        schoolsService: schoolsServiceMock
       });
 
     }));
@@ -54,13 +54,13 @@
       expect(controller).toBeDefined();
     }));
 
-    it('should have doc in scope', inject(function () {
+    it('should have school in scope', inject(function () {
 
-      $httpBackend.whenGET('/api/docs/' + docsServiceMock.detail.id + '/').respond(docsServiceMock.detail);
+      $httpBackend.whenGET('/api/schools/' + schoolsServiceMock.detail.id + '/').respond(schoolsServiceMock.detail);
       $httpBackend.flush();
       $scope.$apply();
 
-      expect(controller.doc).toEqual(docsServiceMock.detail);
+      expect(controller.school).toEqual(schoolsServiceMock.detail);
     }));
 
   });

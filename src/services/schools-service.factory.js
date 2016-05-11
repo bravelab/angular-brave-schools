@@ -2,29 +2,29 @@
   'use strict';
 
   angular
-    .module('app.docs')
-    .factory('DocsService', DocsService);
+    .module('app.schools')
+    .factory('SchoolsService', SchoolsService);
 
-  DocsService.$inject = ['$http', '$q', 'BraveDocs', 'DocTransformer', 'DocListTransformer'];
+  SchoolsService.$inject = ['$http', '$q', 'BraveSchools', 'SchoolTransformer', 'SchoolListTransformer'];
 
   /**
    *
    * @param {object} $http - Http object
    * @param {object} $q - Query object
-   * @param {object} braveDocs - app config object provider
-   * @param {object} docTransformer - doc transformer object
-   * @param {object} docListTransformer - doc list transformer object
-   * @returns {{get: app.docs.get, getAll: app.docs.getAll}} - Service Factory
+   * @param {object} braveSchools - app config object provider
+   * @param {object} schoolTransformer - school transformer object
+   * @param {object} schoolListTransformer - school list transformer object
+   * @returns {{get: app.schools.get, getAll: app.schools.getAll}} - Service Factory
    * @constructor
    */
-  function DocsService($http, $q, braveDocs, docTransformer, docListTransformer) {
+  function SchoolsService($http, $q, braveSchools, schoolTransformer, schoolListTransformer) {
 
     var cache = {};
 
-    var apiUrl = braveDocs.getApiUrl();
+    var endpoint = braveSchools.getEndpoint();
 
     /**
-     * @name Docs
+     * @name Schools
      * @desc The Factory to be returned
      */
     var factory = {
@@ -36,16 +36,16 @@
 
     /**
      * @name get
-     * @desc Get single doc
-     * @param {string} id The id of th doc
+     * @desc Get single school
+     * @param {string} id The id of th school
      * @returns {Promise} - Promise an object
-     * @memberOf app.docs
+     * @memberOf app.schools
      */
     function get(id) {
       var deferred = $q.defer();
 
       // if (authService.isAuthenticated()) {
-      //   console.log('DocsService::get=>authService.isAuthenticated()', authService.isAuthenticated());
+      //   console.log('SchoolsService::get=>authService.isAuthenticated()', authService.isAuthenticated());
       // }
 
       if (typeof cache[id] !== 'undefined') {
@@ -53,8 +53,8 @@
       } else {
         $http({
           method: 'GET',
-          url: apiUrl + '/docs/' + id + '/',
-          transformResponse: docTransformer
+          url: endpoint + '/' + id + '/',
+          transformResponse: schoolTransformer
         })
           .then(function (data) {
             cache[id] = data.data;
@@ -69,15 +69,15 @@
 
     /**
      * @name getAll
-     * @desc Gets all docs
+     * @desc Gets all schools
      * @returns {Promise} - Promise an object
-     * @memberOf app.docs
+     * @memberOf app.schools
      */
     function getAll() {
       return $http({
         method: 'GET',
-        url: apiUrl + '/docs/',
-        transformResponse: docListTransformer
+        url: endpoint,
+        transformResponse: schoolListTransformer
       })
         .then(function (data) {
           return data;

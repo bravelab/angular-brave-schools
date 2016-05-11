@@ -1,23 +1,23 @@
 /**
- * DocListTransformer
- * @namespace app.docs
+ * SchoolListTransformer
+ * @namespace app.schools
  */
 (function () {
   'use strict';
 
   angular
-    .module('app.docs')
-    .factory('DocListTransformer', DocListTransformer);
+    .module('app.schools')
+    .factory('SchoolListTransformer', SchoolListTransformer);
 
-  DocListTransformer.$inject = ['Doc'];
+  SchoolListTransformer.$inject = ['School'];
 
-  function DocListTransformer(Doc) {
+  function SchoolListTransformer(School) {
     return function (response) {
       var result = (typeof response === 'string') ? angular.fromJson(response) : response;
       var data = [];
       if (result.data.length) {
         data = _.map(result.data, function (item) {
-          return new Doc(item);
+          return new School(item);
         });
       }
       return data;

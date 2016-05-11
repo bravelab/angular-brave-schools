@@ -3,24 +3,26 @@
 
   /**
    * @ngdoc overview
-   * @name app [app.docs]
-   * @description Config provider for app.docs
+   * @name app [app.schools]
+   * @description Config provider for app.schools
    */
   angular
-    .module('app.docs')
-    .provider('BraveDocs', function () {
+    .module('app.schools')
+    .provider('BraveSchools', function () {
 
       this.apiUrl = '/api';
+      this.endpoint = '/schools';
 
       this.templates = {
-        index: 'templates/docs.html',
-        list: 'templates/docs-list.html',
-        detail: 'templates/docs-detail.html'
+        index: 'templates/schools.html',
+        list: 'templates/schools-list.html',
+        detail: 'templates/schools-detail.html'
       };
 
       this.$get = function () {
         var apiUrl = this.apiUrl;
         var templates = this.templates;
+        var endpoint = this.endpoint;
 
         return {
           getApiUrl: function () {
@@ -28,6 +30,9 @@
           },
           getTemplates: function () {
             return templates;
+          },
+          getEndpoint: function () {
+            return apiUrl + endpoint;
           }
         };
       };

@@ -1,0 +1,1190 @@
+[
+    {
+        "config": {
+            "subdomain": "-toronto.egradgifts.com"
+        },
+        "id": "b3bdf485-870b-42fe-bff1-92145621a816",
+        "logo": {
+            "id": 1,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Toronto",
+        "slug": "university-of-toronto"
+    },
+    {
+        "config": {
+            "subdomain": "the--british-columbia.egradgifts.com"
+        },
+        "id": "423f98b7-36b5-472c-af1f-cb6c2aab5e28",
+        "logo": {
+            "id": 2,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200"
+        },
+        "name": "The University of British Columbia",
+        "slug": "the-university-of-british-columbia"
+    },
+    {
+        "config": {
+            "subdomain": "-waterloo.egradgifts.com"
+        },
+        "id": "b1dc1c0b-836a-4472-8760-23920669880c",
+        "logo": {
+            "id": 3,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Waterloo",
+        "slug": "university-of-waterloo"
+    },
+    {
+        "config": {
+            "subdomain": "-alberta.egradgifts.com"
+        },
+        "id": "34a7a390-71d6-4a20-a5b8-28dbc290e3d8",
+        "logo": {
+            "id": 4,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Alberta",
+        "slug": "university-of-alberta"
+    },
+    {
+        "config": {
+            "subdomain": "simon-fraser-university.egradgifts.com"
+        },
+        "id": "9d4199f0-6f13-4791-86f4-c0fb3c457328",
+        "logo": {
+            "id": 5,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=simon-fras...&w=300&h=200"
+        },
+        "name": "Simon Fraser University",
+        "slug": "simon-fraser-university"
+    },
+    {
+        "config": {
+            "subdomain": "mcgill-university.egradgifts.com"
+        },
+        "id": "48ac7e3d-8429-474d-b3e4-48f6111a0271",
+        "logo": {
+            "id": 6,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcgill-uni...&w=300&h=200"
+        },
+        "name": "McGill University",
+        "slug": "mcgill-university"
+    },
+    {
+        "config": {
+            "subdomain": "-calgary.egradgifts.com"
+        },
+        "id": "e92bedfa-ce4d-4a08-96a5-88eec38e1a40",
+        "logo": {
+            "id": 7,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Calgary",
+        "slug": "university-of-calgary"
+    },
+    {
+        "config": {
+            "subdomain": "york-university.egradgifts.com"
+        },
+        "id": "d3e79e7e-67e0-4401-b240-27c3440aa2d7",
+        "logo": {
+            "id": 8,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=york-unive...&w=300&h=200"
+        },
+        "name": "York University",
+        "slug": "york-university"
+    },
+    {
+        "config": {
+            "subdomain": "-victoria.egradgifts.com"
+        },
+        "id": "527f25e9-0e93-4564-9948-ab99d1f3a567",
+        "logo": {
+            "id": 9,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Victoria",
+        "slug": "university-of-victoria"
+    },
+    {
+        "config": {
+            "subdomain": "queens-university.egradgifts.com"
+        },
+        "id": "19156dc4-14bb-4117-9be3-cb5e42b72b33",
+        "logo": {
+            "id": 10,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=queens-uni...&w=300&h=200"
+        },
+        "name": "Queen's University",
+        "slug": "queens-university"
+    },
+    {
+        "config": {
+            "subdomain": "the--western-ontario.egradgifts.com"
+        },
+        "id": "d9541b2e-6d50-44eb-b143-1e5fcb7f0745",
+        "logo": {
+            "id": 11,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200"
+        },
+        "name": "The University of Western Ontario",
+        "slug": "the-university-of-western-ontario"
+    },
+    {
+        "config": {
+            "subdomain": "universite-de-montreal.egradgifts.com"
+        },
+        "id": "674d1eef-6bad-498a-9261-d10fed4f5471",
+        "logo": {
+            "id": 12,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 de Montr\u00e9al",
+        "slug": "universite-de-montreal"
+    },
+    {
+        "config": {
+            "subdomain": "universite-laval.egradgifts.com"
+        },
+        "id": "3a9f5fa9-04da-43e0-bfff-d3a46e4ac786",
+        "logo": {
+            "id": 13,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 Laval",
+        "slug": "universite-laval"
+    },
+    {
+        "config": {
+            "subdomain": "mcmaster-university.egradgifts.com"
+        },
+        "id": "b025e31a-3d6a-4d6a-9276-eb3d3391b033",
+        "logo": {
+            "id": 14,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcmaster-u...&w=300&h=200"
+        },
+        "name": "McMaster University",
+        "slug": "mcmaster-university"
+    },
+    {
+        "config": {
+            "subdomain": "-ottawa.egradgifts.com"
+        },
+        "id": "5e49948b-6bb0-4580-9ed5-1012b5df1cc8",
+        "logo": {
+            "id": 15,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Ottawa",
+        "slug": "university-of-ottawa"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec-a-montreal.egradgifts.com"
+        },
+        "id": "a2b92358-d4cd-4dcd-9ead-b755acb94bc3",
+        "logo": {
+            "id": 16,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al",
+        "slug": "universite-du-quebec-a-montreal"
+    },
+    {
+        "config": {
+            "subdomain": "concordia-university.egradgifts.com"
+        },
+        "id": "3ab21f6f-350b-415a-8466-d482b53fcf09",
+        "logo": {
+            "id": 17,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200"
+        },
+        "name": "Concordia University",
+        "slug": "concordia-university"
+    },
+    {
+        "config": {
+            "subdomain": "carleton-university.egradgifts.com"
+        },
+        "id": "d00b0d3a-c4fe-42a1-933c-6b25f1103fdb",
+        "logo": {
+            "id": 18,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=carleton-u...&w=300&h=200"
+        },
+        "name": "Carleton University",
+        "slug": "carleton-university"
+    },
+    {
+        "config": {
+            "subdomain": "-guelph.egradgifts.com"
+        },
+        "id": "b4c0cc03-d93c-45bb-92bc-0254b1118860",
+        "logo": {
+            "id": 19,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Guelph",
+        "slug": "university-of-guelph"
+    },
+    {
+        "config": {
+            "subdomain": "dalhousie-university.egradgifts.com"
+        },
+        "id": "16f53d7a-9160-4546-87fb-558e85ce09d9",
+        "logo": {
+            "id": 20,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=dalhousie-...&w=300&h=200"
+        },
+        "name": "Dalhousie University",
+        "slug": "dalhousie-university"
+    },
+    {
+        "config": {
+            "subdomain": "ryerson-university.egradgifts.com"
+        },
+        "id": "0047c60d-a03b-4a80-b917-48a3f687c3ec",
+        "logo": {
+            "id": 21,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ryerson-un...&w=300&h=200"
+        },
+        "name": "Ryerson University",
+        "slug": "ryerson-university"
+    },
+    {
+        "config": {
+            "subdomain": "-saskatchewan.egradgifts.com"
+        },
+        "id": "ad40d705-7912-4c27-99f8-bf5f9b0309b4",
+        "logo": {
+            "id": 22,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Saskatchewan",
+        "slug": "university-of-saskatchewan"
+    },
+    {
+        "config": {
+            "subdomain": "-manitoba.egradgifts.com"
+        },
+        "id": "a37a8b2c-c006-46b9-8ecf-38edd1aeac5e",
+        "logo": {
+            "id": 23,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Manitoba",
+        "slug": "university-of-manitoba"
+    },
+    {
+        "config": {
+            "subdomain": "memorial--newfoundland.egradgifts.com"
+        },
+        "id": "77faf7ee-fcb0-4cdb-8c8e-eb803df7c390",
+        "logo": {
+            "id": 24,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=memorial-u...&w=300&h=200"
+        },
+        "name": "Memorial University of Newfoundland",
+        "slug": "memorial-university-of-newfoundland"
+    },
+    {
+        "config": {
+            "subdomain": "universite-de-sherbrooke.egradgifts.com"
+        },
+        "id": "80dc2787-e370-4361-adac-7413901daac2",
+        "logo": {
+            "id": 25,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 de Sherbrooke",
+        "slug": "universite-de-sherbrooke"
+    },
+    {
+        "config": {
+            "subdomain": "-regina.egradgifts.com"
+        },
+        "id": "75f6e50e-ebc7-451a-8d15-a54afbaa0362",
+        "logo": {
+            "id": 26,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Regina",
+        "slug": "university-of-regina"
+    },
+    {
+        "config": {
+            "subdomain": "-new-brunswick.egradgifts.com"
+        },
+        "id": "cc772f39-ad35-41e3-8b16-db8e7588ee89",
+        "logo": {
+            "id": 27,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of New Brunswick",
+        "slug": "university-of-new-brunswick"
+    },
+    {
+        "config": {
+            "subdomain": "brock-university.egradgifts.com"
+        },
+        "id": "48c157ab-5a9f-47a9-855e-337f3a5e7c87",
+        "logo": {
+            "id": 28,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brock-univ...&w=300&h=200"
+        },
+        "name": "Brock University",
+        "slug": "brock-university"
+    },
+    {
+        "config": {
+            "subdomain": "-windsor.egradgifts.com"
+        },
+        "id": "60796f04-35b5-49e5-a8a8-dff2628afe01",
+        "logo": {
+            "id": 29,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Windsor",
+        "slug": "university-of-windsor"
+    },
+    {
+        "config": {
+            "subdomain": "ecole-polytechnique-de-montreal.egradgifts.com"
+        },
+        "id": "d4195372-2950-47d7-8b8a-f310f06762c7",
+        "logo": {
+            "id": 30,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-poly...&w=300&h=200"
+        },
+        "name": "\u00c9cole Polytechnique de Montr\u00e9al",
+        "slug": "ecole-polytechnique-de-montreal"
+    },
+    {
+        "config": {
+            "subdomain": "-winnipeg.egradgifts.com"
+        },
+        "id": "36cc9380-fbdd-4f70-8337-7c99e342eb9c",
+        "logo": {
+            "id": 31,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Winnipeg",
+        "slug": "university-of-winnipeg"
+    },
+    {
+        "config": {
+            "subdomain": "wilfrid-laurier-university.egradgifts.com"
+        },
+        "id": "f53d6794-c5cf-4e0a-b808-795d4b5add93",
+        "logo": {
+            "id": 32,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=wilfrid-la...&w=300&h=200"
+        },
+        "name": "Wilfrid Laurier University",
+        "slug": "wilfrid-laurier-university"
+    },
+    {
+        "config": {
+            "subdomain": "lakehead-university.egradgifts.com"
+        },
+        "id": "45450c61-ca73-4574-a9e1-fbe3c2e9e5e9",
+        "logo": {
+            "id": 33,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=lakehead-u...&w=300&h=200"
+        },
+        "name": "Lakehead University",
+        "slug": "lakehead-university"
+    },
+    {
+        "config": {
+            "subdomain": "-lethbridge.egradgifts.com"
+        },
+        "id": "31693d56-d6ca-4f01-9a57-7f5497cfcfd2",
+        "logo": {
+            "id": 34,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Lethbridge",
+        "slug": "university-of-lethbridge"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec.egradgifts.com"
+        },
+        "id": "6f3ceff5-e127-477d-86ec-35a8bdc6dc43",
+        "logo": {
+            "id": 35,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec",
+        "slug": "universite-du-quebec"
+    },
+    {
+        "config": {
+            "subdomain": "british-columbia-institute-of-technology.egradgifts.com"
+        },
+        "id": "e32129eb-bf85-44eb-bd2c-696526d51cd0",
+        "logo": {
+            "id": 36,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=british-co...&w=300&h=200"
+        },
+        "name": "British Columbia Institute of Technology",
+        "slug": "british-columbia-institute-of-technology"
+    },
+    {
+        "config": {
+            "subdomain": "hec-montreal.egradgifts.com"
+        },
+        "id": "8606f21c-2243-4d09-a95f-403beae97ef8",
+        "logo": {
+            "id": 37,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=hec-montre...&w=300&h=200"
+        },
+        "name": "HEC Montr\u00e9al",
+        "slug": "hec-montreal"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec-a-chicoutimi.egradgifts.com"
+        },
+        "id": "cdfd824a-95d1-4a08-a774-bfefcc224cb1",
+        "logo": {
+            "id": 38,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi",
+        "slug": "universite-du-quebec-a-chicoutimi"
+    },
+    {
+        "config": {
+            "subdomain": "trent-university.egradgifts.com"
+        },
+        "id": "78dc2a61-94a4-4500-9722-a3144da37d56",
+        "logo": {
+            "id": 39,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trent-univ...&w=300&h=200"
+        },
+        "name": "Trent University",
+        "slug": "trent-university"
+    },
+    {
+        "config": {
+            "subdomain": "acadia-university.egradgifts.com"
+        },
+        "id": "df80fd4f-95c8-47c6-a522-96ed22d81097",
+        "logo": {
+            "id": 40,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=acadia-uni...&w=300&h=200"
+        },
+        "name": "Acadia University",
+        "slug": "acadia-university"
+    },
+    {
+        "config": {
+            "subdomain": "thompson-rivers-university.egradgifts.com"
+        },
+        "id": "8abf61ef-c46b-42fd-a71f-e216bb871f06",
+        "logo": {
+            "id": 41,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=thompson-r...&w=300&h=200"
+        },
+        "name": "Thompson Rivers University",
+        "slug": "thompson-rivers-university"
+    },
+    {
+        "config": {
+            "subdomain": "ecole-de-technologie-superieure.egradgifts.com"
+        },
+        "id": "47869b4c-ad97-4f8d-9bab-0cda642db9b5",
+        "logo": {
+            "id": 42,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-de-t...&w=300&h=200"
+        },
+        "name": "\u00c9cole de Technologie Sup\u00e9rieure",
+        "slug": "ecole-de-technologie-superieure"
+    },
+    {
+        "config": {
+            "subdomain": "laurentian-university.egradgifts.com"
+        },
+        "id": "dda18361-2583-4f18-9f6e-b1e1bdf73f7c",
+        "logo": {
+            "id": 43,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=laurentian...&w=300&h=200"
+        },
+        "name": "Laurentian University",
+        "slug": "laurentian-university"
+    },
+    {
+        "config": {
+            "subdomain": "-prince-edward-island.egradgifts.com"
+        },
+        "id": "549199e9-8f4a-470e-b413-abb789423321",
+        "logo": {
+            "id": 44,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Prince Edward Island",
+        "slug": "university-of-prince-edward-island"
+    },
+    {
+        "config": {
+            "subdomain": "universite-de-moncton.egradgifts.com"
+        },
+        "id": "505ae490-8846-4a27-9912-6c42e4159f0e",
+        "logo": {
+            "id": 45,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 de Moncton",
+        "slug": "universite-de-moncton"
+    },
+    {
+        "config": {
+            "subdomain": "vancouver-island-university.egradgifts.com"
+        },
+        "id": "8a1e235f-2a24-4598-9cd1-9b4a37acfe66",
+        "logo": {
+            "id": 46,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=vancouver-...&w=300&h=200"
+        },
+        "name": "Vancouver Island University",
+        "slug": "vancouver-island-university"
+    },
+    {
+        "config": {
+            "subdomain": "royal-roads-university.egradgifts.com"
+        },
+        "id": "90554eb3-40a0-4405-b604-7a13409fbdac",
+        "logo": {
+            "id": 47,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=royal-road...&w=300&h=200"
+        },
+        "name": "Royal Roads University",
+        "slug": "royal-roads-university"
+    },
+    {
+        "config": {
+            "subdomain": "stfrancis-xavier-university.egradgifts.com"
+        },
+        "id": "7f367b22-c172-41d4-8975-ff8eae94d4bf",
+        "logo": {
+            "id": 48,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=stfrancis-...&w=300&h=200"
+        },
+        "name": "St.Francis Xavier University",
+        "slug": "stfrancis-xavier-university"
+    },
+    {
+        "config": {
+            "subdomain": "-northern-british-columbia.egradgifts.com"
+        },
+        "id": "b8b16476-06f0-4288-9977-bbe39ec03090",
+        "logo": {
+            "id": 49,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Northern British Columbia",
+        "slug": "university-of-northern-british-columbia"
+    },
+    {
+        "config": {
+            "subdomain": "northern-alberta-institute-of-technology.egradgifts.com"
+        },
+        "id": "b3fb52fe-dde9-458a-88cc-0155c6754552",
+        "logo": {
+            "id": 50,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=northern-a...&w=300&h=200"
+        },
+        "name": "Northern Alberta Institute of Technology",
+        "slug": "northern-alberta-institute-of-technology"
+    },
+    {
+        "config": {
+            "subdomain": "saint-marys-university.egradgifts.com"
+        },
+        "id": "8766458a-fae4-4ab0-b2ff-64bcb42e614c",
+        "logo": {
+            "id": 51,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=saint-mary...&w=300&h=200"
+        },
+        "name": "Saint Mary's University",
+        "slug": "saint-marys-university"
+    },
+    {
+        "config": {
+            "subdomain": "mount-allison-university.egradgifts.com"
+        },
+        "id": "365d154d-ec14-4470-86b6-f31497db428c",
+        "logo": {
+            "id": 52,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-alli...&w=300&h=200"
+        },
+        "name": "Mount Allison University",
+        "slug": "mount-allison-university"
+    },
+    {
+        "config": {
+            "subdomain": "grant-macewan-university.egradgifts.com"
+        },
+        "id": "cde18646-3c4f-4d54-aea9-22c5d4a50101",
+        "logo": {
+            "id": 53,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=grant-mace...&w=300&h=200"
+        },
+        "name": "Grant MacEwan University",
+        "slug": "grant-macewan-university"
+    },
+    {
+        "config": {
+            "subdomain": "-ontario-institute-of-technology.egradgifts.com"
+        },
+        "id": "c4f5a186-a39e-4b1c-9cfd-e4e887f42475",
+        "logo": {
+            "id": 54,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of Ontario Institute of Technology",
+        "slug": "university-of-ontario-institute-of-technology"
+    },
+    {
+        "config": {
+            "subdomain": "bishops-university.egradgifts.com"
+        },
+        "id": "2cba7056-9aef-4b8b-ad74-677484f80b3b",
+        "logo": {
+            "id": 55,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=bishops-un...&w=300&h=200"
+        },
+        "name": "Bishop's University",
+        "slug": "bishops-university"
+    },
+    {
+        "config": {
+            "subdomain": "-the-fraser-valley.egradgifts.com"
+        },
+        "id": "5d161c5b-0d2b-4011-87dd-1155b9972939",
+        "logo": {
+            "id": 56,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of the Fraser Valley",
+        "slug": "university-of-the-fraser-valley"
+    },
+    {
+        "config": {
+            "subdomain": "mount-royal-university.egradgifts.com"
+        },
+        "id": "f676fb13-7749-481c-b89a-6cc131f9d882",
+        "logo": {
+            "id": 57,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-roya...&w=300&h=200"
+        },
+        "name": "Mount Royal University",
+        "slug": "mount-royal-university"
+    },
+    {
+        "config": {
+            "subdomain": "trinity-western-university.egradgifts.com"
+        },
+        "id": "a9e1cd8f-e189-46d5-96bb-ae1872ac38fd",
+        "logo": {
+            "id": 58,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trinity-we...&w=300&h=200"
+        },
+        "name": "Trinity Western University",
+        "slug": "trinity-western-university"
+    },
+    {
+        "config": {
+            "subdomain": "capilano-university.egradgifts.com"
+        },
+        "id": "4f1fd693-d095-4030-ac2c-903ce8013862",
+        "logo": {
+            "id": 59,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=capilano-u...&w=300&h=200"
+        },
+        "name": "Capilano University",
+        "slug": "capilano-university"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec-a-trois-rivieres.egradgifts.com"
+        },
+        "id": "fe40e8a9-1b81-43d4-ad17-c03ae7b0886c",
+        "logo": {
+            "id": 60,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res",
+        "slug": "universite-du-quebec-a-trois-rivieres"
+    },
+    {
+        "config": {
+            "subdomain": "ocad-university.egradgifts.com"
+        },
+        "id": "ffd218cd-57a4-4bfa-96ab-51b86471c0a9",
+        "logo": {
+            "id": 61,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ocad-unive...&w=300&h=200"
+        },
+        "name": "OCAD University",
+        "slug": "ocad-university"
+    },
+    {
+        "config": {
+            "subdomain": "mount-saint-vincent-university.egradgifts.com"
+        },
+        "id": "8e88a83c-fe23-4c01-9411-477ac3544af1",
+        "logo": {
+            "id": 62,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-sain...&w=300&h=200"
+        },
+        "name": "Mount Saint Vincent University",
+        "slug": "mount-saint-vincent-university"
+    },
+    {
+        "config": {
+            "subdomain": "nipissing-university.egradgifts.com"
+        },
+        "id": "37003f9d-f899-4812-a33f-f5494d18899e",
+        "logo": {
+            "id": 63,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nipissing-...&w=300&h=200"
+        },
+        "name": "Nipissing University",
+        "slug": "nipissing-university"
+    },
+    {
+        "config": {
+            "subdomain": "brandon-university.egradgifts.com"
+        },
+        "id": "b3c389da-ae3f-464f-ad3a-def102a5cb28",
+        "logo": {
+            "id": 64,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brandon-un...&w=300&h=200"
+        },
+        "name": "Brandon University",
+        "slug": "brandon-university"
+    },
+    {
+        "config": {
+            "subdomain": "kwantlen-polytechnic-university.egradgifts.com"
+        },
+        "id": "364f603c-03de-407f-b078-921b1aa98455",
+        "logo": {
+            "id": 65,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kwantlen-p...&w=300&h=200"
+        },
+        "name": "Kwantlen Polytechnic University",
+        "slug": "kwantlen-polytechnic-university"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec-en-outaouais.egradgifts.com"
+        },
+        "id": "cba4e1e2-3e5f-466c-8f77-f66ac7005f39",
+        "logo": {
+            "id": 66,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec en Outaouais",
+        "slug": "universite-du-quebec-en-outaouais"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec-a-rimouski.egradgifts.com"
+        },
+        "id": "93ff2cc3-8ce6-4366-a385-1cf575b49c15",
+        "logo": {
+            "id": 67,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski",
+        "slug": "universite-du-quebec-a-rimouski"
+    },
+    {
+        "config": {
+            "subdomain": "college-militaire-royal-du-canada.egradgifts.com"
+        },
+        "id": "0f580433-d09e-4084-9232-f35d3fce23cf",
+        "logo": {
+            "id": 68,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-mi...&w=300&h=200"
+        },
+        "name": "Coll\u00e8ge militaire royal du Canada",
+        "slug": "college-militaire-royal-du-canada"
+    },
+    {
+        "config": {
+            "subdomain": "universite-du-quebec-en-abitibi-temiscamingue.egradgifts.com"
+        },
+        "id": "1547032d-2e17-43d4-b2c2-bfae1c9bea03",
+        "logo": {
+            "id": 69,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 du Qu\u00e9bec en Abitibi-T\u00e9miscamingue",
+        "slug": "universite-du-quebec-en-abitibi-temiscamingue"
+    },
+    {
+        "config": {
+            "subdomain": "emily-carr--art-and-design.egradgifts.com"
+        },
+        "id": "960eee3b-d9f4-49f5-9b1d-78cd90ec9ee5",
+        "logo": {
+            "id": 70,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=emily-carr...&w=300&h=200"
+        },
+        "name": "Emily Carr University of Art and Design",
+        "slug": "emily-carr-university-of-art-and-design"
+    },
+    {
+        "config": {
+            "subdomain": "cape-breton-university.egradgifts.com"
+        },
+        "id": "cf4e3a8c-3c0d-4499-96c8-f1387eadb732",
+        "logo": {
+            "id": 71,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=cape-breto...&w=300&h=200"
+        },
+        "name": "Cape Breton University",
+        "slug": "cape-breton-university"
+    },
+    {
+        "config": {
+            "subdomain": "sait-polytechnic.egradgifts.com"
+        },
+        "id": "b3f78d79-4c59-47e1-ac35-2cadb99f5981",
+        "logo": {
+            "id": 72,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=sait-polyt...&w=300&h=200"
+        },
+        "name": "SAIT Polytechnic",
+        "slug": "sait-polytechnic"
+    },
+    {
+        "config": {
+            "subdomain": "st-thomas-university.egradgifts.com"
+        },
+        "id": "2863684c-aed6-4a38-8545-8d56ea3c4fa0",
+        "logo": {
+            "id": 73,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200"
+        },
+        "name": "St. Thomas University",
+        "slug": "st-thomas-university"
+    },
+    {
+        "config": {
+            "subdomain": "ecole-nationale-dadministration-publique.egradgifts.com"
+        },
+        "id": "97414562-4592-4fef-9b79-82b8862b68e6",
+        "logo": {
+            "id": 74,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-nati...&w=300&h=200"
+        },
+        "name": "\u00c9cole Nationale d'Administration Publique",
+        "slug": "ecole-nationale-dadministration-publique"
+    },
+    {
+        "config": {
+            "subdomain": "algoma-university.egradgifts.com"
+        },
+        "id": "2598c9b6-b32b-43fc-a929-45198c8cb3c1",
+        "logo": {
+            "id": 75,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=algoma-uni...&w=300&h=200"
+        },
+        "name": "Algoma University",
+        "slug": "algoma-university"
+    },
+    {
+        "config": {
+            "subdomain": "universite-de-saint-boniface.egradgifts.com"
+        },
+        "id": "066b5f7e-1ad3-49af-9041-563531d4f74e",
+        "logo": {
+            "id": 76,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 de Saint-Boniface",
+        "slug": "universite-de-saint-boniface"
+    },
+    {
+        "config": {
+            "subdomain": "nscad-university.egradgifts.com"
+        },
+        "id": "141f6e93-0ee4-46d6-9e6d-07bb959b90ff",
+        "logo": {
+            "id": 77,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nscad-univ...&w=300&h=200"
+        },
+        "name": "NSCAD University",
+        "slug": "nscad-university"
+    },
+    {
+        "config": {
+            "subdomain": "-kings-college.egradgifts.com"
+        },
+        "id": "2f54f3aa-668d-43b5-a13b-983d90e5720d",
+        "logo": {
+            "id": 78,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University of King's College",
+        "slug": "university-of-kings-college"
+    },
+    {
+        "config": {
+            "subdomain": "redeemer-university-college.egradgifts.com"
+        },
+        "id": "e4a4dc2a-2ea4-49f1-b1e0-db24ab1c465d",
+        "logo": {
+            "id": 79,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=redeemer-u...&w=300&h=200"
+        },
+        "name": "Redeemer University College",
+        "slug": "redeemer-university-college"
+    },
+    {
+        "config": {
+            "subdomain": "canadian-mennonite-university.egradgifts.com"
+        },
+        "id": "071f7e14-5f32-45ee-9515-90c9d6962dc5",
+        "logo": {
+            "id": 80,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=canadian-m...&w=300&h=200"
+        },
+        "name": "Canadian Mennonite University",
+        "slug": "canadian-mennonite-university"
+    },
+    {
+        "config": {
+            "subdomain": "universite-sainte-anne.egradgifts.com"
+        },
+        "id": "ab53e983-6cf4-447f-a210-8e4d3ce1f010",
+        "logo": {
+            "id": 81,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
+        },
+        "name": "Universit\u00e9 Sainte-Anne",
+        "slug": "universite-sainte-anne"
+    },
+    {
+        "config": {
+            "subdomain": "ambrose-university.egradgifts.com"
+        },
+        "id": "3f11c1f5-114e-42e5-90a9-bce18a816ac7",
+        "logo": {
+            "id": 82,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ambrose-un...&w=300&h=200"
+        },
+        "name": "Ambrose University",
+        "slug": "ambrose-university"
+    },
+    {
+        "config": {
+            "subdomain": "luther-college.egradgifts.com"
+        },
+        "id": "a372297b-a586-44b2-aa20-87ee22340435",
+        "logo": {
+            "id": 83,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=luther-col...&w=300&h=200"
+        },
+        "name": "Luther College",
+        "slug": "luther-college"
+    },
+    {
+        "config": {
+            "subdomain": "yorkville-university.egradgifts.com"
+        },
+        "id": "08d61597-bbff-46ad-846f-3498bd63f3ec",
+        "logo": {
+            "id": 84,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=yorkville-...&w=300&h=200"
+        },
+        "name": "Yorkville University",
+        "slug": "yorkville-university"
+    },
+    {
+        "config": {
+            "subdomain": "concordia-university-college-of-alberta.egradgifts.com"
+        },
+        "id": "79fea074-293c-452c-b22d-f564911fb411",
+        "logo": {
+            "id": 85,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200"
+        },
+        "name": "Concordia University College of Alberta",
+        "slug": "concordia-university-college-of-alberta"
+    },
+    {
+        "config": {
+            "subdomain": "st-thomas-more-college.egradgifts.com"
+        },
+        "id": "293c151c-9e7f-498b-809a-7fc36507bcfc",
+        "logo": {
+            "id": 86,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200"
+        },
+        "name": "St. Thomas More College",
+        "slug": "st-thomas-more-college"
+    },
+    {
+        "config": {
+            "subdomain": "campion-college-at-the--regina.egradgifts.com"
+        },
+        "id": "17d96a83-1d2f-498d-af52-977e510f3fa4",
+        "logo": {
+            "id": 87,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=campion-co...&w=300&h=200"
+        },
+        "name": "Campion College at the University of Regina",
+        "slug": "campion-college-at-the-university-of-regina"
+    },
+    {
+        "config": {
+            "subdomain": "nicola-valley-institute-of-technology.egradgifts.com"
+        },
+        "id": "04e833d1-5469-4a5a-8d92-b8556e8d761e",
+        "logo": {
+            "id": 88,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nicola-val...&w=300&h=200"
+        },
+        "name": "Nicola Valley Institute of Technology",
+        "slug": "nicola-valley-institute-of-technology"
+    },
+    {
+        "config": {
+            "subdomain": "kingswood-university.egradgifts.com"
+        },
+        "id": "14d5d9ef-b90c-471f-8568-6bec2836a77f",
+        "logo": {
+            "id": 89,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kingswood-...&w=300&h=200"
+        },
+        "name": "Kingswood University",
+        "slug": "kingswood-university"
+    },
+    {
+        "config": {
+            "subdomain": "college-of-the-north-atlantic.egradgifts.com"
+        },
+        "id": "c471ceac-8a9e-4f29-b470-8d93c63068f1",
+        "logo": {
+            "id": 90,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-of...&w=300&h=200"
+        },
+        "name": "College of the North Atlantic",
+        "slug": "college-of-the-north-atlantic"
+    },
+    {
+        "config": {
+            "subdomain": "first-nations--canada.egradgifts.com"
+        },
+        "id": "da577031-fd42-43c4-b169-3a531faa9fd6",
+        "logo": {
+            "id": 91,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=first-nati...&w=300&h=200"
+        },
+        "name": "First Nations University of Canada",
+        "slug": "first-nations-university-of-canada"
+    },
+    {
+        "config": {
+            "subdomain": "college-universitaire-dominicain.egradgifts.com"
+        },
+        "id": "13519339-fa6c-41eb-bdd3-85a7fd95510c",
+        "logo": {
+            "id": 92,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-un...&w=300&h=200"
+        },
+        "name": "Coll\u00e8ge Universitaire Dominicain",
+        "slug": "college-universitaire-dominicain"
+    },
+    {
+        "config": {
+            "subdomain": "burman-university.egradgifts.com"
+        },
+        "id": "62ad81fa-bbca-40da-83e8-2f6e01a52a17",
+        "logo": {
+            "id": 93,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=burman-uni...&w=300&h=200"
+        },
+        "name": "Burman University",
+        "slug": "burman-university"
+    },
+    {
+        "config": {
+            "subdomain": "the-kings-university-college.egradgifts.com"
+        },
+        "id": "6363eda6-f0e3-4244-b565-c53c07c4b7b2",
+        "logo": {
+            "id": 94,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-kings-...&w=300&h=200"
+        },
+        "name": "The King's University College",
+        "slug": "the-kings-university-college"
+    },
+    {
+        "config": {
+            "subdomain": "aurora-college.egradgifts.com"
+        },
+        "id": "c26b509e-ea4e-4190-8b01-0e84ea45a559",
+        "logo": {
+            "id": 95,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=aurora-col...&w=300&h=200"
+        },
+        "name": "Aurora College",
+        "slug": "aurora-college"
+    },
+    {
+        "config": {
+            "subdomain": "crandall-university.egradgifts.com"
+        },
+        "id": "fd030564-2fde-4bd1-be24-ff89290adff3",
+        "logo": {
+            "id": 96,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=crandall-u...&w=300&h=200"
+        },
+        "name": "Crandall University",
+        "slug": "crandall-university"
+    },
+    {
+        "config": {
+            "subdomain": "st-stephens-university.egradgifts.com"
+        },
+        "id": "18a94de7-c57e-47db-ae3e-4d0981e84d3d",
+        "logo": {
+            "id": 97,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-stephen...&w=300&h=200"
+        },
+        "name": "St. Stephen's University",
+        "slug": "st-stephens-university"
+    },
+    {
+        "config": {
+            "subdomain": "st-marys-university-college.egradgifts.com"
+        },
+        "id": "f6e62182-b5b3-4940-b9ba-e7bcb90dab67",
+        "logo": {
+            "id": 98,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-marys-u...&w=300&h=200"
+        },
+        "name": "St. Mary's University College",
+        "slug": "st-marys-university-college"
+    },
+    {
+        "config": {
+            "subdomain": "university-canada-west.egradgifts.com"
+        },
+        "id": "a578493c-b8cd-47a1-965a-4101649b629c",
+        "logo": {
+            "id": 99,
+            "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
+        },
+        "name": "University Canada West",
+        "slug": "university-canada-west"
+    }
+]

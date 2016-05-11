@@ -3,15 +3,15 @@
 
   /**
    * @ngdoc overview
-   * @name app.docs tests
-   * @description Docs tests
+   * @name app.schools tests
+   * @description Schools tests
    * @todo Inject AutheticationService
    *
    */
-  describe('should provide DocsListController', function () {
+  describe('should provide SchoolsListController', function () {
 
     var // AuthenticationMock,
-      docsServiceMock,
+      schoolsServiceMock,
       controller;
 
     var $httpBackend,
@@ -21,7 +21,7 @@
       $state;
 
     beforeEach(function () {
-      module('app.docs');
+      module('app.schools');
       module('app.auth');
     });
 
@@ -34,16 +34,16 @@
       $scope = $rootScope.$new();
     }));
 
-    beforeEach(inject(function (_DocsServiceMock_) {
+    beforeEach(inject(function (_SchoolsServiceMock_) {
 
       // AuthenticationMock = _AuthenticationMock_;
-      docsServiceMock = _DocsServiceMock_; // (2)
+      schoolsServiceMock = _SchoolsServiceMock_; // (2)
 
-      controller = $controller('DocsListController', {
+      controller = $controller('SchoolsListController', {
         $scope: $scope,
         $state: $state,
         // Authentication: _AuthenticationMock_,
-        docsService: docsServiceMock
+        schoolsService: schoolsServiceMock
       });
 
     }));

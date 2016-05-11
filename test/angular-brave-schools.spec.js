@@ -3,20 +3,20 @@
 
   /**
    * @ngdoc overview
-   * @name app.docs
-   * @description app.docs tests
+   * @name app.schools
+   * @description app.schools tests
    *
    */
-  describe('app.docs module', function () {
+  describe('app.schools module', function () {
 
     beforeEach(function () {
-      module('app.docs');
+      module('app.schools');
       module('app.auth');
     });
 
     describe('value - version', function () {
       it('should return current version', inject(function (version) {
-        expect(version).toEqual('0.0.7');
+        expect(version).toEqual('0.0.1');
       }));
     });
 

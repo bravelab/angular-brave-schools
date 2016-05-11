@@ -2,32 +2,32 @@
   'use strict';
 
   angular
-    .module('app.docs')
-    .controller('DocsListController', DocsListController);
+    .module('app.schools')
+    .controller('SchoolsListController', SchoolsListController);
 
-  DocsListController.$inject = ['$scope'];
+  SchoolsListController.$inject = ['$scope'];
 
   /**
    *
    * @param {Object} $scope - Scope
    * @constructor
      */
-  function DocsListController($scope) {
+  function SchoolsListController($scope) {
     var vm = this;
 
-    vm.docs = $scope.docs;
+    vm.schools = $scope.schools;
 
     activate();
 
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf app.docs.DocsListController
+     * @memberOf app.schools.SchoolsListController
      */
     function activate() {
-      $scope.$watch('docs', function (newValue, oldValue) {
+      $scope.$watch('schools', function (newValue, oldValue) {
         if (newValue !== oldValue) {
-          vm.docs = newValue;
+          vm.schools = newValue;
         }
       });
     }

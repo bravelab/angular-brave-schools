@@ -1,12 +1,12 @@
 {
-  "name": "angular-brave-docs",
+  "name": "angular-brave-schools",
   "authors": [
     "Mariusz Smenżyk <mariusz.smenzyk@sizeof.pl>"
   ],
-  "description": "Docs module for SmartAdmin",
-  "main": "./dist/angular-brave-docs.js",
+  "description": "Schools module for SmartAdmin",
+  "main": "./dist/angular-brave-schools.js",
   "keywords": [
-    "Docs",
+    "Schools",
     "SmartAdmin"
   ],
   "license": "MIT",

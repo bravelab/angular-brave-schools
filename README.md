@@ -1,18 +1,18 @@
-ngBraveDocs App for SmartAdmin AngularJS
-========================================
+ngBraveSchools App for SmartAdmin AngularJS
+==============---==========================
 
 Development
 -----------
 To run the code in your development environment:
 
-1. Run `git clone --recursive git@bitbucket.org:sizeof/angular-brave-docs.git angular-brave-docs`
+1. Run `git clone --recursive git@bitbucket.org:sizeof/angular-brave-schools.git angular-brave-schools`
 2. Run `npm install`
 3. Run `gulp` for watch changes in code
 
 For develop module on local
 
 1. Run `bower link` on component directory
-2. Go to the app root directory and run `bower link angular-brave-docs`
+2. Go to the app root directory and run `bower link angular-brave-schools`
 3. Run `gulp test` for karma tests
 
 Production
@@ -28,21 +28,21 @@ To build minified version:
 Configuration
 -------------
 
-You can use `BraveDocsProvider` to set some module parameters like base apiUrl, templates. E.g:
+You can use `BraveSchoolsProvider` to set some module parameters like base apiUrl, templates. E.g:
 
 ```
 
-    angular.module('your-module', ['app.docs']
-      .config(function (BraveDocsProvider, APP_CONFIG) {
+    angular.module('your-module', ['app.schools']
+      .config(function (BraveSchoolsProvider, APP_CONFIG) {
       
         // Set base api url
-        BraveDocsProvider.setApiUrl(APP_CONFIG.apiUrl);
+        BraveSchoolsProvider.setApiUrl(APP_CONFIG.apiUrl);
         
         // Set config for docs module
-        BraveDocsProvider.setTemplates({
-            index: 'bower_components/angular-brave-docs/src/templates/docs.html',
-            list: 'bower_components/angular-brave-docs/src/templates/docs-list.html',
-            detail: 'bower_components/angular-brave-docs/src/templates/docs-detail.html'
+        BraveSchoolsProvider.setTemplates({
+            index: 'bower_components/angular-brave-schools/src/templates/schools.html',
+            list: 'bower_components/angular-brave-schools/src/templates/schools-list.html',
+            detail: 'bower_components/angular-brave-schools/src/templates/schools-detail.html'
         });
         
     ....
