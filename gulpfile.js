@@ -76,7 +76,7 @@
   });
 
   gulp.task('watch', function () {
-    gulp.watch(config.lint.src, ['lint', 'test']);
+    gulp.watch(config.lint.src, ['lint', 'dist']);
   });
 
   gulp.task('default', ['watch']);

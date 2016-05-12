@@ -18,6 +18,7 @@
       $controller,
       $rootScope,
       $scope,
+      $filter,
       $state;
 
     beforeEach(function () {
@@ -27,6 +28,7 @@
 
     beforeEach(inject(function ($injector) {
       $state = $injector.get('$state');
+      $filter = $injector.get('$filter');
       $rootScope = $injector.get('$rootScope');
       $httpBackend = $injector.get('$httpBackend');
       $controller = $injector.get('$controller');
@@ -42,6 +44,7 @@
       controller = $controller('SchoolsController', {
         $scope: $scope,
         $state: $state,
+        $filter: $filter,
         // Authentication: _AuthenticationMock_,
         schoolsService: schoolsServiceMock
       });
@@ -52,7 +55,7 @@
       expect(controller).toBeDefined();
     }));
 
-    it('should have school in scope', inject(function () {
+    it('should have schools in scope', inject(function () {
 
       $httpBackend.whenGET('/api/schools').respond(schoolsServiceMock.list);
       $httpBackend.flush();

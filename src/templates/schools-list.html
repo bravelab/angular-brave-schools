@@ -1,10 +1,50 @@
-<div>
-    <input ng-model="q" id="search" class="form-control" placeholder="Filter text">
-    <ul>
-        <li ng-repeat="school in vm.schools | filter:q">
-            <a ui-sref="app.schools.detail({ id: school.id, slug: school.slug })">
+<div id="schools-list" class="row-fluid">
+    <style>
+        #schools-list span.bold a {
+            color: red;
+        }
+
+        #schools-list .columns {
+            float: left;
+        }
+
+    </style>
+
+    <div class="col-md-12 search-box">
+        <span>SELECT YOUR SCHOOL</span>
+        <form class="form-inline search-form pull-right">
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" ng-change="search(q)" ng-model="q"
+                           placeholder="Search...">
+                    <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                </div>
+            </div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="col-md-12 well">
+        <div class="letter-filter">
+            <span ng-repeat="item in letters" ng-class="{'bold': item == letter}">
+                <a ng-click="setLetter(item)">{{ item }} </a> •
+            </span>
+            <span>
+                <a ng-click="reset()">All</a>
+            </span>
+        </div>
+    </div>
+
+    <div class="col-md-12 school-list">
+        Found: {{ schools.length }}<br/><br/>
+        <ul ng-repeat="column in columns" class="small-12 medium-4 columns">
+          <li ng-repeat="school in schools | slice:column.start:column.end">
+             <a ui-sref="app.schools.detail({ id: school.id, slug: school.slug })">
                 {{ school.name }}
             </a>
-        </li>
-    </ul>
+          </li>
+        </ul>
+    </div>
+
 </div>
+

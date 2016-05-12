@@ -27,8 +27,7 @@ module.exports = function(config) {
       'bower_components/ngstorage/ngStorage.min.js',
       'bower_components/angular-cookies/angular-cookies.min.js',
       'bower_components/angular-brave-auth/dist/angular-brave-auth.min.js',
-      'bower_components/angular-bootstrap/ui-bootstrap.min.js',
-      'bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js',
+
 
       'src/**/*.js',
       'test/**/*.spec.js'
@@ -50,7 +49,7 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      "Chrome"
+      "PhantomJS"
     ],
 
     // Which plugins to enable
