@@ -8,7 +8,7 @@
    */
   angular
     .module('app.schools', ['ui.router', 'app.auth'])
-    .value('version', '0.0.1');
+    .value('version', '0.0.2');
 
 })();
 

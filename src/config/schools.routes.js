@@ -34,7 +34,7 @@
     });
 
     $stateProvider.state('app.schools.list', {
-      parent: 'app.schools',
+      parent: 'app.schools.all',
       url: '/all',
       templateUrl: function () {
         return braveSchoolsProvider.templates['list'];
