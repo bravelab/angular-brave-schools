@@ -33,7 +33,7 @@
       $scope.letter = '';
       $scope.letters = [];
       $scope.columns = [];
-      $scope.columnCount = 4;
+      $scope.columnCount = 3;
 
       var calculateColumns = function() {
         var itemsPerColumn = Math.ceil($scope.schools.length / $scope.columnCount);

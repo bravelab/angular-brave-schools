@@ -23,6 +23,9 @@
     $stateProvider.state('app.schools', {
       url: '/schools',
       views: {
+        root: {
+          templateUrl: 'app/layout/templates/master.tpl.html'
+        },
         'content@app': {
           templateUrl: function () {
             return braveSchoolsProvider.templates['index'];
@@ -34,7 +37,7 @@
     });
 
     $stateProvider.state('app.schools.list', {
-      parent: 'app.schools.all',
+      parent: 'app.schools',
       url: '/all',
       templateUrl: function () {
         return braveSchoolsProvider.templates['list'];
