@@ -8,7 +8,7 @@
    */
   angular
     .module('brave.schools', ['ui.router', 'app.auth'])
-    .value('version', '0.0.2');
+    .value('version', '0.0.3');
 
 })();
 
