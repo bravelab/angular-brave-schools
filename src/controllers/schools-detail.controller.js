@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .controller('SchoolsDetailController', SchoolsDetailController);
 
   SchoolsDetailController.$inject = ['$scope', '$stateParams', 'SchoolsService'];

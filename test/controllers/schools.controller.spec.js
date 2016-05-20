@@ -22,7 +22,7 @@
       $state;
 
     beforeEach(function () {
-      module('app.schools');
+      module('brave.schools');
       module('app.auth');
     });
 

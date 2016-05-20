@@ -42,7 +42,7 @@
         Found: {{ schools.length }}<br/><br/>
         <ul ng-repeat="column in columns" class=" columns">
           <li ng-repeat="school in schools | slice:column.start:column.end">
-             <a ui-sref="app.schools.detail({ id: school.id, slug: school.slug })">
+             <a ui-sref="braveSchools.detail({ id: school.id, slug: school.slug })">
                 {{ school.name }}
             </a>
           </li>

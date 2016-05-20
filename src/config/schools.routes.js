@@ -9,7 +9,7 @@
    * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
    */
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .config(routes);
 
   routes.$inject = ['$stateProvider', 'BraveSchoolsProvider'];
@@ -20,7 +20,7 @@
    */
   function routes($stateProvider, braveSchoolsProvider) {
 
-    $stateProvider.state('app.schools', {
+    $stateProvider.state('braveSchools', {
       url: '/schools',
       views: {
         root: {
@@ -36,8 +36,7 @@
       }
     });
 
-    $stateProvider.state('app.schools.list', {
-      parent: 'app.schools',
+    $stateProvider.state('braveSchools.list', {
       url: '/all',
       templateUrl: function () {
         return braveSchoolsProvider.templates['list'];
@@ -46,8 +45,7 @@
       controllerAs: 'vm'
     });
 
-    $stateProvider.state('app.schools.detail', {
-      parent: 'app.schools',
+    $stateProvider.state('braveSchools.detail', {
       url: '/:id/:slug',
       templateUrl: function () {
         return braveSchoolsProvider.templates['detail'];
@@ -55,7 +53,6 @@
       controller: 'SchoolsDetailController',
       controllerAs: 'vm'
     });
-
   }
 
 })();

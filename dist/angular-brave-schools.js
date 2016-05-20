@@ -7,7 +7,7 @@
    * @description Schools module for SmartAdmin
    */
   angular
-    .module('app.schools', ['ui.router', 'app.auth'])
+    .module('brave.schools', ['ui.router', 'app.auth'])
     .value('version', '0.0.2');
 
 })();
@@ -23,7 +23,7 @@
    * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
    */
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .config(routes);
 
   routes.$inject = ['$stateProvider', 'BraveSchoolsProvider'];
@@ -34,7 +34,7 @@
    */
   function routes($stateProvider, braveSchoolsProvider) {
 
-    $stateProvider.state('app.schools', {
+    $stateProvider.state('braveSchools', {
       url: '/schools',
       views: {
         root: {
@@ -50,8 +50,7 @@
       }
     });
 
-    $stateProvider.state('app.schools.list', {
-      parent: 'app.schools',
+    $stateProvider.state('braveSchools.list', {
       url: '/all',
       templateUrl: function () {
         return braveSchoolsProvider.templates['list'];
@@ -60,8 +59,7 @@
       controllerAs: 'vm'
     });
 
-    $stateProvider.state('app.schools.detail', {
-      parent: 'app.schools',
+    $stateProvider.state('braveSchools.detail', {
       url: '/:id/:slug',
       templateUrl: function () {
         return braveSchoolsProvider.templates['detail'];
@@ -69,7 +67,6 @@
       controller: 'SchoolsDetailController',
       controllerAs: 'vm'
     });
-
   }
 
 })();
@@ -78,7 +75,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .controller('SchoolsDetailController', SchoolsDetailController);
 
   SchoolsDetailController.$inject = ['$scope', '$stateParams', 'SchoolsService'];
@@ -115,7 +112,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .controller('SchoolsListController', SchoolsListController);
 
   SchoolsListController.$inject = ['$scope'];
@@ -152,7 +149,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .controller('SchoolsController', SchoolsController);
 
   SchoolsController.$inject = ['$scope', '$state', '$filter', 'SchoolsService'];
@@ -257,7 +254,7 @@
        * @desc Redirect to index and show error Snackbar
        */
       function schoolErrorFn() {
-        $state.transitionTo('app.schools');
+        $state.transitionTo('brave.schools');
       }
     }
   }
@@ -272,7 +269,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .filter('firstLetters', [function () {
       return function (list, key) {
         if (typeof list === 'undefined') {
@@ -300,7 +297,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .filter('slice', function () {
       return function (arr, start, end) {
         return arr.slice(start, end);
@@ -317,7 +314,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .filter('startsWithLetter', [function () {
       return function (list, letter) {
         if (typeof list === 'undefined') {
@@ -338,6 +335,84 @@
 
 }());
 
+/**
+ * School
+ * @namespace app.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('Config', Config);
+
+  Config.$inject = [];
+
+  function Config() {
+
+    var factory = function (data) {
+      this.subdomain = data.subdomain;
+    };
+
+    return factory;
+  }
+
+}());
+
+/**
+ * School
+ * @namespace app.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('Logo', Logo);
+
+  Logo.$inject = [];
+
+  function Logo() {
+
+    var factory = function (data) {
+      this.id = data.id;
+      this.url = data.url;
+    };
+
+    return factory;
+  }
+
+}());
+
+/**
+ * School
+ * @namespace app.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('School', School);
+
+  School.$inject = ['Logo', 'Config'];
+
+  function School(Logo, Config) {
+
+    var factory = function (data) {
+      this.id = data.id;
+      this.name = data.name;
+      this.slug = data.slug;
+      this.logo = new Logo(data.logo);
+      this.config = new Config(data.config);
+    };
+
+    return factory;
+  }
+
+}());
+
+
 (function () {
   'use strict';
 
@@ -347,7 +422,7 @@
    * @description Config provider for app.schools
    */
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .provider('BraveSchools', function () {
 
       this.apiUrl = '/api';
@@ -391,90 +466,12 @@
 
 
 
-/**
- * School
- * @namespace app.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('app.schools')
-    .factory('Config', Config);
-
-  Config.$inject = [];
-
-  function Config() {
-
-    var factory = function (data) {
-      this.subdomain = data.subdomain;
-    };
-
-    return factory;
-  }
-
-}());
-
-/**
- * School
- * @namespace app.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('app.schools')
-    .factory('Logo', Logo);
-
-  Logo.$inject = [];
-
-  function Logo() {
-
-    var factory = function (data) {
-      this.id = data.id;
-      this.url = data.url;
-    };
-
-    return factory;
-  }
-
-}());
-
-/**
- * School
- * @namespace app.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('app.schools')
-    .factory('School', School);
-
-  School.$inject = ['Logo', 'Config'];
-
-  function School(Logo, Config) {
-
-    var factory = function (data) {
-      this.id = data.id;
-      this.name = data.name;
-      this.slug = data.slug;
-      this.logo = new Logo(data.logo);
-      this.config = new Config(data.config);
-    };
-
-    return factory;
-  }
-
-}());
-
-
 (function () {
 
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('SchoolsServiceMock', ['$q', 'School', function ($q, School) {
 
       var mock = {
@@ -512,7 +509,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('SchoolsService', SchoolsService);
 
   SchoolsService.$inject = ['$http', '$q', 'BraveSchools', 'SchoolTransformer', 'SchoolListTransformer'];
@@ -604,7 +601,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('SchoolListTransformer', SchoolListTransformer);
 
   SchoolListTransformer.$inject = ['$filter', 'School'];
@@ -634,7 +631,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('SchoolTransformer', SchoolTransformer);
 
   SchoolTransformer.$inject = ['School'];

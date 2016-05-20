@@ -7,7 +7,7 @@
    * @description Config provider for app.schools
    */
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .provider('BraveSchools', function () {
 
       this.apiUrl = '/api';

@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('Logo', Logo);
 
   Logo.$inject = [];

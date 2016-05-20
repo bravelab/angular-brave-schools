@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .filter('startsWithLetter', [function () {
       return function (list, letter) {
         if (typeof list === 'undefined') {

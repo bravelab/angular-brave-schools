@@ -7,7 +7,7 @@
    * @description Schools module for SmartAdmin
    */
   angular
-    .module('app.schools', ['ui.router', 'app.auth'])
+    .module('brave.schools', ['ui.router', 'app.auth'])
     .value('version', '0.0.2');
 
 })();

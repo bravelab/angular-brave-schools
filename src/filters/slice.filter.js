@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .filter('slice', function () {
       return function (arr, start, end) {
         return arr.slice(start, end);

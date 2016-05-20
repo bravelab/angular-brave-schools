@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('SchoolsService', SchoolsService);
 
   SchoolsService.$inject = ['$http', '$q', 'BraveSchools', 'SchoolTransformer', 'SchoolListTransformer'];

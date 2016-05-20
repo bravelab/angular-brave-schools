@@ -32,7 +32,7 @@ You can use `BraveSchoolsProvider` to set some module parameters like base apiUr
 
 ```
 
-    angular.module('your-module', ['app.schools']
+    angular.module('your-module', ['brave.schools']
       .config(function (BraveSchoolsProvider, APP_CONFIG) {
       
         // Set base api url

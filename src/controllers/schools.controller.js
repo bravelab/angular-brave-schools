@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .controller('SchoolsController', SchoolsController);
 
   SchoolsController.$inject = ['$scope', '$state', '$filter', 'SchoolsService'];
@@ -107,7 +107,7 @@
        * @desc Redirect to index and show error Snackbar
        */
       function schoolErrorFn() {
-        $state.transitionTo('app.schools');
+        $state.transitionTo('brave.schools');
       }
     }
   }

@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('app.schools')
+    .module('brave.schools')
     .factory('SchoolsServiceMock', ['$q', 'School', function ($q, School) {
 
       var mock = {
