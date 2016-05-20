@@ -384,10 +384,6 @@
 
 }());
 
-/**
- * School
- * @namespace app.schools
- */
 (function () {
   'use strict';
 
