@@ -4,7 +4,7 @@
   /**
    * @ngdoc overview
    * @name app.schools
-   * @description app.schools tests
+   * @description brave.schools tests
    *
    */
   describe('app.schools module', function () {
