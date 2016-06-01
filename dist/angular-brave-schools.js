@@ -8,7 +8,7 @@
    */
   angular
     .module('brave.schools', ['ui.router'])
-    .value('version', '0.0.7');
+    .value('version', '0.0.9');
 
 })();
 
@@ -375,60 +375,6 @@
 
 }());
 
-(function () {
-  'use strict';
-
-  /**
-   * @ngdoc overview
-   * @name app [brave.schools]
-   * @description Config provider for brave.schools
-   */
-  angular
-    .module('brave.schools')
-    .provider('BraveSchools', function () {
-
-      this.apiUrl = '/api';
-      this.endpoint = '/schools';
-
-
-      this.templates = {
-        index: 'templates/schools.html',
-        list: 'templates/schools-list.html',
-        detail: 'templates/schools-detail.html'
-      };
-
-      this.$get = function () {
-        var apiUrl = this.apiUrl;
-        var templates = this.templates;
-        var endpoint = this.endpoint;
-
-        return {
-          getApiUrl: function () {
-            return apiUrl;
-          },
-          getTemplates: function () {
-            return templates;
-          },
-          getEndpoint: function () {
-            return apiUrl + endpoint;
-          }
-        };
-      };
-
-      this.setApiUrl = function (apiUrl) {
-        this.apiUrl = apiUrl;
-      };
-
-      this.setTemplates = function (templates) {
-        this.templates = templates;
-      };
-
-    });
-
-})();
-
-
-
 /**
  * School
  * @namespace brave.schools
@@ -531,6 +477,60 @@
   }
 
 }());
+
+(function () {
+  'use strict';
+
+  /**
+   * @ngdoc overview
+   * @name app [brave.schools]
+   * @description Config provider for brave.schools
+   */
+  angular
+    .module('brave.schools')
+    .provider('BraveSchools', function () {
+
+      this.apiUrl = '/api';
+      this.endpoint = '/schools';
+
+
+      this.templates = {
+        index: 'templates/schools.html',
+        list: 'templates/schools-list.html',
+        detail: 'templates/schools-detail.html'
+      };
+
+      this.$get = function () {
+        var apiUrl = this.apiUrl;
+        var templates = this.templates;
+        var endpoint = this.endpoint;
+
+        return {
+          getApiUrl: function () {
+            return apiUrl;
+          },
+          getTemplates: function () {
+            return templates;
+          },
+          getEndpoint: function () {
+            return apiUrl + endpoint;
+          }
+        };
+      };
+
+      this.setApiUrl = function (apiUrl) {
+        this.apiUrl = apiUrl;
+      };
+
+      this.setTemplates = function (templates) {
+        this.templates = templates;
+      };
+
+    });
+
+})();
+
+
 
 (function () {
   'use strict';

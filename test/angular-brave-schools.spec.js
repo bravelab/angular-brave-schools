@@ -15,7 +15,7 @@
 
     describe('value - version', function () {
       it('should return current version', inject(function (version) {
-        expect(version).toEqual('0.0.8');
+        expect(version).toEqual('0.0.9');
       }));
     });
 
