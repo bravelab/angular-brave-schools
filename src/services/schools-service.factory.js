@@ -76,6 +76,7 @@
     function getAll() {
       return $http({
         method: 'GET',
+        cache: true,
         url: endpoint,
         transformResponse: schoolListTransformer
       })

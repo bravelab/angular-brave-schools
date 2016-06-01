@@ -8,7 +8,7 @@
    */
   angular
     .module('brave.schools', ['ui.router'])
-    .value('version', '0.0.6');
+    .value('version', '0.0.7');
 
 })();
 
@@ -310,6 +310,80 @@
 
   angular
     .module('brave.schools')
+    .filter('firstLetters', [function () {
+      return function (list, key) {
+        if (typeof list === 'undefined') {
+          return list;
+        } else {
+          var firstLetters = [];
+          list.forEach(function (item) {
+            var firstLetter = item[key].charAt(0);
+            if (firstLetters.indexOf(firstLetter) === -1) {
+              firstLetters.push(firstLetter);
+            }
+          });
+          return firstLetters;
+        }
+      };
+    }]);
+
+}());
+
+/**
+ * School
+ * @namespace brave.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .filter('slice', function () {
+      return function (arr, start, end) {
+        return arr.slice(start, end);
+      };
+    });
+
+}());
+
+/**
+ * School
+ * @namespace brave.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .filter('startsWithLetter', [function () {
+      return function (list, letter) {
+        if (typeof list === 'undefined') {
+          return list;
+        } else {
+          var filtered = [];
+          var letterMatch = new RegExp(letter, 'i');
+          for (var i = 0; i < list.length; i++) {
+            var item = list[i];
+            if (letterMatch.test(item.name.substring(0, 1))) {
+              filtered.push(item);
+            }
+          }
+          return filtered;
+        }
+      };
+    }]);
+
+}());
+
+/**
+ * School
+ * @namespace brave.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
     .factory('Config', Config);
 
   Config.$inject = [];
@@ -401,80 +475,6 @@
 
     return factory;
   }
-
-}());
-
-/**
- * School
- * @namespace brave.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .filter('firstLetters', [function () {
-      return function (list, key) {
-        if (typeof list === 'undefined') {
-          return list;
-        } else {
-          var firstLetters = [];
-          list.forEach(function (item) {
-            var firstLetter = item[key].charAt(0);
-            if (firstLetters.indexOf(firstLetter) === -1) {
-              firstLetters.push(firstLetter);
-            }
-          });
-          return firstLetters;
-        }
-      };
-    }]);
-
-}());
-
-/**
- * School
- * @namespace brave.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .filter('slice', function () {
-      return function (arr, start, end) {
-        return arr.slice(start, end);
-      };
-    });
-
-}());
-
-/**
- * School
- * @namespace brave.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .filter('startsWithLetter', [function () {
-      return function (list, letter) {
-        if (typeof list === 'undefined') {
-          return list;
-        } else {
-          var filtered = [];
-          var letterMatch = new RegExp(letter, 'i');
-          for (var i = 0; i < list.length; i++) {
-            var item = list[i];
-            if (letterMatch.test(item.name.substring(0, 1))) {
-              filtered.push(item);
-            }
-          }
-          return filtered;
-        }
-      };
-    }]);
 
 }());
 
@@ -703,6 +703,7 @@
     function getAll() {
       return $http({
         method: 'GET',
+        cache: true,
         url: endpoint,
         transformResponse: schoolListTransformer
       })
