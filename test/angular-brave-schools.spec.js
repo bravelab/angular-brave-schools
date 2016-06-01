@@ -11,12 +11,11 @@
 
     beforeEach(function () {
       module('brave.schools');
-      module('app.auth');
     });
 
     describe('value - version', function () {
       it('should return current version', inject(function (version) {
-        expect(version).toEqual('0.0.4');
+        expect(version).toEqual('0.0.5');
       }));
     });
 

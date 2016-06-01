@@ -22,7 +22,6 @@
 
     beforeEach(function () {
       module('brave.schools');
-      module('app.auth');
     });
 
     beforeEach(inject(function ($injector) {

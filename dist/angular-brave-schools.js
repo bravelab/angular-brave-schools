@@ -7,8 +7,8 @@
    * @description Schools module for SmartAdmin
    */
   angular
-    .module('brave.schools', ['ui.router', 'app.auth'])
-    .value('version', '0.0.4');
+    .module('brave.schools', ['ui.router'])
+    .value('version', '0.0.5');
 
 })();
 
@@ -22,11 +22,11 @@
 
       var factory = {
         skin: {
-          name: 'smart-style-egrad',
+          name: 'egradgifts',
           logo: 'themes/egrad/assets/img/logo.png',
           class: 'btn btn-block btn-xs txt-color-white margin-right-5',
           style: 'background-color:#4E653F;',
-          label: 'Default Egrad Style'
+          label: 'Default egradgifts style'
         }
       };
       return factory;
@@ -564,13 +564,13 @@
     return factory;
 
     function reset() {
-      delete $localStorage.school;
-      $rootScope.skin = appConfig.skin;
+      delete $localStorage['instance'];
+      $rootScope.instance = appConfig.instance;
     }
 
     function setSchool(school) {
-      $localStorage.school = school;
-      $rootScope.skin = school.skin;
+      $localStorage.instance = school;
+      $rootScope.instance = school;
       $state.transitionTo('homeHome.index');
     }
   }

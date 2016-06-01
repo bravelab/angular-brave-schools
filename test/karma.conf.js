@@ -27,8 +27,6 @@ module.exports = function(config) {
       'bower_components/underscore/underscore-min.js',
       'bower_components/ngstorage/ngStorage.min.js',
       'bower_components/angular-cookies/angular-cookies.min.js',
-      'bower_components/angular-brave-auth/dist/angular-brave-auth.min.js',
-
 
       'src/**/*.js',
       'test/**/*.spec.js'

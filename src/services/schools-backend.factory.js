@@ -30,13 +30,13 @@
     return factory;
 
     function reset() {
-      delete $localStorage.school;
-      $rootScope.skin = appConfig.skin;
+      delete $localStorage['instance'];
+      $rootScope.instance = appConfig.instance;
     }
 
     function setSchool(school) {
-      $localStorage.school = school;
-      $rootScope.skin = school.skin;
+      $localStorage.instance = school;
+      $rootScope.instance = school;
       $state.transitionTo('homeHome.index');
     }
   }
