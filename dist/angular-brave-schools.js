@@ -8,89 +8,7 @@
    */
   angular
     .module('brave.schools', ['ui.router'])
-    .value('version', '0.0.9');
-
-})();
-
-(function () {
-
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .factory('appConfigMock', [function () {
-
-      var factory = {
-        skin: {
-          name: 'egradgifts',
-          logo: 'themes/egrad/assets/img/logo.png',
-          class: 'btn btn-block btn-xs txt-color-white margin-right-5',
-          style: 'background-color:#4E653F;',
-          label: 'Default egradgifts style'
-        }
-      };
-      return factory;
-
-    }]);
-
-})();
-
-(function () {
-  'use strict';
-
-
-  /**
-   * @ngdoc routes
-   * @name app [brave.schools]
-   * @description Routes configuration brave.schools
-   * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
-   */
-  angular
-    .module('brave.schools')
-    .config(routes);
-
-  routes.$inject = ['$stateProvider', 'BraveSchoolsProvider'];
-
-  /*
-   * @name routes
-   * @desc Define valid application routes.
-   */
-  function routes($stateProvider, braveSchoolsProvider) {
-
-    $stateProvider.state('braveSchools', {
-      url: '/schools',
-      views: {
-        root: {
-          templateUrl: 'app/layout/templates/master.tpl.html'
-        },
-        'content@app': {
-          templateUrl: function () {
-            return braveSchoolsProvider.templates['index'];
-          },
-          controller: 'SchoolsController',
-          controllerAs: 'vm'
-        }
-      }
-    });
-
-    $stateProvider.state('braveSchools.list', {
-      url: '/all',
-      templateUrl: function () {
-        return braveSchoolsProvider.templates['list'];
-      },
-      controller: 'SchoolsListController',
-      controllerAs: 'vm'
-    });
-
-    $stateProvider.state('braveSchools.detail', {
-      url: '/:id/:slug',
-      templateUrl: function () {
-        return braveSchoolsProvider.templates['detail'];
-      },
-      controller: 'SchoolsDetailController',
-      controllerAs: 'vm'
-    });
-  }
+    .value('version', '0.0.10');
 
 })();
 
@@ -375,6 +293,88 @@
 
 }());
 
+(function () {
+
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('appConfigMock', [function () {
+
+      var factory = {
+        skin: {
+          name: 'egradgifts',
+          logo: 'themes/egrad/assets/img/logo.png',
+          class: 'btn btn-block btn-xs txt-color-white margin-right-5',
+          style: 'background-color:#4E653F;',
+          label: 'Default egradgifts style'
+        }
+      };
+      return factory;
+
+    }]);
+
+})();
+
+(function () {
+  'use strict';
+
+
+  /**
+   * @ngdoc routes
+   * @name app [brave.schools]
+   * @description Routes configuration brave.schools
+   * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
+   */
+  angular
+    .module('brave.schools')
+    .config(routes);
+
+  routes.$inject = ['$stateProvider', 'BraveSchoolsProvider'];
+
+  /*
+   * @name routes
+   * @desc Define valid application routes.
+   */
+  function routes($stateProvider, braveSchoolsProvider) {
+
+    $stateProvider.state('braveSchools', {
+      url: '/schools',
+      views: {
+        root: {
+          templateUrl: 'app/layout/templates/master.tpl.html'
+        },
+        'content@app': {
+          templateUrl: function () {
+            return braveSchoolsProvider.templates['index'];
+          },
+          controller: 'SchoolsController',
+          controllerAs: 'vm'
+        }
+      }
+    });
+
+    $stateProvider.state('braveSchools.list', {
+      url: '/all',
+      templateUrl: function () {
+        return braveSchoolsProvider.templates['list'];
+      },
+      controller: 'SchoolsListController',
+      controllerAs: 'vm'
+    });
+
+    $stateProvider.state('braveSchools.detail', {
+      url: '/:id/:slug',
+      templateUrl: function () {
+        return braveSchoolsProvider.templates['detail'];
+      },
+      controller: 'SchoolsDetailController',
+      controllerAs: 'vm'
+    });
+  }
+
+})();
+
 /**
  * School
  * @namespace brave.schools
@@ -568,6 +568,7 @@
         stylesheet: 'build/css/prod/' + slug + '/main.min.css'
       };
 
+      $('head link#skin').attr('href', $rootScope.theme.stylesheet);
     }
 
 

@@ -34,6 +34,7 @@
         stylesheet: 'build/css/prod/' + slug + '/main.min.css'
       };
 
+      $('head link#skin').attr('href', $rootScope.theme.stylesheet);
     }
 
 

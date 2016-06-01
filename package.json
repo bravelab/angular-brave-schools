@@ -2,7 +2,7 @@
   "name": "angular-brave-schools",
   "description": "Generic schools module for SmartAdmin",
   "main": "dist/angular-brave-schools.min.js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": true,
   "license": "MIT",
   "author": {

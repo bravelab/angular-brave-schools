@@ -8,6 +8,6 @@
    */
   angular
     .module('brave.schools', ['ui.router'])
-    .value('version', '0.0.9');
+    .value('version', '0.0.10');
 
 })();
