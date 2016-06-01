@@ -11,7 +11,6 @@ import uuid
 from django.template.defaultfilters import slugify
 from random import randint
 
-
 with open('schools.txt') as f:
     items = []
     i = 1
@@ -40,8 +39,28 @@ with open('schools.txt') as f:
                 "logo": logo_url,
                 "class": "btn btn-block btn-xs txt-color-white margin-right-5",
                 "style": "background-color:#{}E{}6{}F;".format(randint(0, 9), randint(0, 9), randint(0, 9)),
-                "label": name
+                "label": name,
+                "variables": {
+                    'background_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'primary_color': '#F{}C6{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'primary_font_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'secondary_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'secondary_font_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'accents_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'packaging_color': '#{}4{}1B{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'sidebar_font_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'cart_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'footer_font_color': '#{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'success_color': '#{}FCC{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'info_color': '#{}C7{}C{}'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                    'egrad_color': '#{}{}b{}ea'.format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                }
             }
         })
 
-    print json.dumps(items)
+    print json.dumps({
+        'data': items,
+        'meta': {
+            'totalAmount': len(items)
+        }
+    })

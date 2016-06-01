@@ -29,17 +29,25 @@
 
     return factory;
 
+    function _setStylesheet(slug) {
+      $rootScope.theme = {
+        stylesheet: 'build/css/prod/' + slug + '/main.min.css'
+      };
+
+    }
+
+
     function reset() {
       delete $localStorage['instance'];
       $rootScope.instance = appConfig.instance;
-      $('body').attr('style', ''); // Simple test
+      _setStylesheet($rootScope.instance.slug);
     }
 
     function setSchool(school) {
       $localStorage.instance = school;
       $rootScope.instance = school;
+      _setStylesheet($rootScope.instance.slug);
       $state.transitionTo('homeHome.index');
-      $('body').attr('style', school.skin.style); // Simple test
     }
   }
 

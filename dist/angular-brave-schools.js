@@ -375,6 +375,60 @@
 
 }());
 
+(function () {
+  'use strict';
+
+  /**
+   * @ngdoc overview
+   * @name app [brave.schools]
+   * @description Config provider for brave.schools
+   */
+  angular
+    .module('brave.schools')
+    .provider('BraveSchools', function () {
+
+      this.apiUrl = '/api';
+      this.endpoint = '/schools';
+
+
+      this.templates = {
+        index: 'templates/schools.html',
+        list: 'templates/schools-list.html',
+        detail: 'templates/schools-detail.html'
+      };
+
+      this.$get = function () {
+        var apiUrl = this.apiUrl;
+        var templates = this.templates;
+        var endpoint = this.endpoint;
+
+        return {
+          getApiUrl: function () {
+            return apiUrl;
+          },
+          getTemplates: function () {
+            return templates;
+          },
+          getEndpoint: function () {
+            return apiUrl + endpoint;
+          }
+        };
+      };
+
+      this.setApiUrl = function (apiUrl) {
+        this.apiUrl = apiUrl;
+      };
+
+      this.setTemplates = function (templates) {
+        this.templates = templates;
+      };
+
+    });
+
+})();
+
+
+
 /**
  * School
  * @namespace brave.schools
@@ -481,60 +535,6 @@
 (function () {
   'use strict';
 
-  /**
-   * @ngdoc overview
-   * @name app [brave.schools]
-   * @description Config provider for brave.schools
-   */
-  angular
-    .module('brave.schools')
-    .provider('BraveSchools', function () {
-
-      this.apiUrl = '/api';
-      this.endpoint = '/schools';
-
-
-      this.templates = {
-        index: 'templates/schools.html',
-        list: 'templates/schools-list.html',
-        detail: 'templates/schools-detail.html'
-      };
-
-      this.$get = function () {
-        var apiUrl = this.apiUrl;
-        var templates = this.templates;
-        var endpoint = this.endpoint;
-
-        return {
-          getApiUrl: function () {
-            return apiUrl;
-          },
-          getTemplates: function () {
-            return templates;
-          },
-          getEndpoint: function () {
-            return apiUrl + endpoint;
-          }
-        };
-      };
-
-      this.setApiUrl = function (apiUrl) {
-        this.apiUrl = apiUrl;
-      };
-
-      this.setTemplates = function (templates) {
-        this.templates = templates;
-      };
-
-    });
-
-})();
-
-
-
-(function () {
-  'use strict';
-
   angular
     .module('brave.schools')
     .factory('SchoolsBackend', SchoolsBackend);
@@ -563,17 +563,25 @@
 
     return factory;
 
+    function _setStylesheet(slug) {
+      $rootScope.theme = {
+        stylesheet: 'build/css/prod/' + slug + '/main.min.css'
+      };
+
+    }
+
+
     function reset() {
       delete $localStorage['instance'];
       $rootScope.instance = appConfig.instance;
-      $('body').attr('style', ''); // Simple test
+      _setStylesheet($rootScope.instance.slug);
     }
 
     function setSchool(school) {
       $localStorage.instance = school;
       $rootScope.instance = school;
+      _setStylesheet($rootScope.instance.slug);
       $state.transitionTo('homeHome.index');
-      $('body').attr('style', school.skin.style); // Simple test
     }
   }
 
