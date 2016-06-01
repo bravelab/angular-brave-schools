@@ -1,6 +1,6 @@
 /**
  * SchoolTransformer
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';

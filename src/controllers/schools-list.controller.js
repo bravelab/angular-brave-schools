@@ -22,7 +22,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf app.schools.SchoolsListController
+     * @memberOf brave.schools.SchoolsListController
      */
     function activate() {
       $scope.$watch('schools', function (newValue, oldValue) {

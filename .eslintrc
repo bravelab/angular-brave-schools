@@ -7,7 +7,9 @@ globals:
   window: true
   beforeEach: true
   inject: true
-  _: true
+  _: true,
+  localStorage: true,
+  $: true
 
 rules:
   indent: [2, 2]

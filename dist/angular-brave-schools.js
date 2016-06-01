@@ -3,12 +3,35 @@
 
   /**
    * @ngdoc overview
-   * @name app [app.schools]
+   * @name app [brave.schools]
    * @description Schools module for SmartAdmin
    */
   angular
     .module('brave.schools', ['ui.router', 'app.auth'])
-    .value('version', '0.0.3');
+    .value('version', '0.0.4');
+
+})();
+
+(function () {
+
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('appConfigMock', [function () {
+
+      var factory = {
+        skin: {
+          name: 'smart-style-egrad',
+          logo: 'themes/egrad/assets/img/logo.png',
+          class: 'btn btn-block btn-xs txt-color-white margin-right-5',
+          style: 'background-color:#4E653F;',
+          label: 'Default Egrad Style'
+        }
+      };
+      return factory;
+
+    }]);
 
 })();
 
@@ -18,8 +41,8 @@
 
   /**
    * @ngdoc routes
-   * @name app [app.schools]
-   * @description Routes configuration app.schools
+   * @name app [brave.schools]
+   * @description Routes configuration brave.schools
    * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
    */
   angular
@@ -96,7 +119,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf app.schools.SchoolsDetailController
+     * @memberOf brave.schools.SchoolsDetailController
      */
     function activate() {
       schoolsService.get($stateParams.id).then(function (school) {
@@ -132,7 +155,7 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf app.schools.SchoolsListController
+     * @memberOf brave.schools.SchoolsListController
      */
     function activate() {
       $scope.$watch('schools', function (newValue, oldValue) {
@@ -152,7 +175,7 @@
     .module('brave.schools')
     .controller('SchoolsController', SchoolsController);
 
-  SchoolsController.$inject = ['$scope', '$state', '$filter', 'SchoolsService'];
+  SchoolsController.$inject = ['$scope', '$state', '$filter', 'SchoolsService', 'SchoolsBackend'];
 
   /**
    *
@@ -160,9 +183,10 @@
    * @param {Object} $state - State
    * @param {Object} $filter - Filters
    * @param {Object} schoolsService - Schools service
+   * @param {String} schoolsBackend - Schools backend
    * @constructor
    */
-  function SchoolsController($scope, $state, $filter, schoolsService) {
+  function SchoolsController($scope, $state, $filter, schoolsService, schoolsBackend) {
 
     var _schools = [];
     var _tmp = [];
@@ -172,9 +196,12 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf app.schools.SchoolsController
+     * @memberOf brave.schools.SchoolsController
      */
     function activate() {
+
+      // Reset localStorage
+      schoolsBackend.reset();
 
       $scope.schools = [];
       $scope.letter = '';
@@ -182,7 +209,10 @@
       $scope.columns = [];
       $scope.columnCount = 3;
 
-      var calculateColumns = function() {
+      /**
+       * Calculate columns
+       */
+      var calculateColumns = function () {
         var itemsPerColumn = Math.ceil($scope.schools.length / $scope.columnCount);
         for (var i = 0; i < $scope.schools.length; i += itemsPerColumn) {
           var col = {start: i, end: Math.min(i + itemsPerColumn, $scope.schools.length)};
@@ -190,6 +220,9 @@
         }
       };
 
+      /**
+       * Reset filters
+       */
       $scope.reset = function () {
         $scope.setLetter('');
         $scope.search('');
@@ -207,6 +240,13 @@
           $scope.schools = $filter('startsWithLetter')(_schools, letter);
           _tmp = $scope.schools;
         }
+      };
+
+      /**
+       * @param {object} school School instance
+       */
+      $scope.setSchool = function (school) {
+        schoolsBackend.setSchool(school);
       };
 
       /**
@@ -263,7 +303,7 @@
 
 /**
  * School
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';
@@ -291,7 +331,7 @@
 
 /**
  * School
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';
@@ -308,7 +348,7 @@
 
 /**
  * School
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';
@@ -337,7 +377,7 @@
 
 /**
  * School
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';
@@ -361,7 +401,7 @@
 
 /**
  * School
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';
@@ -391,9 +431,9 @@
     .module('brave.schools')
     .factory('School', School);
 
-  School.$inject = ['Logo', 'Config'];
+  School.$inject = ['Logo', 'Config', 'Skin'];
 
-  function School(Logo, Config) {
+  function School(Logo, Config, Skin) {
 
     var factory = function (data) {
       this.id = data.id;
@@ -401,6 +441,7 @@
       this.slug = data.slug;
       this.logo = new Logo(data.logo);
       this.config = new Config(data.config);
+      this.skin = new Skin(data.skin);
     };
 
     return factory;
@@ -409,13 +450,41 @@
 }());
 
 
+/**
+ * School
+ * @namespace brave.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('Skin', Skin);
+
+  Skin.$inject = [];
+
+  function Skin() {
+
+    var factory = function (data) {
+      this.class = data.class;
+      this.label = data.label;
+      this.logo = data.logo;
+      this.name = data.name;
+      this.style = data.style;
+    };
+
+    return factory;
+  }
+
+}());
+
 (function () {
   'use strict';
 
   /**
    * @ngdoc overview
-   * @name app [app.schools]
-   * @description Config provider for app.schools
+   * @name app [brave.schools]
+   * @description Config provider for brave.schools
    */
   angular
     .module('brave.schools')
@@ -423,6 +492,7 @@
 
       this.apiUrl = '/api';
       this.endpoint = '/schools';
+
 
       this.templates = {
         index: 'templates/schools.html',
@@ -463,6 +533,51 @@
 
 
 (function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('SchoolsBackend', SchoolsBackend);
+
+  SchoolsBackend.$inject = ['$rootScope', '$state', '$localStorage', 'appConfig'];
+
+  /**
+   *
+   * @param {object} $rootScope - rootScope object
+   * @param {object} $state - State object
+   * @param {object} $localStorage - Local storage object
+   * @param {object} appConfig - app config object
+   * @returns {{get: brave.schools.setSchool}} - SchoolsBackend Factory
+   * @constructor
+   */
+  function SchoolsBackend($rootScope, $state, $localStorage, appConfig) {
+
+    /**
+     * @name SchoolsBackend
+     * @desc The Factory to be returned
+     */
+    var factory = {
+      reset: reset,
+      setSchool: setSchool
+    };
+
+    return factory;
+
+    function reset() {
+      delete $localStorage.school;
+      $rootScope.skin = appConfig.skin;
+    }
+
+    function setSchool(school) {
+      $localStorage.school = school;
+      $rootScope.skin = school.skin;
+      $state.transitionTo('homeHome.index');
+    }
+  }
+
+})();
+
+(function () {
 
   'use strict';
 
@@ -480,6 +595,13 @@
         id: '8d577746-eef6-4656-968f-921ecec7a9b5',
         config: {
           subdomain: 'university-of-waterloo.egradgifts.com'
+        },
+        skin: {
+          'class': 'btn btn-block btn-xs txt-color-white margin-right-5',
+          'label': 'Concordia University College of Alberta',
+          'logo': 'https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200',
+          'name': 'concordia-university-college-of-alberta',
+          'style': 'background-color:#9E060F;'
         }
       };
 
@@ -517,7 +639,7 @@
    * @param {object} braveSchools - app config object provider
    * @param {object} schoolTransformer - school transformer object
    * @param {object} schoolListTransformer - school list transformer object
-   * @returns {{get: app.schools.get, getAll: app.schools.getAll}} - Service Factory
+   * @returns {{get: brave.schools.get, getAll: brave.schools.getAll}} - Service Factory
    * @constructor
    */
   function SchoolsService($http, $q, braveSchools, schoolTransformer, schoolListTransformer) {
@@ -542,7 +664,7 @@
      * @desc Get single school
      * @param {string} id The id of th school
      * @returns {Promise} - Promise an object
-     * @memberOf app.schools
+     * @memberOf brave.schools
      */
     function get(id) {
       var deferred = $q.defer();
@@ -574,7 +696,7 @@
      * @name getAll
      * @desc Gets all schools
      * @returns {Promise} - Promise an object
-     * @memberOf app.schools
+     * @memberOf brave.schools
      */
     function getAll() {
       return $http({
@@ -591,7 +713,7 @@
 
 /**
  * SchoolListTransformer
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';
@@ -621,7 +743,7 @@
 
 /**
  * SchoolTransformer
- * @namespace app.schools
+ * @namespace brave.schools
  */
 (function () {
   'use strict';

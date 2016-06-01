@@ -9,6 +9,8 @@ Typical usage:
 import json
 import uuid
 from django.template.defaultfilters import slugify
+from random import randint
+
 
 with open('schools.txt') as f:
     items = []
@@ -32,8 +34,14 @@ with open('schools.txt') as f:
             },
             "config": {
                 "subdomain": subdomain
+            },
+            "skin": {
+                "name": slug,
+                "logo": logo_url,
+                "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+                "style": "background-color:#{}E{}6{}F;".format(randint(0, 9), randint(0, 9), randint(0, 9)),
+                "label": name
             }
-
         })
 
     print json.dumps(items)

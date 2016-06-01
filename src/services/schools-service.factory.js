@@ -14,7 +14,7 @@
    * @param {object} braveSchools - app config object provider
    * @param {object} schoolTransformer - school transformer object
    * @param {object} schoolListTransformer - school list transformer object
-   * @returns {{get: app.schools.get, getAll: app.schools.getAll}} - Service Factory
+   * @returns {{get: brave.schools.get, getAll: brave.schools.getAll}} - Service Factory
    * @constructor
    */
   function SchoolsService($http, $q, braveSchools, schoolTransformer, schoolListTransformer) {
@@ -39,7 +39,7 @@
      * @desc Get single school
      * @param {string} id The id of th school
      * @returns {Promise} - Promise an object
-     * @memberOf app.schools
+     * @memberOf brave.schools
      */
     function get(id) {
       var deferred = $q.defer();
@@ -71,7 +71,7 @@
      * @name getAll
      * @desc Gets all schools
      * @returns {Promise} - Promise an object
-     * @memberOf app.schools
+     * @memberOf brave.schools
      */
     function getAll() {
       return $http({

@@ -4,8 +4,8 @@
 
   /**
    * @ngdoc routes
-   * @name app [app.schools]
-   * @description Routes configuration app.schools
+   * @name app [brave.schools]
+   * @description Routes configuration brave.schools
    * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
    */
   angular

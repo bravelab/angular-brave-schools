@@ -3,1188 +3,1881 @@
         "config": {
             "subdomain": "toronto.egradgifts.com"
         },
-        "id": "6f27f548-c2d1-4437-8bfe-658b518675d4",
+        "id": "e21b7b89-042f-47e6-ae3a-54aa1295db28",
         "logo": {
             "id": 1,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Toronto",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Toronto",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-toronto",
+            "style": "background-color:#4E167F;"
+        },
         "slug": "university-of-toronto"
     },
     {
         "config": {
             "subdomain": "the-british-columbia.egradgifts.com"
         },
-        "id": "58c79bd5-401c-4a79-98bf-9e1d011df0b4",
+        "id": "6c239bc9-52fb-48ae-b985-15cad3f265f2",
         "logo": {
             "id": 2,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200"
         },
         "name": "The University of British Columbia",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "The University of British Columbia",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200",
+            "name": "the-university-of-british-columbia",
+            "style": "background-color:#4E669F;"
+        },
         "slug": "the-university-of-british-columbia"
     },
     {
         "config": {
             "subdomain": "waterloo.egradgifts.com"
         },
-        "id": "72d0cf87-a5ed-4b93-840b-4c1029da6492",
+        "id": "33c97191-f2f9-46b0-88f4-812d518bfe77",
         "logo": {
             "id": 3,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Waterloo",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Waterloo",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-waterloo",
+            "style": "background-color:#9E165F;"
+        },
         "slug": "university-of-waterloo"
     },
     {
         "config": {
             "subdomain": "alberta.egradgifts.com"
         },
-        "id": "952bcb04-cb84-454e-9010-239dce1a94b9",
+        "id": "4c368b9e-64ed-4d2f-9093-f7cc3a9ffa7f",
         "logo": {
             "id": 4,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Alberta",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Alberta",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-alberta",
+            "style": "background-color:#2E265F;"
+        },
         "slug": "university-of-alberta"
     },
     {
         "config": {
             "subdomain": "simon-fraser-university.egradgifts.com"
         },
-        "id": "5cdc1829-ce21-4eb0-bade-967a728d820e",
+        "id": "20e65deb-fa36-4481-8505-2bb271559bce",
         "logo": {
             "id": 5,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=simon-fras...&w=300&h=200"
         },
         "name": "Simon Fraser University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Simon Fraser University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=simon-fras...&w=300&h=200",
+            "name": "simon-fraser-university",
+            "style": "background-color:#2E066F;"
+        },
         "slug": "simon-fraser-university"
     },
     {
         "config": {
             "subdomain": "mcgill-university.egradgifts.com"
         },
-        "id": "3ab0ef1a-5526-4a14-8914-bbff7bcb2c57",
+        "id": "5044179c-63a8-4b66-9292-190650394b7e",
         "logo": {
             "id": 6,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcgill-uni...&w=300&h=200"
         },
         "name": "McGill University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "McGill University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcgill-uni...&w=300&h=200",
+            "name": "mcgill-university",
+            "style": "background-color:#1E169F;"
+        },
         "slug": "mcgill-university"
     },
     {
         "config": {
             "subdomain": "calgary.egradgifts.com"
         },
-        "id": "f0b574c9-6b71-41fb-8f01-cfb9fc855bf6",
+        "id": "565e85c4-22dc-41b3-9afa-2dbaa629d828",
         "logo": {
             "id": 7,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Calgary",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Calgary",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-calgary",
+            "style": "background-color:#6E063F;"
+        },
         "slug": "university-of-calgary"
     },
     {
         "config": {
             "subdomain": "york-university.egradgifts.com"
         },
-        "id": "872216f2-0ea1-4fb7-9afa-7935b386e11b",
+        "id": "7bee5825-4a4f-4c8f-8edf-831fbb301bcf",
         "logo": {
             "id": 8,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=york-unive...&w=300&h=200"
         },
         "name": "York University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "York University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=york-unive...&w=300&h=200",
+            "name": "york-university",
+            "style": "background-color:#5E761F;"
+        },
         "slug": "york-university"
     },
     {
         "config": {
             "subdomain": "victoria.egradgifts.com"
         },
-        "id": "b111f53f-6a59-4a0d-8012-fb064863783f",
+        "id": "12c50303-8d55-46c4-92d3-31008cb96575",
         "logo": {
             "id": 9,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Victoria",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Victoria",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-victoria",
+            "style": "background-color:#6E566F;"
+        },
         "slug": "university-of-victoria"
     },
     {
         "config": {
             "subdomain": "queens-university.egradgifts.com"
         },
-        "id": "c22b13cf-f329-4cdc-ad43-2d1457f978de",
+        "id": "3ddac7c6-ac47-458b-bdef-d0de864c2143",
         "logo": {
             "id": 10,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=queens-uni...&w=300&h=200"
         },
         "name": "Queen's University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Queen's University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=queens-uni...&w=300&h=200",
+            "name": "queens-university",
+            "style": "background-color:#6E367F;"
+        },
         "slug": "queens-university"
     },
     {
         "config": {
             "subdomain": "the-western-ontario.egradgifts.com"
         },
-        "id": "159d3448-407a-4694-9e15-3f80dbad3682",
+        "id": "db4fb0b1-af62-49da-b428-a65ef36eec75",
         "logo": {
             "id": 11,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200"
         },
         "name": "The University of Western Ontario",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "The University of Western Ontario",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-univer...&w=300&h=200",
+            "name": "the-university-of-western-ontario",
+            "style": "background-color:#0E960F;"
+        },
         "slug": "the-university-of-western-ontario"
     },
     {
         "config": {
             "subdomain": "universite-de-montreal.egradgifts.com"
         },
-        "id": "84d52611-f209-412f-b786-738617bea227",
+        "id": "a314edb4-671a-41aa-a5e3-3b9680f6c6db",
         "logo": {
             "id": 12,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 de Montr\u00e9al",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 de Montr\u00e9al",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-de-montreal",
+            "style": "background-color:#5E566F;"
+        },
         "slug": "universite-de-montreal"
     },
     {
         "config": {
             "subdomain": "universite-laval.egradgifts.com"
         },
-        "id": "77de1dbc-2138-4480-ba6e-bf4120510c55",
+        "id": "ba300e6b-a64a-4009-a707-e749afb7137f",
         "logo": {
             "id": 13,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 Laval",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 Laval",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-laval",
+            "style": "background-color:#8E668F;"
+        },
         "slug": "universite-laval"
     },
     {
         "config": {
             "subdomain": "mcmaster-university.egradgifts.com"
         },
-        "id": "6bf32c01-11d5-4924-96ed-86a9fe01adc1",
+        "id": "44bc0068-58dc-4f61-9aaa-d7e1fc5fb8b9",
         "logo": {
             "id": 14,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcmaster-u...&w=300&h=200"
         },
         "name": "McMaster University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "McMaster University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mcmaster-u...&w=300&h=200",
+            "name": "mcmaster-university",
+            "style": "background-color:#9E661F;"
+        },
         "slug": "mcmaster-university"
     },
     {
         "config": {
             "subdomain": "ottawa.egradgifts.com"
         },
-        "id": "0fd9582a-134b-4e3f-a472-99012a314ebd",
+        "id": "1a16d70c-2a10-473a-a591-237984afc9cd",
         "logo": {
             "id": 15,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Ottawa",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Ottawa",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-ottawa",
+            "style": "background-color:#0E161F;"
+        },
         "slug": "university-of-ottawa"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec-a-montreal.egradgifts.com"
         },
-        "id": "0cdccc64-181c-483e-8c72-3cea65c429d5",
+        "id": "a1f41f83-eda6-47f3-8d78-e497015a71cd",
         "logo": {
             "id": 16,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec-a-montreal",
+            "style": "background-color:#0E662F;"
+        },
         "slug": "universite-du-quebec-a-montreal"
     },
     {
         "config": {
             "subdomain": "concordia-university.egradgifts.com"
         },
-        "id": "2cae6a27-2bbd-4070-9917-0a4e31a1fc81",
+        "id": "13ef2ed8-bf87-4ba4-b889-236acac40c58",
         "logo": {
             "id": 17,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200"
         },
         "name": "Concordia University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Concordia University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200",
+            "name": "concordia-university",
+            "style": "background-color:#6E161F;"
+        },
         "slug": "concordia-university"
     },
     {
         "config": {
             "subdomain": "carleton-university.egradgifts.com"
         },
-        "id": "6e8f089d-a27d-4db3-87cb-4a84e19cc114",
+        "id": "d1030367-9c43-4309-828c-587c7a7c29f6",
         "logo": {
             "id": 18,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=carleton-u...&w=300&h=200"
         },
         "name": "Carleton University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Carleton University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=carleton-u...&w=300&h=200",
+            "name": "carleton-university",
+            "style": "background-color:#7E165F;"
+        },
         "slug": "carleton-university"
     },
     {
         "config": {
             "subdomain": "guelph.egradgifts.com"
         },
-        "id": "f426e73c-f409-4825-94bf-3059201abcf0",
+        "id": "b1f1f6de-ad96-4a84-a42b-a37ca08ca31b",
         "logo": {
             "id": 19,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Guelph",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Guelph",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-guelph",
+            "style": "background-color:#7E762F;"
+        },
         "slug": "university-of-guelph"
     },
     {
         "config": {
             "subdomain": "dalhousie-university.egradgifts.com"
         },
-        "id": "ceed01d6-914c-4d95-bc60-c4e2848f8a79",
+        "id": "c664b14a-c119-4c7e-9cbd-7ff53317e364",
         "logo": {
             "id": 20,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=dalhousie-...&w=300&h=200"
         },
         "name": "Dalhousie University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Dalhousie University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=dalhousie-...&w=300&h=200",
+            "name": "dalhousie-university",
+            "style": "background-color:#9E969F;"
+        },
         "slug": "dalhousie-university"
     },
     {
         "config": {
             "subdomain": "ryerson-university.egradgifts.com"
         },
-        "id": "5d2efa8c-f73a-4038-99bd-999bdce85f41",
+        "id": "a4a55ad1-24c3-45e0-b245-647d2312826c",
         "logo": {
             "id": 21,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ryerson-un...&w=300&h=200"
         },
         "name": "Ryerson University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Ryerson University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ryerson-un...&w=300&h=200",
+            "name": "ryerson-university",
+            "style": "background-color:#5E863F;"
+        },
         "slug": "ryerson-university"
     },
     {
         "config": {
             "subdomain": "saskatchewan.egradgifts.com"
         },
-        "id": "40e7bd5d-2b6b-4d3a-9964-50b08905604c",
+        "id": "f362ffdb-f329-43c0-99a7-18c321577b13",
         "logo": {
             "id": 22,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Saskatchewan",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Saskatchewan",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-saskatchewan",
+            "style": "background-color:#3E763F;"
+        },
         "slug": "university-of-saskatchewan"
     },
     {
         "config": {
             "subdomain": "manitoba.egradgifts.com"
         },
-        "id": "c125fd0d-f1f0-4fb3-8d45-cd1092b35426",
+        "id": "fdde0da3-9be9-4387-9ceb-5882d3ade6f5",
         "logo": {
             "id": 23,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Manitoba",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Manitoba",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-manitoba",
+            "style": "background-color:#2E461F;"
+        },
         "slug": "university-of-manitoba"
     },
     {
         "config": {
             "subdomain": "memorial-newfoundland.egradgifts.com"
         },
-        "id": "1a701685-c325-45c1-8348-62b3751c082a",
+        "id": "71f043e1-c664-4f06-8322-9b2f5e47517a",
         "logo": {
             "id": 24,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=memorial-u...&w=300&h=200"
         },
         "name": "Memorial University of Newfoundland",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Memorial University of Newfoundland",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=memorial-u...&w=300&h=200",
+            "name": "memorial-university-of-newfoundland",
+            "style": "background-color:#4E761F;"
+        },
         "slug": "memorial-university-of-newfoundland"
     },
     {
         "config": {
             "subdomain": "universite-de-sherbrooke.egradgifts.com"
         },
-        "id": "06ffe57b-cf29-43d3-8c59-19f2cd1470e8",
+        "id": "f5a7e539-95b8-4419-95df-3d9ad795de7d",
         "logo": {
             "id": 25,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 de Sherbrooke",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 de Sherbrooke",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-de-sherbrooke",
+            "style": "background-color:#9E566F;"
+        },
         "slug": "universite-de-sherbrooke"
     },
     {
         "config": {
             "subdomain": "regina.egradgifts.com"
         },
-        "id": "ee367c6f-fa65-4011-b073-3ad8ae9fd27f",
+        "id": "ca8dff5e-3989-43c0-aede-e08c6138a095",
         "logo": {
             "id": 26,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Regina",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Regina",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-regina",
+            "style": "background-color:#4E869F;"
+        },
         "slug": "university-of-regina"
     },
     {
         "config": {
             "subdomain": "new-brunswick.egradgifts.com"
         },
-        "id": "9e46e583-bb89-48f9-b9c2-4f9b7d1c9e7f",
+        "id": "2266cf47-76e9-47f3-ac8c-06407a87e927",
         "logo": {
             "id": 27,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of New Brunswick",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of New Brunswick",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-new-brunswick",
+            "style": "background-color:#6E460F;"
+        },
         "slug": "university-of-new-brunswick"
     },
     {
         "config": {
             "subdomain": "brock-university.egradgifts.com"
         },
-        "id": "f83ad27c-9180-48bf-be37-42dc973d4782",
+        "id": "56aaccc6-2142-4449-b003-6a457a2a6499",
         "logo": {
             "id": 28,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brock-univ...&w=300&h=200"
         },
         "name": "Brock University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Brock University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brock-univ...&w=300&h=200",
+            "name": "brock-university",
+            "style": "background-color:#7E269F;"
+        },
         "slug": "brock-university"
     },
     {
         "config": {
             "subdomain": "windsor.egradgifts.com"
         },
-        "id": "0bcc3561-d760-4d08-928f-0e241fd81d6d",
+        "id": "6aefd7dd-4582-485c-81d4-1cc9223cb3c3",
         "logo": {
             "id": 29,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Windsor",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Windsor",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-windsor",
+            "style": "background-color:#5E168F;"
+        },
         "slug": "university-of-windsor"
     },
     {
         "config": {
             "subdomain": "ecole-polytechnique-de-montreal.egradgifts.com"
         },
-        "id": "55299063-b695-4ead-8530-d6c0066af1d2",
+        "id": "1926d40c-374b-4765-9339-39d8775233c3",
         "logo": {
             "id": 30,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-poly...&w=300&h=200"
         },
         "name": "\u00c9cole Polytechnique de Montr\u00e9al",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "\u00c9cole Polytechnique de Montr\u00e9al",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-poly...&w=300&h=200",
+            "name": "ecole-polytechnique-de-montreal",
+            "style": "background-color:#2E566F;"
+        },
         "slug": "ecole-polytechnique-de-montreal"
     },
     {
         "config": {
             "subdomain": "winnipeg.egradgifts.com"
         },
-        "id": "15539b8c-5c61-4d09-85b2-c392d1013b90",
+        "id": "f3cad7b6-9377-4427-8eae-c92b18f5e6a9",
         "logo": {
             "id": 31,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Winnipeg",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Winnipeg",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-winnipeg",
+            "style": "background-color:#1E868F;"
+        },
         "slug": "university-of-winnipeg"
     },
     {
         "config": {
             "subdomain": "wilfrid-laurier-university.egradgifts.com"
         },
-        "id": "7016f6cb-9396-4421-a604-6c5f377306c1",
+        "id": "a07469dc-b565-42a1-bfd1-c3ed6754d14c",
         "logo": {
             "id": 32,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=wilfrid-la...&w=300&h=200"
         },
         "name": "Wilfrid Laurier University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Wilfrid Laurier University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=wilfrid-la...&w=300&h=200",
+            "name": "wilfrid-laurier-university",
+            "style": "background-color:#2E360F;"
+        },
         "slug": "wilfrid-laurier-university"
     },
     {
         "config": {
             "subdomain": "lakehead-university.egradgifts.com"
         },
-        "id": "2757c65d-b6ab-4701-8eeb-cc6ad46e6104",
+        "id": "d0c8c50e-18cc-4c70-ac6d-3539a591bfa4",
         "logo": {
             "id": 33,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=lakehead-u...&w=300&h=200"
         },
         "name": "Lakehead University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Lakehead University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=lakehead-u...&w=300&h=200",
+            "name": "lakehead-university",
+            "style": "background-color:#4E962F;"
+        },
         "slug": "lakehead-university"
     },
     {
         "config": {
             "subdomain": "lethbridge.egradgifts.com"
         },
-        "id": "aca636b0-5162-4746-8475-f8db5d9d9469",
+        "id": "5c9ae3ba-b117-457d-934a-a7744f1bf721",
         "logo": {
             "id": 34,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Lethbridge",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Lethbridge",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-lethbridge",
+            "style": "background-color:#1E065F;"
+        },
         "slug": "university-of-lethbridge"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec.egradgifts.com"
         },
-        "id": "021e6466-f900-4a3e-9ed0-141a51be0279",
+        "id": "82bde557-13fb-4a32-add9-2f8797ecaa6f",
         "logo": {
             "id": 35,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec",
+            "style": "background-color:#4E263F;"
+        },
         "slug": "universite-du-quebec"
     },
     {
         "config": {
             "subdomain": "british-columbia-institute-of-technology.egradgifts.com"
         },
-        "id": "27577029-2aa1-49ea-ac76-e6b6f627b81c",
+        "id": "e1f61661-8f58-4325-8d7c-91ac90772baf",
         "logo": {
             "id": 36,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=british-co...&w=300&h=200"
         },
         "name": "British Columbia Institute of Technology",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "British Columbia Institute of Technology",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=british-co...&w=300&h=200",
+            "name": "british-columbia-institute-of-technology",
+            "style": "background-color:#3E866F;"
+        },
         "slug": "british-columbia-institute-of-technology"
     },
     {
         "config": {
             "subdomain": "hec-montreal.egradgifts.com"
         },
-        "id": "aeaf7d2d-88bb-4e7d-9e9e-c42f7e99152d",
+        "id": "eca8ef2d-0b76-4921-9115-c92bb80525dd",
         "logo": {
             "id": 37,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=hec-montre...&w=300&h=200"
         },
         "name": "HEC Montr\u00e9al",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "HEC Montr\u00e9al",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=hec-montre...&w=300&h=200",
+            "name": "hec-montreal",
+            "style": "background-color:#7E969F;"
+        },
         "slug": "hec-montreal"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec-a-chicoutimi.egradgifts.com"
         },
-        "id": "e5fb90f8-b499-41fc-95b2-604cbb35af1f",
+        "id": "1b91a1a4-0d44-4de3-8b53-561ef38e6817",
         "logo": {
             "id": 38,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec-a-chicoutimi",
+            "style": "background-color:#0E563F;"
+        },
         "slug": "universite-du-quebec-a-chicoutimi"
     },
     {
         "config": {
             "subdomain": "trent-university.egradgifts.com"
         },
-        "id": "e483a7a8-33b5-46a1-9ca9-f35894df952f",
+        "id": "1d255c21-d378-4119-a186-e72486b09a63",
         "logo": {
             "id": 39,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trent-univ...&w=300&h=200"
         },
         "name": "Trent University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Trent University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trent-univ...&w=300&h=200",
+            "name": "trent-university",
+            "style": "background-color:#5E360F;"
+        },
         "slug": "trent-university"
     },
     {
         "config": {
             "subdomain": "acadia-university.egradgifts.com"
         },
-        "id": "118eca5a-74da-4205-a226-c6567994fc98",
+        "id": "268d69d6-e5f7-451e-bfc7-5d39f0b23244",
         "logo": {
             "id": 40,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=acadia-uni...&w=300&h=200"
         },
         "name": "Acadia University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Acadia University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=acadia-uni...&w=300&h=200",
+            "name": "acadia-university",
+            "style": "background-color:#1E760F;"
+        },
         "slug": "acadia-university"
     },
     {
         "config": {
             "subdomain": "thompson-rivers-university.egradgifts.com"
         },
-        "id": "7703673a-df42-4c0b-a197-eb5d893fff8f",
+        "id": "3c530a01-1b34-4b8a-9432-cc1f65a98d90",
         "logo": {
             "id": 41,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=thompson-r...&w=300&h=200"
         },
         "name": "Thompson Rivers University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Thompson Rivers University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=thompson-r...&w=300&h=200",
+            "name": "thompson-rivers-university",
+            "style": "background-color:#2E162F;"
+        },
         "slug": "thompson-rivers-university"
     },
     {
         "config": {
             "subdomain": "ecole-de-technologie-superieure.egradgifts.com"
         },
-        "id": "87bac516-5f4b-40f1-ad60-deff001ca8eb",
+        "id": "ffc90fe2-17cc-4dc1-92cb-faf8fd8b0a7a",
         "logo": {
             "id": 42,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-de-t...&w=300&h=200"
         },
         "name": "\u00c9cole de Technologie Sup\u00e9rieure",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "\u00c9cole de Technologie Sup\u00e9rieure",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-de-t...&w=300&h=200",
+            "name": "ecole-de-technologie-superieure",
+            "style": "background-color:#8E266F;"
+        },
         "slug": "ecole-de-technologie-superieure"
     },
     {
         "config": {
             "subdomain": "laurentian-university.egradgifts.com"
         },
-        "id": "c4356deb-9c8c-416f-bf5b-112e501f081b",
+        "id": "4f03659c-1d6f-4ede-8924-2ece2b755ca1",
         "logo": {
             "id": 43,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=laurentian...&w=300&h=200"
         },
         "name": "Laurentian University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Laurentian University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=laurentian...&w=300&h=200",
+            "name": "laurentian-university",
+            "style": "background-color:#4E366F;"
+        },
         "slug": "laurentian-university"
     },
     {
         "config": {
             "subdomain": "prince-edward-island.egradgifts.com"
         },
-        "id": "53868195-ef8a-45fa-855f-54e36dcb87e1",
+        "id": "0b0a394b-0550-4ac5-b6f9-1da71931e37a",
         "logo": {
             "id": 44,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Prince Edward Island",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Prince Edward Island",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-prince-edward-island",
+            "style": "background-color:#8E168F;"
+        },
         "slug": "university-of-prince-edward-island"
     },
     {
         "config": {
             "subdomain": "universite-de-moncton.egradgifts.com"
         },
-        "id": "5cffdb80-7d5c-4164-ab8d-ed708238c58d",
+        "id": "ff88823f-a406-4154-ac12-90a09da6241d",
         "logo": {
             "id": 45,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 de Moncton",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 de Moncton",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-de-moncton",
+            "style": "background-color:#8E564F;"
+        },
         "slug": "universite-de-moncton"
     },
     {
         "config": {
             "subdomain": "vancouver-island-university.egradgifts.com"
         },
-        "id": "bd230a71-61ac-41e8-a3ac-bfdfacb34d13",
+        "id": "9c990f73-c2fd-4221-a144-867d8ef0ed3e",
         "logo": {
             "id": 46,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=vancouver-...&w=300&h=200"
         },
         "name": "Vancouver Island University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Vancouver Island University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=vancouver-...&w=300&h=200",
+            "name": "vancouver-island-university",
+            "style": "background-color:#9E260F;"
+        },
         "slug": "vancouver-island-university"
     },
     {
         "config": {
             "subdomain": "royal-roads-university.egradgifts.com"
         },
-        "id": "2619634f-6cc1-4e8c-8841-61f39b48328d",
+        "id": "907ac9c2-a1c2-45e2-b5fb-cb77ba747405",
         "logo": {
             "id": 47,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=royal-road...&w=300&h=200"
         },
         "name": "Royal Roads University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Royal Roads University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=royal-road...&w=300&h=200",
+            "name": "royal-roads-university",
+            "style": "background-color:#1E664F;"
+        },
         "slug": "royal-roads-university"
     },
     {
         "config": {
             "subdomain": "stfrancis-xavier-university.egradgifts.com"
         },
-        "id": "7c0cd745-b331-49a3-a6e0-e9371a58a9be",
+        "id": "e1b5e8a2-c55e-4417-ac12-75d15304e3a9",
         "logo": {
             "id": 48,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=stfrancis-...&w=300&h=200"
         },
         "name": "St.Francis Xavier University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "St.Francis Xavier University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=stfrancis-...&w=300&h=200",
+            "name": "stfrancis-xavier-university",
+            "style": "background-color:#9E166F;"
+        },
         "slug": "stfrancis-xavier-university"
     },
     {
         "config": {
             "subdomain": "northern-british-columbia.egradgifts.com"
         },
-        "id": "83054cfb-1c3d-43dc-994d-2f9b9907565f",
+        "id": "76733e2b-9d9c-4bb6-be63-1c4679293f11",
         "logo": {
             "id": 49,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Northern British Columbia",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Northern British Columbia",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-northern-british-columbia",
+            "style": "background-color:#0E362F;"
+        },
         "slug": "university-of-northern-british-columbia"
     },
     {
         "config": {
             "subdomain": "northern-alberta-institute-of-technology.egradgifts.com"
         },
-        "id": "701bf5a3-ccb0-4abd-9165-25c916136c77",
+        "id": "2bb4516a-ee64-4f92-96a6-6a8b3f6cbf0f",
         "logo": {
             "id": 50,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=northern-a...&w=300&h=200"
         },
         "name": "Northern Alberta Institute of Technology",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Northern Alberta Institute of Technology",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=northern-a...&w=300&h=200",
+            "name": "northern-alberta-institute-of-technology",
+            "style": "background-color:#1E069F;"
+        },
         "slug": "northern-alberta-institute-of-technology"
     },
     {
         "config": {
             "subdomain": "saint-marys-university.egradgifts.com"
         },
-        "id": "164e8d39-9f82-4aef-9835-36790e10bb36",
+        "id": "b906b406-277c-46de-8ca7-524ebc37f54b",
         "logo": {
             "id": 51,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=saint-mary...&w=300&h=200"
         },
         "name": "Saint Mary's University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Saint Mary's University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=saint-mary...&w=300&h=200",
+            "name": "saint-marys-university",
+            "style": "background-color:#4E961F;"
+        },
         "slug": "saint-marys-university"
     },
     {
         "config": {
             "subdomain": "mount-allison-university.egradgifts.com"
         },
-        "id": "b17510fe-d5bb-4c2c-989f-322c1bff1bee",
+        "id": "9146fa16-5fe8-4aa3-93ea-42ed3947482d",
         "logo": {
             "id": 52,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-alli...&w=300&h=200"
         },
         "name": "Mount Allison University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Mount Allison University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-alli...&w=300&h=200",
+            "name": "mount-allison-university",
+            "style": "background-color:#8E963F;"
+        },
         "slug": "mount-allison-university"
     },
     {
         "config": {
             "subdomain": "grant-macewan-university.egradgifts.com"
         },
-        "id": "26d5eca7-e986-4423-a013-9bfefd10147e",
+        "id": "33bb11aa-293c-4d40-841a-b6dad94bc902",
         "logo": {
             "id": 53,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=grant-mace...&w=300&h=200"
         },
         "name": "Grant MacEwan University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Grant MacEwan University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=grant-mace...&w=300&h=200",
+            "name": "grant-macewan-university",
+            "style": "background-color:#6E361F;"
+        },
         "slug": "grant-macewan-university"
     },
     {
         "config": {
             "subdomain": "ontario-institute-of-technology.egradgifts.com"
         },
-        "id": "485fdf24-4c30-48c6-9ff1-1609d2051212",
+        "id": "473b3794-ee99-41aa-bd43-02d2cd44375c",
         "logo": {
             "id": 54,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of Ontario Institute of Technology",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of Ontario Institute of Technology",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-ontario-institute-of-technology",
+            "style": "background-color:#4E466F;"
+        },
         "slug": "university-of-ontario-institute-of-technology"
     },
     {
         "config": {
             "subdomain": "bishops-university.egradgifts.com"
         },
-        "id": "5f13a9b4-81cf-4435-b6b5-2ce13320f159",
+        "id": "5bf7da8d-03a7-469e-b3f1-ec41662f822a",
         "logo": {
             "id": 55,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=bishops-un...&w=300&h=200"
         },
         "name": "Bishop's University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Bishop's University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=bishops-un...&w=300&h=200",
+            "name": "bishops-university",
+            "style": "background-color:#5E964F;"
+        },
         "slug": "bishops-university"
     },
     {
         "config": {
             "subdomain": "the-fraser-valley.egradgifts.com"
         },
-        "id": "29906867-59e6-414f-ac55-d7e877603623",
+        "id": "cdb69f71-4d0e-46f0-b5e6-c711c939acb6",
         "logo": {
             "id": 56,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of the Fraser Valley",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of the Fraser Valley",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-the-fraser-valley",
+            "style": "background-color:#6E965F;"
+        },
         "slug": "university-of-the-fraser-valley"
     },
     {
         "config": {
             "subdomain": "mount-royal-university.egradgifts.com"
         },
-        "id": "66aa5c93-29b0-48ef-8d23-32d9de50625d",
+        "id": "2ed9b8eb-bb52-4dd1-a7c5-78a850054426",
         "logo": {
             "id": 57,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-roya...&w=300&h=200"
         },
         "name": "Mount Royal University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Mount Royal University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-roya...&w=300&h=200",
+            "name": "mount-royal-university",
+            "style": "background-color:#3E267F;"
+        },
         "slug": "mount-royal-university"
     },
     {
         "config": {
             "subdomain": "trinity-western-university.egradgifts.com"
         },
-        "id": "e9671b37-1519-4368-b522-bb9c0b3bf5e0",
+        "id": "a32cc0c0-a022-4f2c-b688-80a8f7866004",
         "logo": {
             "id": 58,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trinity-we...&w=300&h=200"
         },
         "name": "Trinity Western University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Trinity Western University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=trinity-we...&w=300&h=200",
+            "name": "trinity-western-university",
+            "style": "background-color:#2E865F;"
+        },
         "slug": "trinity-western-university"
     },
     {
         "config": {
             "subdomain": "capilano-university.egradgifts.com"
         },
-        "id": "a0d9b30e-b7eb-44e6-bad2-ef7eb67b223f",
+        "id": "639b8465-e131-4cce-99a6-f7f0ea3b3ca8",
         "logo": {
             "id": 59,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=capilano-u...&w=300&h=200"
         },
         "name": "Capilano University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Capilano University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=capilano-u...&w=300&h=200",
+            "name": "capilano-university",
+            "style": "background-color:#7E668F;"
+        },
         "slug": "capilano-university"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec-a-trois-rivieres.egradgifts.com"
         },
-        "id": "246e1d33-1d90-45dc-b0f6-af6789c6b9f1",
+        "id": "8222a0bc-dd96-42ee-882e-7f53c0811401",
         "logo": {
             "id": 60,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec-a-trois-rivieres",
+            "style": "background-color:#4E169F;"
+        },
         "slug": "universite-du-quebec-a-trois-rivieres"
     },
     {
         "config": {
             "subdomain": "ocad-university.egradgifts.com"
         },
-        "id": "6d10333d-c24b-4a95-ac91-89658c919146",
+        "id": "2dc86ae1-9b52-4bdb-89ae-9f8e80cb4555",
         "logo": {
             "id": 61,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ocad-unive...&w=300&h=200"
         },
         "name": "OCAD University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "OCAD University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ocad-unive...&w=300&h=200",
+            "name": "ocad-university",
+            "style": "background-color:#0E460F;"
+        },
         "slug": "ocad-university"
     },
     {
         "config": {
             "subdomain": "mount-saint-vincent-university.egradgifts.com"
         },
-        "id": "a3d7a808-b334-45f1-bc69-df1ffe5b9365",
+        "id": "20798214-8eed-487c-a914-09e8f73f884c",
         "logo": {
             "id": 62,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-sain...&w=300&h=200"
         },
         "name": "Mount Saint Vincent University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Mount Saint Vincent University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=mount-sain...&w=300&h=200",
+            "name": "mount-saint-vincent-university",
+            "style": "background-color:#0E364F;"
+        },
         "slug": "mount-saint-vincent-university"
     },
     {
         "config": {
             "subdomain": "nipissing-university.egradgifts.com"
         },
-        "id": "cd383ab7-8be5-495d-a142-33a8e21260d6",
+        "id": "f8690e2e-a5b0-4aa2-9f7d-93c3f8c8fa0e",
         "logo": {
             "id": 63,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nipissing-...&w=300&h=200"
         },
         "name": "Nipissing University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Nipissing University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nipissing-...&w=300&h=200",
+            "name": "nipissing-university",
+            "style": "background-color:#4E662F;"
+        },
         "slug": "nipissing-university"
     },
     {
         "config": {
             "subdomain": "brandon-university.egradgifts.com"
         },
-        "id": "502a51d5-d67f-46ec-ab94-21cdc564035d",
+        "id": "4dd8f5a2-ed32-4f87-808c-3a6460b8ec5c",
         "logo": {
             "id": 64,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brandon-un...&w=300&h=200"
         },
         "name": "Brandon University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Brandon University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=brandon-un...&w=300&h=200",
+            "name": "brandon-university",
+            "style": "background-color:#7E364F;"
+        },
         "slug": "brandon-university"
     },
     {
         "config": {
             "subdomain": "kwantlen-polytechnic-university.egradgifts.com"
         },
-        "id": "4b65d690-ac7e-43e4-aa1a-3e4d0b2c3de0",
+        "id": "4f69e8cb-9362-4fb7-a39f-1fec2073165d",
         "logo": {
             "id": 65,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kwantlen-p...&w=300&h=200"
         },
         "name": "Kwantlen Polytechnic University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Kwantlen Polytechnic University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kwantlen-p...&w=300&h=200",
+            "name": "kwantlen-polytechnic-university",
+            "style": "background-color:#2E464F;"
+        },
         "slug": "kwantlen-polytechnic-university"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec-en-outaouais.egradgifts.com"
         },
-        "id": "d62ff17f-6a97-4acc-8b78-5d8a7d41dd22",
+        "id": "b8ac0fae-906f-4cec-a0bd-db821cd23509",
         "logo": {
             "id": 66,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec en Outaouais",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec en Outaouais",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec-en-outaouais",
+            "style": "background-color:#9E769F;"
+        },
         "slug": "universite-du-quebec-en-outaouais"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec-a-rimouski.egradgifts.com"
         },
-        "id": "0a9038c0-5c2a-47c6-b4fc-afb15d960f81",
+        "id": "3142b2fc-0926-49a7-9147-4df8d98df30f",
         "logo": {
             "id": 67,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec-a-rimouski",
+            "style": "background-color:#7E367F;"
+        },
         "slug": "universite-du-quebec-a-rimouski"
     },
     {
         "config": {
             "subdomain": "college-militaire-royal-du-canada.egradgifts.com"
         },
-        "id": "2c398a16-932b-4d34-84c7-3a97062e37ae",
+        "id": "263d5e87-4a84-40aa-952a-c64fdaf2efce",
         "logo": {
             "id": 68,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-mi...&w=300&h=200"
         },
         "name": "Coll\u00e8ge militaire royal du Canada",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Coll\u00e8ge militaire royal du Canada",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-mi...&w=300&h=200",
+            "name": "college-militaire-royal-du-canada",
+            "style": "background-color:#0E262F;"
+        },
         "slug": "college-militaire-royal-du-canada"
     },
     {
         "config": {
             "subdomain": "universite-du-quebec-en-abitibi-temiscamingue.egradgifts.com"
         },
-        "id": "a5c46fcc-e618-4585-b2e5-8423fd567b1d",
+        "id": "a4a849a7-23ef-4b6d-afdb-b319563d887d",
         "logo": {
             "id": 69,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 du Qu\u00e9bec en Abitibi-T\u00e9miscamingue",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 du Qu\u00e9bec en Abitibi-T\u00e9miscamingue",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-du-quebec-en-abitibi-temiscamingue",
+            "style": "background-color:#7E868F;"
+        },
         "slug": "universite-du-quebec-en-abitibi-temiscamingue"
     },
     {
         "config": {
             "subdomain": "emily-carr-art-and-design.egradgifts.com"
         },
-        "id": "32fd9b46-d136-49a5-b333-f0ed71f7024d",
+        "id": "f233dad6-031b-4858-9cf9-9405b3b998b8",
         "logo": {
             "id": 70,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=emily-carr...&w=300&h=200"
         },
         "name": "Emily Carr University of Art and Design",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Emily Carr University of Art and Design",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=emily-carr...&w=300&h=200",
+            "name": "emily-carr-university-of-art-and-design",
+            "style": "background-color:#1E667F;"
+        },
         "slug": "emily-carr-university-of-art-and-design"
     },
     {
         "config": {
             "subdomain": "cape-breton-university.egradgifts.com"
         },
-        "id": "ee07e703-900c-4791-b5b9-133e1063ea24",
+        "id": "3093f0f2-1162-4739-9b66-ff8e0695b907",
         "logo": {
             "id": 71,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=cape-breto...&w=300&h=200"
         },
         "name": "Cape Breton University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Cape Breton University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=cape-breto...&w=300&h=200",
+            "name": "cape-breton-university",
+            "style": "background-color:#3E464F;"
+        },
         "slug": "cape-breton-university"
     },
     {
         "config": {
             "subdomain": "sait-polytechnic.egradgifts.com"
         },
-        "id": "6bba64a1-9955-4361-b05b-32c82bcb6d99",
+        "id": "ae127d2a-116a-4f61-8806-f0fc52940e25",
         "logo": {
             "id": 72,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=sait-polyt...&w=300&h=200"
         },
         "name": "SAIT Polytechnic",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "SAIT Polytechnic",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=sait-polyt...&w=300&h=200",
+            "name": "sait-polytechnic",
+            "style": "background-color:#9E760F;"
+        },
         "slug": "sait-polytechnic"
     },
     {
         "config": {
             "subdomain": "st-thomas-university.egradgifts.com"
         },
-        "id": "ab57e4ba-183f-45d4-ae48-3a64369d0136",
+        "id": "e101df4b-1586-4a33-9fe6-298cbb518daa",
         "logo": {
             "id": 73,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200"
         },
         "name": "St. Thomas University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "St. Thomas University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200",
+            "name": "st-thomas-university",
+            "style": "background-color:#9E466F;"
+        },
         "slug": "st-thomas-university"
     },
     {
         "config": {
             "subdomain": "ecole-nationale-dadministration-publique.egradgifts.com"
         },
-        "id": "554a8807-6485-4cd8-82d4-410b2b7c7d22",
+        "id": "01f836de-6c3c-4ae6-b3d8-b4bda79f7c11",
         "logo": {
             "id": 74,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-nati...&w=300&h=200"
         },
         "name": "\u00c9cole Nationale d'Administration Publique",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "\u00c9cole Nationale d'Administration Publique",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ecole-nati...&w=300&h=200",
+            "name": "ecole-nationale-dadministration-publique",
+            "style": "background-color:#7E266F;"
+        },
         "slug": "ecole-nationale-dadministration-publique"
     },
     {
         "config": {
             "subdomain": "algoma-university.egradgifts.com"
         },
-        "id": "07115b1b-7a6f-42fb-b596-166125ff2bab",
+        "id": "eb1afd95-5bde-4068-aa1e-16a098438ccb",
         "logo": {
             "id": 75,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=algoma-uni...&w=300&h=200"
         },
         "name": "Algoma University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Algoma University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=algoma-uni...&w=300&h=200",
+            "name": "algoma-university",
+            "style": "background-color:#7E960F;"
+        },
         "slug": "algoma-university"
     },
     {
         "config": {
             "subdomain": "universite-de-saint-boniface.egradgifts.com"
         },
-        "id": "8fe63953-ffb0-4589-acb2-aa982c813b61",
+        "id": "e1e782c8-585a-4efa-a0ad-e9a85e51da46",
         "logo": {
             "id": 76,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 de Saint-Boniface",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 de Saint-Boniface",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-de-saint-boniface",
+            "style": "background-color:#4E368F;"
+        },
         "slug": "universite-de-saint-boniface"
     },
     {
         "config": {
             "subdomain": "nscad-university.egradgifts.com"
         },
-        "id": "68efa7df-d177-4ada-919c-ee99dc5d32e5",
+        "id": "6e5c1b28-8e15-4f14-9d61-eba0af1e6be3",
         "logo": {
             "id": 77,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nscad-univ...&w=300&h=200"
         },
         "name": "NSCAD University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "NSCAD University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nscad-univ...&w=300&h=200",
+            "name": "nscad-university",
+            "style": "background-color:#3E867F;"
+        },
         "slug": "nscad-university"
     },
     {
         "config": {
             "subdomain": "kings-college.egradgifts.com"
         },
-        "id": "541d9b37-4e04-43a1-986c-20521cb25e12",
+        "id": "8020b0c1-40b5-43d6-bd1d-161770aae046",
         "logo": {
             "id": 78,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University of King's College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University of King's College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-of-kings-college",
+            "style": "background-color:#2E660F;"
+        },
         "slug": "university-of-kings-college"
     },
     {
         "config": {
             "subdomain": "redeemer-university-college.egradgifts.com"
         },
-        "id": "99c2c453-37ca-485b-96aa-5e6fe96f393d",
+        "id": "e7849b68-208c-4ef0-a1e7-c4fb4c13be7c",
         "logo": {
             "id": 79,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=redeemer-u...&w=300&h=200"
         },
         "name": "Redeemer University College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Redeemer University College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=redeemer-u...&w=300&h=200",
+            "name": "redeemer-university-college",
+            "style": "background-color:#2E866F;"
+        },
         "slug": "redeemer-university-college"
     },
     {
         "config": {
             "subdomain": "canadian-mennonite-university.egradgifts.com"
         },
-        "id": "5b15ba92-c856-492f-b107-7cc511f84c9f",
+        "id": "0d448cb6-ed8c-41df-98cd-14f3943dca13",
         "logo": {
             "id": 80,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=canadian-m...&w=300&h=200"
         },
         "name": "Canadian Mennonite University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Canadian Mennonite University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=canadian-m...&w=300&h=200",
+            "name": "canadian-mennonite-university",
+            "style": "background-color:#4E960F;"
+        },
         "slug": "canadian-mennonite-university"
     },
     {
         "config": {
             "subdomain": "universite-sainte-anne.egradgifts.com"
         },
-        "id": "af26daee-6cec-4916-a2a7-9d8f2ba8910d",
+        "id": "8c67fd63-3300-46e7-8b5d-069c4b41424b",
         "logo": {
             "id": 81,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200"
         },
         "name": "Universit\u00e9 Sainte-Anne",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Universit\u00e9 Sainte-Anne",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=universite...&w=300&h=200",
+            "name": "universite-sainte-anne",
+            "style": "background-color:#3E366F;"
+        },
         "slug": "universite-sainte-anne"
     },
     {
         "config": {
             "subdomain": "ambrose-university.egradgifts.com"
         },
-        "id": "392c1488-0a22-48ae-b268-411da97046a2",
+        "id": "7f469103-2c42-4011-b7b8-605f6275431c",
         "logo": {
             "id": 82,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ambrose-un...&w=300&h=200"
         },
         "name": "Ambrose University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Ambrose University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=ambrose-un...&w=300&h=200",
+            "name": "ambrose-university",
+            "style": "background-color:#5E667F;"
+        },
         "slug": "ambrose-university"
     },
     {
         "config": {
             "subdomain": "luther-college.egradgifts.com"
         },
-        "id": "01738ba2-ae8c-497e-ae9e-93a330a0b591",
+        "id": "6acb0119-b5f0-40a4-8cf1-dc9b96b74424",
         "logo": {
             "id": 83,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=luther-col...&w=300&h=200"
         },
         "name": "Luther College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Luther College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=luther-col...&w=300&h=200",
+            "name": "luther-college",
+            "style": "background-color:#6E969F;"
+        },
         "slug": "luther-college"
     },
     {
         "config": {
             "subdomain": "yorkville-university.egradgifts.com"
         },
-        "id": "86cf6f7e-affa-454d-99d3-abd466514134",
+        "id": "c329f189-11d4-4f66-8be5-2b435952b57b",
         "logo": {
             "id": 84,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=yorkville-...&w=300&h=200"
         },
         "name": "Yorkville University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Yorkville University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=yorkville-...&w=300&h=200",
+            "name": "yorkville-university",
+            "style": "background-color:#9E567F;"
+        },
         "slug": "yorkville-university"
     },
     {
         "config": {
             "subdomain": "concordia-university-college-of-alberta.egradgifts.com"
         },
-        "id": "7ebfbaee-42af-4162-9a05-b3a20a41dc4d",
+        "id": "5bc90df1-5eaf-410f-b9cb-424af1410adf",
         "logo": {
             "id": 85,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200"
         },
         "name": "Concordia University College of Alberta",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Concordia University College of Alberta",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=concordia-...&w=300&h=200",
+            "name": "concordia-university-college-of-alberta",
+            "style": "background-color:#9E060F;"
+        },
         "slug": "concordia-university-college-of-alberta"
     },
     {
         "config": {
             "subdomain": "st-thomas-more-college.egradgifts.com"
         },
-        "id": "308ca5a9-c5d5-4f14-9991-fc136cb8fc3d",
+        "id": "9039a721-2a6d-40d3-9929-58903ccdf7fd",
         "logo": {
             "id": 86,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200"
         },
         "name": "St. Thomas More College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "St. Thomas More College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-thomas-...&w=300&h=200",
+            "name": "st-thomas-more-college",
+            "style": "background-color:#5E862F;"
+        },
         "slug": "st-thomas-more-college"
     },
     {
         "config": {
             "subdomain": "campion-college-at-the-regina.egradgifts.com"
         },
-        "id": "d3cbec69-7f25-4988-9fcb-069ab555da40",
+        "id": "ac4599a2-2900-4ae6-9ee4-f806bc36a8ec",
         "logo": {
             "id": 87,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=campion-co...&w=300&h=200"
         },
         "name": "Campion College at the University of Regina",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Campion College at the University of Regina",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=campion-co...&w=300&h=200",
+            "name": "campion-college-at-the-university-of-regina",
+            "style": "background-color:#0E564F;"
+        },
         "slug": "campion-college-at-the-university-of-regina"
     },
     {
         "config": {
             "subdomain": "nicola-valley-institute-of-technology.egradgifts.com"
         },
-        "id": "9f1aa125-9a2e-4095-919c-25852d62fd2b",
+        "id": "4e4f0344-0016-4a92-9863-15ff0861fbc8",
         "logo": {
             "id": 88,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nicola-val...&w=300&h=200"
         },
         "name": "Nicola Valley Institute of Technology",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Nicola Valley Institute of Technology",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=nicola-val...&w=300&h=200",
+            "name": "nicola-valley-institute-of-technology",
+            "style": "background-color:#8E963F;"
+        },
         "slug": "nicola-valley-institute-of-technology"
     },
     {
         "config": {
             "subdomain": "kingswood-university.egradgifts.com"
         },
-        "id": "5a3ec0fb-db44-41b8-90ee-1652f037295f",
+        "id": "dc293c0b-be56-446f-a7b5-f8ef2537e4bb",
         "logo": {
             "id": 89,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kingswood-...&w=300&h=200"
         },
         "name": "Kingswood University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Kingswood University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=kingswood-...&w=300&h=200",
+            "name": "kingswood-university",
+            "style": "background-color:#0E367F;"
+        },
         "slug": "kingswood-university"
     },
     {
         "config": {
             "subdomain": "college-of-the-north-atlantic.egradgifts.com"
         },
-        "id": "d9fc82f3-fdc5-4065-87a2-b0e9ab8224f7",
+        "id": "b3696fa4-4b2d-4551-9597-0ea75b738cd9",
         "logo": {
             "id": 90,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-of...&w=300&h=200"
         },
         "name": "College of the North Atlantic",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "College of the North Atlantic",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-of...&w=300&h=200",
+            "name": "college-of-the-north-atlantic",
+            "style": "background-color:#8E965F;"
+        },
         "slug": "college-of-the-north-atlantic"
     },
     {
         "config": {
             "subdomain": "first-nations-canada.egradgifts.com"
         },
-        "id": "5a425fbe-c2f1-47fe-a71d-733dde23ed5d",
+        "id": "da70a1ae-ebba-4bcf-9576-666d49f93652",
         "logo": {
             "id": 91,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=first-nati...&w=300&h=200"
         },
         "name": "First Nations University of Canada",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "First Nations University of Canada",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=first-nati...&w=300&h=200",
+            "name": "first-nations-university-of-canada",
+            "style": "background-color:#3E361F;"
+        },
         "slug": "first-nations-university-of-canada"
     },
     {
         "config": {
             "subdomain": "college-universitaire-dominicain.egradgifts.com"
         },
-        "id": "73e84686-0c3d-4c3c-b04f-8b57dc5c16e3",
+        "id": "5347687a-8eba-42e9-a1bd-718b13b4e67f",
         "logo": {
             "id": 92,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-un...&w=300&h=200"
         },
         "name": "Coll\u00e8ge Universitaire Dominicain",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Coll\u00e8ge Universitaire Dominicain",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=college-un...&w=300&h=200",
+            "name": "college-universitaire-dominicain",
+            "style": "background-color:#6E862F;"
+        },
         "slug": "college-universitaire-dominicain"
     },
     {
         "config": {
             "subdomain": "burman-university.egradgifts.com"
         },
-        "id": "3c391e48-2376-4239-a980-29a87b84ee11",
+        "id": "bf3a1043-0071-4f3c-9f97-bfe3060f4250",
         "logo": {
             "id": 93,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=burman-uni...&w=300&h=200"
         },
         "name": "Burman University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Burman University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=burman-uni...&w=300&h=200",
+            "name": "burman-university",
+            "style": "background-color:#8E663F;"
+        },
         "slug": "burman-university"
     },
     {
         "config": {
             "subdomain": "the-kings-university-college.egradgifts.com"
         },
-        "id": "efcd105c-32ea-4bc8-a9bd-cabff3390917",
+        "id": "1e9731d1-d6f8-487e-85e4-1c8412da6827",
         "logo": {
             "id": 94,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-kings-...&w=300&h=200"
         },
         "name": "The King's University College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "The King's University College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=the-kings-...&w=300&h=200",
+            "name": "the-kings-university-college",
+            "style": "background-color:#2E067F;"
+        },
         "slug": "the-kings-university-college"
     },
     {
         "config": {
             "subdomain": "aurora-college.egradgifts.com"
         },
-        "id": "a2944cb1-6ce8-4c40-8087-8947087e62fb",
+        "id": "db192bc1-00e7-4e16-8235-12ae0c4cfa83",
         "logo": {
             "id": 95,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=aurora-col...&w=300&h=200"
         },
         "name": "Aurora College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Aurora College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=aurora-col...&w=300&h=200",
+            "name": "aurora-college",
+            "style": "background-color:#0E167F;"
+        },
         "slug": "aurora-college"
     },
     {
         "config": {
             "subdomain": "crandall-university.egradgifts.com"
         },
-        "id": "5972baf0-62dd-4f7a-a68e-bcc91272229a",
+        "id": "2cb405a2-05e6-4a86-9af3-8d1c9337e77c",
         "logo": {
             "id": 96,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=crandall-u...&w=300&h=200"
         },
         "name": "Crandall University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "Crandall University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=crandall-u...&w=300&h=200",
+            "name": "crandall-university",
+            "style": "background-color:#0E565F;"
+        },
         "slug": "crandall-university"
     },
     {
         "config": {
             "subdomain": "st-stephens-university.egradgifts.com"
         },
-        "id": "70ec1517-4ada-485b-891c-01bc0a5065df",
+        "id": "45da75fc-3037-459d-9938-3fe2694b550c",
         "logo": {
             "id": 97,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-stephen...&w=300&h=200"
         },
         "name": "St. Stephen's University",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "St. Stephen's University",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-stephen...&w=300&h=200",
+            "name": "st-stephens-university",
+            "style": "background-color:#8E165F;"
+        },
         "slug": "st-stephens-university"
     },
     {
         "config": {
             "subdomain": "st-marys-university-college.egradgifts.com"
         },
-        "id": "d19f7e13-7d68-4bcd-ad83-8fb4448c8f41",
+        "id": "f8afff12-c5fe-4326-ad48-2c155e8d42cd",
         "logo": {
             "id": 98,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-marys-u...&w=300&h=200"
         },
         "name": "St. Mary's University College",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "St. Mary's University College",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=st-marys-u...&w=300&h=200",
+            "name": "st-marys-university-college",
+            "style": "background-color:#1E567F;"
+        },
         "slug": "st-marys-university-college"
     },
     {
         "config": {
             "subdomain": "university-canada-west.egradgifts.com"
         },
-        "id": "297c2746-18c6-4e70-aaf8-51d2657b0b7a",
+        "id": "80636b16-2841-4da8-8eff-8b83191b68d2",
         "logo": {
             "id": 99,
             "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200"
         },
         "name": "University Canada West",
+        "skin": {
+            "class": "btn btn-block btn-xs txt-color-white margin-right-5",
+            "label": "University Canada West",
+            "logo": "https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200",
+            "name": "university-canada-west",
+            "style": "background-color:#5E965F;"
+        },
         "slug": "university-canada-west"
     }
 ]

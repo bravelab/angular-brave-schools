@@ -3,7 +3,7 @@
 
   /**
    * @ngdoc overview
-   * @name app.schools tests
+   * @name brave.schools tests
    * @description Schools tests
    *
    */

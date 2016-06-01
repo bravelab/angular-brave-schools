@@ -3,16 +3,16 @@
 
   /**
    * @ngdoc overview
-   * @name app.schools tests
+   * @name brave.schools tests
    * @description Schools tests
    * @todo Inject AutheticationService
    *
    */
   describe('should provide SchoolsController', function () {
 
-    var // AuthenticationMock,
-      schoolsServiceMock,
-      controller;
+    var schoolsServiceMock,
+      controller,
+      appConfigMock;
 
     var $httpBackend,
       $controller,
@@ -23,7 +23,6 @@
 
     beforeEach(function () {
       module('brave.schools');
-      module('app.auth');
     });
 
     beforeEach(inject(function ($injector) {
@@ -36,16 +35,15 @@
       $scope = $rootScope.$new();
     }));
 
-    beforeEach(inject(function (_SchoolsServiceMock_) {
+    beforeEach(inject(function (_appConfigMock_, _SchoolsServiceMock_) {
 
-      // AuthenticationMock = _AuthenticationMock_;
       schoolsServiceMock = _SchoolsServiceMock_; // (2)
+      appConfigMock = _appConfigMock_;
 
       controller = $controller('SchoolsController', {
         $scope: $scope,
         $state: $state,
         $filter: $filter,
-        // Authentication: _AuthenticationMock_,
         schoolsService: schoolsServiceMock
       });
 

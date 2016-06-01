@@ -3,7 +3,7 @@
 
   /**
    * @ngdoc overview
-   * @name app.schools tests
+   * @name brave.schools tests
    * @description schoolsServiceMock tests
    *
    */
@@ -13,7 +13,6 @@
 
     beforeEach(function () {
       module('brave.schools');
-      module('app.auth');
     });
 
     beforeEach(inject(function (_SchoolsServiceMock_) {

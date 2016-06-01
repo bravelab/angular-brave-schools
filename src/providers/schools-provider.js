@@ -3,8 +3,8 @@
 
   /**
    * @ngdoc overview
-   * @name app [app.schools]
-   * @description Config provider for app.schools
+   * @name app [brave.schools]
+   * @description Config provider for brave.schools
    */
   angular
     .module('brave.schools')
@@ -12,6 +12,7 @@
 
       this.apiUrl = '/api';
       this.endpoint = '/schools';
+
 
       this.templates = {
         index: 'templates/schools.html',

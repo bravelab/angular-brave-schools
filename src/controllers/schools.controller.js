@@ -5,7 +5,7 @@
     .module('brave.schools')
     .controller('SchoolsController', SchoolsController);
 
-  SchoolsController.$inject = ['$scope', '$state', '$filter', 'SchoolsService'];
+  SchoolsController.$inject = ['$scope', '$state', '$filter', 'SchoolsService', 'SchoolsBackend'];
 
   /**
    *
@@ -13,9 +13,10 @@
    * @param {Object} $state - State
    * @param {Object} $filter - Filters
    * @param {Object} schoolsService - Schools service
+   * @param {String} schoolsBackend - Schools backend
    * @constructor
    */
-  function SchoolsController($scope, $state, $filter, schoolsService) {
+  function SchoolsController($scope, $state, $filter, schoolsService, schoolsBackend) {
 
     var _schools = [];
     var _tmp = [];
@@ -25,9 +26,12 @@
     /**
      * @name activate
      * @desc Actions to be performed when this controller is instantiated
-     * @memberOf app.schools.SchoolsController
+     * @memberOf brave.schools.SchoolsController
      */
     function activate() {
+
+      // Reset localStorage
+      schoolsBackend.reset();
 
       $scope.schools = [];
       $scope.letter = '';
@@ -35,7 +39,10 @@
       $scope.columns = [];
       $scope.columnCount = 3;
 
-      var calculateColumns = function() {
+      /**
+       * Calculate columns
+       */
+      var calculateColumns = function () {
         var itemsPerColumn = Math.ceil($scope.schools.length / $scope.columnCount);
         for (var i = 0; i < $scope.schools.length; i += itemsPerColumn) {
           var col = {start: i, end: Math.min(i + itemsPerColumn, $scope.schools.length)};
@@ -43,6 +50,9 @@
         }
       };
 
+      /**
+       * Reset filters
+       */
       $scope.reset = function () {
         $scope.setLetter('');
         $scope.search('');
@@ -60,6 +70,13 @@
           $scope.schools = $filter('startsWithLetter')(_schools, letter);
           _tmp = $scope.schools;
         }
+      };
+
+      /**
+       * @param {object} school School instance
+       */
+      $scope.setSchool = function (school) {
+        schoolsBackend.setSchool(school);
       };
 
       /**
