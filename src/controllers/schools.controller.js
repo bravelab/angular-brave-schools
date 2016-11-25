@@ -75,8 +75,8 @@
       /**
        * @param {object} school School instance
        */
-      $scope.setSchool = function (school) {
-        schoolsBackend.setSchool(school);
+      $scope.selectSchool = function (school) {
+        schoolsBackend.selectSchool(school);
       };
 
       /**

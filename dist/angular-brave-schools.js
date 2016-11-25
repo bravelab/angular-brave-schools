@@ -13,6 +13,87 @@
 })();
 
 (function () {
+
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('appConfigMock', [function () {
+
+      var factory = {
+        skin: {
+          name: 'egradgifts',
+          logo: 'themes/egrad/assets/img/logo.png',
+          class: 'btn btn-block btn-xs txt-color-white margin-right-5',
+          style: 'background-color:#4E653F;',
+          label: 'Default egradgifts style'
+        }
+      };
+      return factory;
+    }]);
+
+})();
+
+(function () {
+  'use strict';
+
+
+  /**
+   * @ngdoc routes
+   * @name app [brave.schools]
+   * @description Routes configuration brave.schools
+   * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
+   */
+  angular
+    .module('brave.schools')
+    .config(routes);
+
+  routes.$inject = ['$stateProvider', 'BraveSchoolsProvider'];
+
+  /*
+   * @name routes
+   * @desc Define valid application routes.
+   */
+  function routes($stateProvider, braveSchoolsProvider) {
+
+    $stateProvider.state('braveSchools', {
+      url: '/schools',
+      views: {
+        root: {
+          templateUrl: 'app/layout/templates/master.tpl.html'
+        },
+        'content@app': {
+          templateUrl: function () {
+            return braveSchoolsProvider.templates['index'];
+          },
+          controller: 'SchoolsController',
+          controllerAs: 'vm'
+        }
+      }
+    });
+
+    $stateProvider.state('braveSchools.list', {
+      url: '/all',
+      templateUrl: function () {
+        return braveSchoolsProvider.templates['list'];
+      },
+      controller: 'SchoolsListController',
+      controllerAs: 'vm'
+    });
+
+    $stateProvider.state('braveSchools.detail', {
+      url: '/:id/:slug',
+      templateUrl: function () {
+        return braveSchoolsProvider.templates['detail'];
+      },
+      controller: 'SchoolsDetailController',
+      controllerAs: 'vm'
+    });
+  }
+
+})();
+
+(function () {
   'use strict';
 
   angular
@@ -163,8 +244,8 @@
       /**
        * @param {object} school School instance
        */
-      $scope.setSchool = function (school) {
-        schoolsBackend.setSchool(school);
+      $scope.selectSchool = function (school) {
+        schoolsBackend.selectSchool(school);
       };
 
       /**
@@ -294,153 +375,28 @@
 }());
 
 (function () {
-
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .factory('appConfigMock', [function () {
-
-      var factory = {
-        skin: {
-          name: 'egradgifts',
-          logo: 'themes/egrad/assets/img/logo.png',
-          class: 'btn btn-block btn-xs txt-color-white margin-right-5',
-          style: 'background-color:#4E653F;',
-          label: 'Default egradgifts style'
-        }
-      };
-      return factory;
-
-    }]);
-
-})();
-
-(function () {
-  'use strict';
-
-
-  /**
-   * @ngdoc routes
-   * @name app [brave.schools]
-   * @description Routes configuration brave.schools
-   * @see http://stackoverflow.com/questions/15286588/how-to-inject-dependency-into-module-configconfigfn-in-angular
-   */
-  angular
-    .module('brave.schools')
-    .config(routes);
-
-  routes.$inject = ['$stateProvider', 'BraveSchoolsProvider'];
-
-  /*
-   * @name routes
-   * @desc Define valid application routes.
-   */
-  function routes($stateProvider, braveSchoolsProvider) {
-
-    $stateProvider.state('braveSchools', {
-      url: '/schools',
-      views: {
-        root: {
-          templateUrl: 'app/layout/templates/master.tpl.html'
-        },
-        'content@app': {
-          templateUrl: function () {
-            return braveSchoolsProvider.templates['index'];
-          },
-          controller: 'SchoolsController',
-          controllerAs: 'vm'
-        }
-      }
-    });
-
-    $stateProvider.state('braveSchools.list', {
-      url: '/all',
-      templateUrl: function () {
-        return braveSchoolsProvider.templates['list'];
-      },
-      controller: 'SchoolsListController',
-      controllerAs: 'vm'
-    });
-
-    $stateProvider.state('braveSchools.detail', {
-      url: '/:id/:slug',
-      templateUrl: function () {
-        return braveSchoolsProvider.templates['detail'];
-      },
-      controller: 'SchoolsDetailController',
-      controllerAs: 'vm'
-    });
-  }
-
-})();
-
-/**
- * School
- * @namespace brave.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .factory('Config', Config);
-
-  Config.$inject = [];
-
-  function Config() {
-
-    var factory = function (data) {
-      this.subdomain = data.subdomain;
-    };
-
-    return factory;
-  }
-
-}());
-
-/**
- * School
- * @namespace brave.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .factory('Logo', Logo);
-
-  Logo.$inject = [];
-
-  function Logo() {
-
-    var factory = function (data) {
-      this.id = data.id;
-      this.url = data.url;
-    };
-
-    return factory;
-  }
-
-}());
-
-(function () {
   'use strict';
 
   angular
     .module('brave.schools')
     .factory('School', School);
 
-  School.$inject = ['Logo', 'Config', 'Skin'];
+  School.$inject = ['Skin'];
 
-  function School(Logo, Config, Skin) {
+  function School(Skin) {
 
     var factory = function (data) {
+
       this.id = data.id;
+      this.subdomain = data.subdomain;
+      this.symbol = data.symbol;
+
       this.name = data.name;
       this.slug = data.slug;
-      this.logo = new Logo(data.logo);
-      this.config = new Config(data.config);
+
+      this.logoUrl = data.logo_url;
+      this.siteUrl = data.site_url;
+
       this.skin = new Skin(data.skin);
     };
 
@@ -539,18 +495,19 @@
     .module('brave.schools')
     .factory('SchoolsBackend', SchoolsBackend);
 
-  SchoolsBackend.$inject = ['$rootScope', '$state', '$localStorage', 'appConfig'];
+  SchoolsBackend.$inject = ['$rootScope', '$timeout', '$state', '$localStorage', '$window', '$q', 'appConfig', 'SchoolsService'];
 
   /**
    *
    * @param {object} $rootScope - rootScope object
    * @param {object} $state - State object
    * @param {object} $localStorage - Local storage object
+   * @param {object} $window - $window object
    * @param {object} appConfig - app config object
-   * @returns {{get: brave.schools.setSchool}} - SchoolsBackend Factory
+   * @returns {{get: brave.schools.setSchoolConfig}} - SchoolsBackend Factory
    * @constructor
    */
-  function SchoolsBackend($rootScope, $state, $localStorage, appConfig) {
+  function SchoolsBackend($rootScope, $timeout, $state, $localStorage, $window, $q, appConfig, schoolsService) {
 
     /**
      * @name SchoolsBackend
@@ -558,7 +515,9 @@
      */
     var factory = {
       reset: reset,
-      setSchool: setSchool
+      setSchoolConfig: setSchoolConfig,
+      selectSchool: selectSchool,
+      getSchoolConfig: getSchoolConfig
     };
 
     return factory;
@@ -571,6 +530,26 @@
       $('head link#skin').attr('href', $rootScope.theme.stylesheet);
     }
 
+    function getSchoolConfig(subdomain) {
+
+      var deferred = $q.defer();
+
+      schoolsService.getAll().then(function (result) {
+
+        var schoolList = result.data;
+        var config = _.find(schoolList, {'subdomain': subdomain});
+
+        if (config) {
+          deferred.resolve(config);
+        } else {
+          deferred.reject('config not found');
+        }
+      }, function (error) {
+        deferred.reject(error);
+      });
+
+      return deferred.promise;
+    }
 
     function reset() {
       delete $localStorage['instance'];
@@ -578,11 +557,17 @@
       _setStylesheet($rootScope.instance.slug);
     }
 
-    function setSchool(school) {
+    function setSchoolConfig(school) {
       $localStorage.instance = school;
-      $rootScope.instance = school;
-      _setStylesheet($rootScope.instance.slug);
+      _setStylesheet(school.slug);
+
       $state.transitionTo('homeHome.index');
+    }
+
+    function selectSchool(school) {
+      $timeout(function () {
+        $window.location.href = 'http://' + school.subdomain + '.' + appConfig.mainDomain + '/#/loading';
+      });
     }
   }
 
@@ -597,16 +582,13 @@
     .factory('SchoolsServiceMock', ['$q', 'School', function ($q, School) {
 
       var mock = {
-        logo: {
-          id: 3,
-          url: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200'
-        },
+        id: '8d577746-eef6-4656-968f-921ecec7a9b5',
+        subdomain: 'university-of-waterloo.egradgifts.com',
+        symbol: 'UOW',
         name: 'University of Waterloo',
         slug: 'university-of-waterloo',
-        id: '8d577746-eef6-4656-968f-921ecec7a9b5',
-        config: {
-          subdomain: 'university-of-waterloo.egradgifts.com'
-        },
+        logo_url: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200',
+        site_url: 'http://www.facebook.com',
         skin: {
           'class': 'btn btn-block btn-xs txt-color-white margin-right-5',
           'label': 'Concordia University College of Alberta',
@@ -710,15 +692,28 @@
      * @memberOf brave.schools
      */
     function getAll() {
-      return $http({
-        method: 'GET',
-        cache: true,
-        url: endpoint,
-        transformResponse: schoolListTransformer
-      })
-        .then(function (data) {
-          return data;
+
+      var deferred = $q.defer();
+      var cacheId = 'allSchools';
+
+      if (typeof cache[cacheId] !== 'undefined') {
+        deferred.resolve(cache[cacheId]);
+      } else {
+
+        $http({
+          method: 'GET',
+          cache: true,
+          url: endpoint,
+          transformResponse: schoolListTransformer
+        }).then(function (data) {
+          cache[cacheId] = data;
+          deferred.resolve(cache[cacheId]);
+        }, function (error) {
+          deferred.reject(error);
         });
+      }
+
+      return deferred.promise;
     }
   }
 })();

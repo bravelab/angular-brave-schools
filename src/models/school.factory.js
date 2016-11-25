@@ -5,16 +5,22 @@
     .module('brave.schools')
     .factory('School', School);
 
-  School.$inject = ['Logo', 'Config', 'Skin'];
+  School.$inject = ['Skin'];
 
-  function School(Logo, Config, Skin) {
+  function School(Skin) {
 
     var factory = function (data) {
+
       this.id = data.id;
+      this.subdomain = data.subdomain;
+      this.symbol = data.symbol;
+
       this.name = data.name;
       this.slug = data.slug;
-      this.logo = new Logo(data.logo);
-      this.config = new Config(data.config);
+
+      this.logoUrl = data.logo_url;
+      this.siteUrl = data.site_url;
+
       this.skin = new Skin(data.skin);
     };
 

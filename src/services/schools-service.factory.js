@@ -74,15 +74,28 @@
      * @memberOf brave.schools
      */
     function getAll() {
-      return $http({
-        method: 'GET',
-        cache: true,
-        url: endpoint,
-        transformResponse: schoolListTransformer
-      })
-        .then(function (data) {
-          return data;
+
+      var deferred = $q.defer();
+      var cacheId = 'allSchools';
+
+      if (typeof cache[cacheId] !== 'undefined') {
+        deferred.resolve(cache[cacheId]);
+      } else {
+
+        $http({
+          method: 'GET',
+          cache: true,
+          url: endpoint,
+          transformResponse: schoolListTransformer
+        }).then(function (data) {
+          cache[cacheId] = data;
+          deferred.resolve(cache[cacheId]);
+        }, function (error) {
+          deferred.reject(error);
         });
+      }
+
+      return deferred.promise;
     }
   }
 })();

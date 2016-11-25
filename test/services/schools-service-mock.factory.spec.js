@@ -27,11 +27,9 @@
       expect(schoolsServiceMock.detail.id).toBeDefined();
       expect(schoolsServiceMock.detail.name).toBeDefined();
       expect(schoolsServiceMock.detail.slug).toBeDefined();
-      expect(schoolsServiceMock.detail.logo).toBeDefined();
-      expect(schoolsServiceMock.detail.logo.id).toBeDefined();
-      expect(schoolsServiceMock.detail.logo.url).toBeDefined();
-      expect(schoolsServiceMock.detail.config).toBeDefined();
-      expect(schoolsServiceMock.detail.config.subdomain).toBeDefined();
+      expect(schoolsServiceMock.detail.logoUrl).toBeDefined();
+      expect(schoolsServiceMock.detail.siteUrl).toBeDefined();
+      expect(schoolsServiceMock.detail.subdomain).toBeDefined();
     });
 
     it('should have list objects', function () {
