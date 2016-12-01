@@ -73,8 +73,6 @@
     function setSchoolConfig(school) {
       $localStorage.instance = school;
       _setStylesheet(school.slug);
-
-      $state.transitionTo('homeHome.index');
     }
 
     function selectSchool(school) {

@@ -8,7 +8,7 @@
    */
   angular
     .module('brave.schools', ['ui.router'])
-    .value('version', '0.0.10');
+    .value('version', '0.0.12');
 
 })();
 
@@ -500,10 +500,13 @@
   /**
    *
    * @param {object} $rootScope - rootScope object
+   * @param {object} $timeout - State object
    * @param {object} $state - State object
    * @param {object} $localStorage - Local storage object
    * @param {object} $window - $window object
+   * @param {object} $q - $q object
    * @param {object} appConfig - app config object
+   * @param {object} schoolsService - SchoolsService factory
    * @returns {{get: brave.schools.setSchoolConfig}} - SchoolsBackend Factory
    * @constructor
    */
@@ -560,8 +563,6 @@
     function setSchoolConfig(school) {
       $localStorage.instance = school;
       _setStylesheet(school.slug);
-
-      $state.transitionTo('homeHome.index');
     }
 
     function selectSchool(school) {
