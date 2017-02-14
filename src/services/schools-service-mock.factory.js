@@ -14,6 +14,7 @@
         slug: 'university-of-waterloo',
         logo_url: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200',
         site_url: 'http://www.facebook.com',
+        letter_bg: '/themes/egrad/assets/img/letter-bg.jpg',
         skin: {
           'class': 'btn btn-block btn-xs txt-color-white margin-right-5',
           'label': 'Concordia University College of Alberta',

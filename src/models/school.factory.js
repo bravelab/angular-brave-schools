@@ -20,6 +20,7 @@
 
       this.logoUrl = data.logo_url;
       this.siteUrl = data.site_url;
+      this.letterBg = angular.isDefined(data.letter_bg) ? data.letter_bg : '/themes/egrad/assets/img/letter-bg.jpg';
 
       this.skin = new Skin(data.skin);
     };

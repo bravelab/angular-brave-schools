@@ -53,18 +53,6 @@
       expect(controller).toBeDefined();
     }));
 
-    it('should have school in scope', inject(function () {
-
-      $httpBackend.whenGET('/api/schools/' + schoolsServiceMock.detail.id + '/').respond(schoolsServiceMock.detail);
-      $httpBackend.flush();
-      $scope.$apply();
-
-      console.log(controller.school);
-      console.log(schoolsServiceMock.detail);
-
-      // expect(controller.school).toEqual(schoolsServiceMock.detail);
-    }));
-
   });
 
 })();

@@ -300,6 +300,67 @@
 
 })();
 
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('School', School);
+
+  School.$inject = ['Skin'];
+
+  function School(Skin) {
+
+    var factory = function (data) {
+
+      this.id = data.id;
+      this.subdomain = data.subdomain;
+      this.symbol = data.symbol;
+
+      this.name = data.name;
+      this.slug = data.slug;
+
+      this.logoUrl = data.logo_url;
+      this.siteUrl = data.site_url;
+      this.letterBg = angular.isDefined(data.letter_bg) ? data.letter_bg : '/themes/egrad/assets/img/letter-bg.jpg';
+
+      this.skin = new Skin(data.skin);
+    };
+
+    return factory;
+  }
+
+}());
+
+
+/**
+ * School
+ * @namespace brave.schools
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('brave.schools')
+    .factory('Skin', Skin);
+
+  Skin.$inject = [];
+
+  function Skin() {
+
+    var factory = function (data) {
+      this.class = data.class;
+      this.label = data.label;
+      this.logo = data.logo;
+      this.name = data.name;
+      this.style = data.style;
+    };
+
+    return factory;
+  }
+
+}());
+
 /**
  * School
  * @namespace brave.schools
@@ -371,66 +432,6 @@
         }
       };
     }]);
-
-}());
-
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .factory('School', School);
-
-  School.$inject = ['Skin'];
-
-  function School(Skin) {
-
-    var factory = function (data) {
-
-      this.id = data.id;
-      this.subdomain = data.subdomain;
-      this.symbol = data.symbol;
-
-      this.name = data.name;
-      this.slug = data.slug;
-
-      this.logoUrl = data.logo_url;
-      this.siteUrl = data.site_url;
-
-      this.skin = new Skin(data.skin);
-    };
-
-    return factory;
-  }
-
-}());
-
-
-/**
- * School
- * @namespace brave.schools
- */
-(function () {
-  'use strict';
-
-  angular
-    .module('brave.schools')
-    .factory('Skin', Skin);
-
-  Skin.$inject = [];
-
-  function Skin() {
-
-    var factory = function (data) {
-      this.class = data.class;
-      this.label = data.label;
-      this.logo = data.logo;
-      this.name = data.name;
-      this.style = data.style;
-    };
-
-    return factory;
-  }
 
 }());
 
@@ -590,6 +591,7 @@
         slug: 'university-of-waterloo',
         logo_url: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=university...&w=300&h=200',
         site_url: 'http://www.facebook.com',
+        letter_bg: '/themes/egrad/assets/img/letter-bg.jpg',
         skin: {
           'class': 'btn btn-block btn-xs txt-color-white margin-right-5',
           'label': 'Concordia University College of Alberta',
